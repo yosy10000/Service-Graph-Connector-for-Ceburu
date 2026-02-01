@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_659150_sg_ceburu.SGCeburuConnectionUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SGCeburuConnectionUtil</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SGCeburuConnectionUtil = Class.create();
+SGCeburuConnectionUtil.prototype = {
+    initialize: function() {},
+
+    testConnection: function(gr) {
+        gr.status = "Pending";
+        gr.message = "";
+        gr.suggestion = "";
+        gr.status_code = "";
+        gr.update();
+        var connectionAlias = new GlideRecordSecure('sys_alias');
+
+        try {
+            var inputs = {};
+            if (connectionAlias.get("id", "x_659150_sg_ceburu.SG_Ceburu_Connection_Alias")) {
+                inputs["credentials_alias"] = connectionAlias;
+            }
+            var result = sn_fd.FlowAPI.getRunner().action('x_659150_sg_ceburu.sgceburu_import_organizations').inForeground().withInputs(inputs).run();
+            var outputs = result.getOutputs();
+            // Get Outputs:
+            // Note: outputs can only be retrieved when executing synchronously.
+            var errorcode = outputs['errorcode']; // String
+            var errormessage = outputs['errormessage']; // String
+            var responsebody = outputs['responsebody']; // String
+            var responseheaders = outputs['responseheaders']; // String
+            var statuscode = outputs['statuscode']; // String
+            gr.status_code = statuscode;
+
+            var helpfulErrorMessage;
+            if (!gs.nil(responsebody)) {
+                try {
+                    var responseBodyJson = JSON.parse(responsebody.replace("\\", ""));
+                    if (gs.nil(responsebody) && !gs.nil(responseBodyJson.error) && !gs.nil(responseBodyJson.error.message)) {
+                        helpfulErrorMessage = responseBodyJson.error.message;
+                    }
+                } catch (ex) {}
+            }
+            if (gs.nil(helpfulErrorMessage)) {
+                helpfulErrorMessage = errormessage;
+            }
+
+            if (statuscode == "200" || gs.nil(errormessage)) {
+                gs.addInfoMessage(gs.getMessage("Success"));
+                gr.status = "Success";
+                gr.message = "";
+                gr.suggestion = "";
+            } else if (statuscode == "401") {
+                gs.addInfoMessage(gs.getMessage("Error: {0}", errormessage));
+                gr.status = "Error";
+                gr.message = helpfulErrorMessage;
+                gr.suggestion = gs.getMessage("Status code: {0}. Invalid HCP Ceburu or Ceburu Enterprise API token.", statuscode);
+            } else if (statuscode == "403") {
+                gs.addInfoMessage(gs.getMessage("Error: {0}", errormessage));
+                gr.status = "Error";
+                gr.message = helpfulErrorMessage;
+                gr.suggestion = gs.getMessage("Status code: {0}. ndicates an error has occured. Further debugging is required.", statuscode);
+            } else if (statuscode == "404") {
+                gs.addInfoMessage(gs.getMessage("Error: {0}", errormessage));
+                gr.status = "Error";
+                gr.message = helpfulErrorMessage;
+                gr.suggestion = gs.getMessage("Status code: {0}. Indicates an error has occured. Further debugging is required.", statuscode);
+            } else {
+                gs.addInfoMessage(gs.getMessage("Error: {0}", errormessage));
+                gr.status = "Error";
+                gr.message = helpfulErrorMessage;
+                gr.suggestion = gs.getMessage("Status code: {0}. Indicates an error has occured. Further debugging is required.", statuscode);
+            }
+            gr.update();
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.addErrorMessage(gs.getMessage("Error: {0}", message));
+            gs.error(message);
+            gr.status = "Exception raised by the test script";
+            gr.message = message;
+            gr.suggestion = gs.getMessage("Indicates an error has occured. Further debugging is required.");
+            gr.update();
+        }
+
+    },
+
+    type: 'SGCeburuConnectionUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-31 12:54:56</sys_created_on>
+        <sys_id>9ebecd5d833eba1079889750ceaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SGCeburuConnectionUtil</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_659150_sg_ceburu">789e495d833eba1079889750ceaad3f4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Ceburu">789e495d833eba1079889750ceaad3f4</sys_scope>
+        <sys_update_name>sys_script_include_9ebecd5d833eba1079889750ceaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-31 12:54:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
