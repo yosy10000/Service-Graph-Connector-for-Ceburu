@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes/>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>GET</http_method>
+        <name>Notification</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	gs.info("SG Ceburu Cloud Webhook called ...");
+	
+	//retrieve Webhook token from the database table
+	var secret = "";
+	var digest = "";
+	var HMACheader = "";
+	try {
+		var gr = new GlideRecord('x_hashi_service_gr_sg_ceburu_webhook_token');
+		gr.orderByDesc('sys_updated_on');
+		gr.setLimit(1);
+		gr.query();
+		while (gr.next()) {
+			secret = gr.getElement("token").toString();
+			gs.info("Retrieved HMAC secret from the ServiceNow database.");
+		}
+	} catch (ex) {
+		gs.info("Error retrieving Webhook credential from the ServiceNow database: " + ex);
+	}
+	
+	//Verify the HMAC signature sent as a header from the Ceburu Cloud/Enterprise Webhook Notification
+	try {
+		var encryptionUtil = new x_hashi_service_gr.SGCeburuEncryptionUtil();
+		HMACheader = encryptionUtil.convertToBase64(request.getHeader("X-TFE-Notification-Signature"));;
+		var reqString = request.body.dataString;
+		var mac = new CertificateEncryption;
+		secret = gs.base64Encode(secret);
+		digest = mac.generateMac(secret, "HmacSHA512", reqString);
+	} catch (ex) {
+		gs.info("Error decrypting the HMAC token: " + ex);
+	}
+	
+	//Compare the digest to the HMAC header and if they match, proceed with the Webhook request processing
+	if (digest === HMACheader) {
+		gs.info("HMAC token has been successfully verified. Populating SG-Ceburu Processed States table...");
+		var processTable = new GlideRecord('x_hashi_service_gr_sg_ceburu_processed_states');
+		if (processTable) {
+			var req = JSON.parse(reqString);
+			try {
+				processTable.newRecord();
+				processTable.workspace_name = req["workspace_name"];
+				processTable.organization_name = req["organization_name"];
+				processTable.processed = "";
+				processTable.insert();
+			} catch (ex) {
+				gs.info("Error writing to the SG-Ceburu Processed States table: "+ ex);
+			}
+		} else {
+			gs.info("Error creating a new record in the SG-Ceburu Processed States table");
+		}
+	} else {
+		gs.info("Service Graph TFC/E Webhook: couldn't verify the HMAC token: " + HMACheader);
+		response.setStatus(401);
+	}
+})(request, response);]]></operation_script>
+        <operation_uri/>
+        <produces/>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-02-01 14:53:16</sys_created_on>
+        <sys_id>5f747e6183ba7e1079889750ceaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_659150_sg_ceburu">789e495d833eba1079889750ceaad3f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">789e495d833eba1079889750ceaad3f4</sys_scope>
+        <sys_update_name>sys_ws_operation_5f747e6183ba7e1079889750ceaad3fc</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-02-01 14:53:16</sys_updated_on>
+        <web_service_definition/>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

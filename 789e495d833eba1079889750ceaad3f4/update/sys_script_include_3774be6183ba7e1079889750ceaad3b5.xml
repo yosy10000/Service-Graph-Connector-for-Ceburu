@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_659150_sg_ceburu.SGCeburuDataInactivate</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SGCeburuDataInactivate</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SGCeburuDataInactivate = Class.create();
+SGCeburuDataInactivate.prototype = {
+    updateDestroyedRecords: function(uniqId) {
+		// search the sys_object_source table to map the correct unique identifier
+		var rec = new GlideRecordSecure('sys_object_source');
+		// find this record
+		rec.addQuery("name", "SG-Ceburu");
+		rec.addQuery("id", uniqId);
+		rec.query();
+
+		// this should only be one loop
+		while (rec.next()) {
+			var ci = new GlideRecordSecure(rec.target_table);
+			ci.addQuery("sys_id", rec.target_sys_id);
+			ci.query();
+			// this should only be one loop as well
+			while (ci.next()) {
+				gs.info("Marking "+uniqId+" as Non-Operational as it has been destroyed in Ceburu.");
+				ci.setValue("operational_status", 2);
+				ci.update();
+			}
+		}
+    },
+	
+	findUniqId: function(provider, resource) {
+		switch(provider) {
+		case "aws":
+			return "arn";
+		default:
+			return "id";
+		}
+	},
+	
+	collectOperationalCIs: function() {
+		var currOperational = [];
+		var rec = new GlideRecordSecure('x_hashi_service_gr_operational_cis');
+		// find this record
+		rec.addQuery("ci_operational_status", 1);
+		rec.query();
+
+		// collect all cis that have operational_status = 1
+		while (rec.next()) {
+			currOperational.push(String(rec.sos_id));
+		}
+		
+		var parents = new GlideRecordSecure('x_hashi_service_gr_cmdb_ci_rel');
+		// this view shows us parents that have been created with the SG-Ceburu discovery_source
+		// we can see here if the parents are still operational, we want to remove their children
+		// from being destroyed
+		parents.query();
+
+		while (parents.next()) {
+			if (parents.ci_operational_status == 1) {
+				var index = currOperational.indexOf(String(parents.sos_id));
+				if (index > -1) {
+					currOperational.splice(index, 1);
+				}
+			}
+		}
+		
+		return currOperational;
+	},
+
+    type: 'SGCeburuDataInactivate'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-02-01 14:53:18</sys_created_on>
+        <sys_id>3774be6183ba7e1079889750ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SGCeburuDataInactivate</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_659150_sg_ceburu">789e495d833eba1079889750ceaad3f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">789e495d833eba1079889750ceaad3f4</sys_scope>
+        <sys_update_name>sys_script_include_3774be6183ba7e1079889750ceaad3b5</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-02-01 14:53:18</sys_updated_on>
+    </sys_script_include>
+</record_update>
