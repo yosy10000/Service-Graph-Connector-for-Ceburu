@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2026-02-09 19:10:41</change_date>
+        <changed_by display_value="Mahmoud Ramadan">9f909c532f32f6109dc4cf7e8ea4e348</changed_by>
+        <content display_value="Configure the Ceburu connection">5aca94efdbb5955013d8c45813961988</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-02-09 19:10:41</sys_created_on>
+        <sys_id>402cf890cf8fbe1070a276d42d851ce4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2026-02-09 19:10:41</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>gsw_change_log_402cf890cf8fbe1070a276d42d851ce4</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-02-09 19:10:41</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article/>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents>fd7035a9dbf1991013d8c45813961983,22e3b8ccdbb5159013d8c4581396192d</dependent_on_contents>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>https://ven03693.service-now.com/nav_to.do?uri=sys_alias.do?sys_id=bb7245051b5ac150c216ebd56e4bcba3</end_point>
+        <end_point_open_mode>3</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>175</order>
+        <parent/>
+        <parents>ba646440db75159013d8c458139619db,dce32400db75159013d8c4581396192e</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent/>
+        <skippable>true</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>mbang</sys_created_by>
+        <sys_created_on>2022-09-07 15:49:11</sys_created_on>
+        <sys_id>08e0f9a9dbf1991013d8c45813961985</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Up the Connection and Credentials Alias</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>gsw_content_information_08e0f9a9dbf1991013d8c45813961985</sys_update_name>
+        <sys_updated_by>mbang</sys_updated_by>
+        <sys_updated_on>2022-09-07 15:50:24</sys_updated_on>
+        <table/>
+        <title>Set Up the Connection and Credentials Alias</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=08e0f9a9dbf1991013d8c45813961985"/>
+</record_update>

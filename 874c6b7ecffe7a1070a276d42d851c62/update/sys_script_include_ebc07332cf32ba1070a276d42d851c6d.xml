@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cesy_service_gr.SGCeburuDataImport</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SGCeburuDataImport</name>
+        <script><![CDATA[var SGCeburuDataImport = Class.create();
+SGCeburuDataImport.prototype.inputs = {};
+SGCeburuDataImport.prototype = {
+	
+	importAllWorkspaces: function(import_set_table){
+		// Get all the organizations
+		
+		// define credentials
+		var creds = new GlideRecordSecure('sys_alias');
+		if (creds.get("id", "x_cesy_service_gr.SG_Ceburu_Connection_Alias")) {
+			var input = {
+				"credentials_alias": creds
+			};
+			
+			var orgs = sn_fd.FlowAPI.executeAction('x_cesy_service_gr.sgtfc_import_organizations', input);
+			var orgIds = orgs["org_ids"];
+
+			// Loop thru the orgs and get all the workspaces
+			if (orgIds) {	
+				for (var i=0; i < orgIds.length; i++) {
+					var input_org = {
+						"org_id": orgIds[i],
+						"credentials_alias": input["credentials_alias"],
+						"page": 1,
+					}; 
+
+					// Get all the workspaces
+					var workspace_names = [];
+					var workspace_outputs = sn_fd.FlowAPI.executeAction('x_cesy_service_gr.sgceburu_import_workspaces', input_org);
+					workspace_names = workspace_names.concat(workspace_outputs["workspace_names"]);
+
+					if (workspace_outputs["total_pages"] > 1) {
+						for (var p = 2; workspace_outputs["next_page"] !== null; p++) {
+							input_org["page"] = p;
+							workspace_outputs = sn_fd.FlowAPI.executeAction('x_cesy_service_gr.sgceburu_import_workspaces', input_org);
+							
+							// Add workspace names from subsequent pages
+							if (workspace_outputs["workspace_names"] && workspace_outputs["workspace_names"].length > 0) {
+								workspace_names = workspace_names.concat(workspace_outputs["workspace_names"]);
+							}
+							// Check if there are more pages
+							if (!workspace_outputs["next_page"]) {
+								break;
+							}
+						}
+					}
+
+					// Loop thru the workspaces and execute imports
+					if (workspace_names) {
+						for (var j=0; j < workspace_names.length; j++) {
+							var inputs = {
+								"workspace_name": workspace_names[j],
+								"org_id": orgIds[i],
+								"credentials_alias": input_org["credentials_alias"]
+							};
+
+							this.beginImport(import_set_table, inputs);
+						}
+					}
+				}
+			}
+		}
+	},
+		
+	beginImport: function(import_set_table, inputs) {
+		// add required columns for any type of resource
+		import_set_table.addColumn("tag_key", 400);
+		import_set_table.addColumn("tag_value", 400);
+		import_set_table.addColumn("type", 255);
+		import_set_table.addColumn("object_type", 255);
+		
+		var inactivateHelper = new x_cesy_service_gr.SGCeburuDataInactivate();
+		
+		// get existing operational_status=1 items
+		var currentOperational = inactivateHelper.collectOperationalCIs();
+		
+		try {
+			// Get the current and (if present) previous state version urls, along with the destroyed resources
+			var wsState = sn_fd.FlowAPI.executeAction("x_cesy_service_gr.sgtfc_get_state_json", inputs);
+			var importResInputs = {
+				"credentials_alias": inputs["credentials_alias"]
+			};
+			
+			// Retrieve the current state version JSON
+			var addedResources = Array();
+			try {
+				importResInputs['state_file_url'] = wsState["current_state_file_url"];
+				var stateObj = sn_fd.FlowAPI.executeAction("x_cesy_service_gr.sgceburu_import_state_resources", importResInputs);
+				if (stateObj) {
+					var parsedPayload = JSON.parse(stateObj.variable);
+					
+					if (parsedPayload.values) {
+						// import regular resources
+						var resources = parsedPayload.values.root_module.resources;
+						if (resources) {
+							for (var r=0; r < resources.length; r++) {
+								var resource = resources[r];
+								resource["values"]["tags"] = this.updateTags(resource, inputs);
+								var provider = resource.type.split("_")[0];
+								var uniqField = inactivateHelper.findUniqId(provider);
+								addedResources.push(resource.values[uniqField]);
+								this.saveResource(import_set_table, resource);
+							}
+						}
+
+						// import child_modules
+						var childResources = parsedPayload.values.root_module.child_modules;
+						if (childResources) {
+							for (var k=0; k < childResources.length; k++) {
+								for (var m=0; m < childResources[k].resources.length; m++) {
+									var childResource = childResources[k].resources[m];
+									childResource["values"]["tags"] = this.updateTags(childResource, inputs);
+									var childProvider = childResource.type.split("_")[0];
+									var childUniqField = inactivateHelper.findUniqId(childProvider);
+									addedResources.push(childResource.values[childUniqField]);
+									this.saveResource(import_set_table, childResource);
+								}
+							}
+						}
+					}
+				}
+			} catch (currEx) {
+				if (!wsState["current_state_file_url"]) {
+					// pass as the workspace just doesn't have a state yet
+				} else {
+					gs.error("Failed to execute the API action to get current state data, exception: " + currEx);
+				}
+			}
+			
+			var diff = currentOperational.filter(function(n) {
+				return addedResources.indexOf(n) === -1;
+			});
+
+			for (var destroyed=0; destroyed<diff.length; destroyed++) {
+				inactivateHelper.updateDestroyedRecords(diff[destroyed]);
+			}
+			
+		} catch (ex) {
+			gs.error("Failed to execute API action, exception: " + ex); 
+		}
+
+	},
+
+	updateTags: function(resource, inputs) {
+		var newTags = [{"key": "tf_workspace", "value": inputs["workspace_name"]}, {"key": "tf_organization", "value": inputs["org_id"]}];
+		var existingTags = resource.values.tags;
+		if (existingTags && existingTags !== null) {
+			for (var tagKey in existingTags) {
+				var updatedTagPair = {};
+				updatedTagPair["key"] = tagKey;
+				updatedTagPair["value"] = existingTags[tagKey];
+				newTags.push(updatedTagPair);
+			}
+		}
+		return newTags;
+	},
+	
+	setResourceName: function(resource) {
+		if (resource.values.name) {
+			return resource.values.name;
+		} else {
+			return resource.values.id;
+		}
+	},
+	
+	saveResource: function(import_set_table, resource) { 
+		var attribute = {};
+		var resourceType = resource.type;
+		var resourceName = this.setResourceName(resource);
+		Object.keys(resource.values).forEach(function(key) {
+			if (!key.includes("password") && !key.includes("config") && !key.includes("credential") && !key.includes("_key") && !key.includes("master_auth") && !key.includes("cert")){
+				var resourceValue = resource.values[key];
+				if (typeof resourceValue === 'object' && resourceValue !== null) {
+					// if the returned key is object simply store it as a JSON
+					var resourceValueStr = JSON.stringify(resourceValue);
+					attribute[key] = JSON.stringify(resourceValueStr);
+					import_set_table.addColumn(key, 2000);
+				} else {
+					attribute[key] = resourceValue;
+					import_set_table.addColumn(key, 400);
+				}
+			}
+		});
+		attribute.type = resourceType;
+		attribute.name = resourceName;
+		attribute.object_type = "resource";
+		import_set_table.insert(attribute);
+		
+		// flatten tags for ETL-Key Value
+		var tagAttribute = {};
+		var resourceTags = resource.values.tags;
+		for (var t=0; t < resourceTags.length; t++) {
+			tagAttribute["tag_key"] = resourceTags[t].key;
+			tagAttribute["tag_value"] = resourceTags[t].value;
+			tagAttribute.type = resourceType;
+			tagAttribute.name = resourceName;
+			tagAttribute.id = resource.values.id;
+			tagAttribute.object_type = "tag";
+			tagAttribute.arn = resource.values.arn;
+			import_set_table.insert(tagAttribute);	
+		}
+	},
+
+    type: 'SGCeburuDataImport'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-05 16:31:50</sys_created_on>
+        <sys_id>ebc07332cf32ba1070a276d42d851c6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SGCeburuDataImport</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_script_include_ebc07332cf32ba1070a276d42d851c6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-05 16:31:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<ul style="list-style-position: inside;"><li>In the <strong>Name</strong> field, enter a name for the authentication. For example, Ceburu credentials.</li><li>In the <strong>API Key</strong> field, enter your Ceburu API Token. For more information on HCP Ceburu API Tokens, please refer to the following <a title="documentation" href="https://www.ceburu.io/cloud-docs/users-teams-organizations/api-tokens" rel="nofollow">documentation</a>.</li><li><strong>Note:</strong> The <strong>API Token</strong> must have permission to read workspace variables.</li><li>For Ceburu Enterprise users, the <strong>Applies to </strong>field should be updated to <strong>Specific MID servers</strong> and the appropriate host/s should be selected in <strong>MID servers</strong>.</li></ul>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>api_key_credentials.do?sys_id=12330c411b52c150c216ebd56e4bcbe8</end_point>
+        <end_point_open_mode>3</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>125</order>
+        <parent display_value="Configure the Ceburu connection">5aca94efdbb5955013d8c45813961988</parent>
+        <parents>5aca94efdbb5955013d8c45813961988,02f9d0afdbb5955013d8c45813961953</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Service Graph Connector for Ceburu">02f9d0afdbb5955013d8c45813961953</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>mbang</sys_created_by>
+        <sys_created_on>2022-09-13 14:58:45</sys_created_on>
+        <sys_id>ca0b5423dbf5955013d8c45813961917</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Configure Ceburu authentication credentials</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>gsw_content_information_ca0b5423dbf5955013d8c45813961917</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:28:51</sys_updated_on>
+        <table/>
+        <title>Configure Ceburu authentication credentials</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca0b5423dbf5955013d8c45813961917"/>
+</record_update>

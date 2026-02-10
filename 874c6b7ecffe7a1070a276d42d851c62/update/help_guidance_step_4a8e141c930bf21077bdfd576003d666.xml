@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="help_guidance_step">
+    <help_guidance_step action="INSERT_OR_UPDATE">
+        <actions_label>{"next":"Next","prev":"Previous","submit":"Submit"}</actions_label>
+        <active>true</active>
+        <allow_delegation>true</allow_delegation>
+        <callout_position>default</callout_position>
+        <description/>
+        <guidance display_value="Service Graph Connector for Ceburu">857e18d8930bf21077bdfd576003d611</guidance>
+        <has_decision>false</has_decision>
+        <layout>text</layout>
+        <name>Getting started</name>
+        <order>1</order>
+        <parent/>
+        <rich_description/>
+        <roles/>
+        <script/>
+        <skippable>false</skippable>
+        <status>3</status>
+        <sys_class_name>help_guidance_step</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-02-09 17:01:22</sys_created_on>
+        <sys_decision/>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a8e141c930bf21077bdfd576003d666</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Getting started</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>help_guidance_step_4a8e141c930bf21077bdfd576003d666</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:05:46</sys_updated_on>
+        <target_element/>
+        <task_type>basic</task_type>
+        <type>group</type>
+        <unlock_by_decision_step>false</unlock_by_decision_step>
+    </help_guidance_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a8e141c930bf21077bdfd576003d666"/>
+</record_update>

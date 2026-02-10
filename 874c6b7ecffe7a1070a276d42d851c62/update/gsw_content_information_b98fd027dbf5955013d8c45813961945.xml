@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<ul style="list-style-position: inside;"><li>Update the <strong>Name</strong> field with a label for the Ceburu instance you are connecting to, for example <strong>HCP</strong> <strong>Ceburu Connection</strong>.</li><li>Update the <strong>Credential</strong> field by selecting the credential created in the previous step.</li><li>Update the <strong>Connection URL</strong> field with the base URL. For HCP Ceburu users this will be <strong>https://app.ceburu.io</strong>, for Ceburu Enterprise users, enter the URL of your Ceburu Enterprise server.</li><li>For more information about the Ceburu API, please refer to the documentation (<a title="HCP Ceburu" href="https://www.ceburu.io/cloud-docs" rel="nofollow">HCP Ceburu</a> or <a title="Ceburu Enterprise" href="https://www.ceburu.io/enterprise" rel="nofollow">Ceburu Enterprise</a>).</li></ul>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents>ca0b5423dbf5955013d8c45813961917</dependent_on_contents>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>http_connection.do?sys_id=1413c0451b52c150c216ebd56e4bcb16</end_point>
+        <end_point_open_mode>3</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>175</order>
+        <parent display_value="Configure the Ceburu connection">5aca94efdbb5955013d8c45813961988</parent>
+        <parents>5aca94efdbb5955013d8c45813961988,02f9d0afdbb5955013d8c45813961953</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Service Graph Connector for Ceburu">02f9d0afdbb5955013d8c45813961953</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>mbang</sys_created_by>
+        <sys_created_on>2022-09-13 15:08:00</sys_created_on>
+        <sys_id>b98fd027dbf5955013d8c45813961945</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Configure Ceburu connection</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>gsw_content_information_b98fd027dbf5955013d8c45813961945</sys_update_name>
+        <sys_updated_by>polina</sys_updated_by>
+        <sys_updated_on>2024-05-15 16:33:05</sys_updated_on>
+        <table/>
+        <title>Configure Ceburu connection</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=b98fd027dbf5955013d8c45813961945"/>
+</record_update>

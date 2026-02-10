@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p>By default, the SG-Ceburu Scheduled Import job is disabled.</p>
+<p>On the <strong>Scheduled Data Import</strong> form:</p>
+<ul style="list-style-position: inside;"><li>Select <strong>Active</strong> to activate the scheduled job. </li><li>Update the <strong>Run </strong>field for how often the job will run. </li></ul>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point>scheduled_import_set.do?sys_id=be59c3fb1bd64d10c216ebd56e4bcbdf</end_point>
+        <end_point_open_mode>3</end_point_open_mode>
+        <end_point_type>1</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on>5aca94efdbb5955013d8c45813961988</implicit_dependent_on>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>250</order>
+        <parent display_value="Set up scheduled import job">8a912ca7dbf5955013d8c458139619a0</parent>
+        <parents>8a912ca7dbf5955013d8c458139619a0,02f9d0afdbb5955013d8c45813961953</parents>
+        <plugin_id/>
+        <property_name/>
+        <property_value/>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Service Graph Connector for Ceburu">02f9d0afdbb5955013d8c45813961953</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>mbang</sys_created_by>
+        <sys_created_on>2022-09-13 15:16:56</sys_created_on>
+        <sys_id>c812e0e7dbf5955013d8c4581396199f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Configure the scheduled jobs</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>gsw_content_information_c812e0e7dbf5955013d8c4581396199f</sys_update_name>
+        <sys_updated_by>gautam@hashicorp.com</sys_updated_by>
+        <sys_updated_on>2022-10-20 15:38:01</sys_updated_on>
+        <table/>
+        <title>Configure the scheduled jobs</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=c812e0e7dbf5955013d8c4581396199f"/>
+</record_update>

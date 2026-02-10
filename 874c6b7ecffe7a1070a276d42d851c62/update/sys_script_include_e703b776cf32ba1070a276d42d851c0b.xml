@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cesy_service_gr.SGCeburuEncryptionUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SGCeburuEncryptionUtil</name>
+        <script><![CDATA[var SGCeburuEncryptionUtil = Class.create();
+SGCeburuEncryptionUtil.prototype = {
+    initialize: function() {
+    },
+
+	convertToBase64: function(myHexString) {
+		var hexArray = myHexString.toString()
+			.replace(/\r|\n/g, "")
+			.replace(/([\da-fA-F]{2}) ?/g, "0x$1 ")
+			.replace(/ +$/, "")
+			.split(" ");
+		var byteString = String.fromCharCode.apply(null, hexArray);
+		var base64string = this.btoa(byteString);
+		return base64string;
+	},
+
+	btoa: function(bin) {
+		var tableStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+		var table = tableStr.split("");
+		for (var i = 0, j = 0, len = bin.length / 3, base64 = []; i < len; ++i) {
+			var a = bin.charCodeAt(j++),
+				b = bin.charCodeAt(j++),
+				c = bin.charCodeAt(j++);
+			if ((a | b | c) > 255) throw new Error("String contains an invalid character");
+			base64[base64.length] = table[a >> 2] + table[((a << 4) & 63) | (b >> 4)] +
+				(isNaN(b) ? "=" : table[((b << 2) & 63) | (c >> 6)]) +
+				(isNaN(b + c) ? "=" : table[c & 63]);
+		}
+		return base64.join("");
+	},
+
+    type: 'SGCeburuEncryptionUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-05 16:41:00</sys_created_on>
+        <sys_id>e703b776cf32ba1070a276d42d851c0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SGCeburuEncryptionUtil</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_script_include_e703b776cf32ba1070a276d42d851c0b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-05 16:41:00</sys_updated_on>
+    </sys_script_include>
+</record_update>
