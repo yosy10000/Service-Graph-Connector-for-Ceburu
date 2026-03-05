@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>SG-Ceburu</name>
+        <properties/>
+        <robust_transform_engine display_value="SG-Ceburu">099ae572cf0f721050fef7a13d851c36</robust_transform_engine>
+        <source_table>x_cesy_service_gr_ceburu_win_server</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-17 16:58:26</sys_created_on>
+        <sys_id>419ae572cf0f721050fef7a13d851c3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG-Ceburu</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_419ae572cf0f721050fef7a13d851c3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-17 16:58:26</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>

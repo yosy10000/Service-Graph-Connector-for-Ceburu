@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>create</operation>
+        <source_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 16:59:41</sys_created_on>
+        <sys_id>3ba7938693cb3e1077bdfd576003d64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>oauth_credential</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_scope_privilege_3ba7938693cb3e1077bdfd576003d64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 16:59:41</sys_updated_on>
+        <target_name>oauth_credential</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

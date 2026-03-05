@@ -11,10 +11,21 @@
         <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
 
     try {
-		var response = {
-			"results": {}
-		};
-        var responseResults = response.results;
+        var IntegUtil = new x_cesy_service_gr.IntegrationUtil();
+        var connect = new SGCeburuConnectionUtil();
+		var encr = new global.Encrypter();
+		var token = encr.decrypt(connect.getPDIToken());
+
+        var restMessage = IntegUtil.createRESTMessage(
+            "https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo",
+            "get", 
+			{
+                "Authorization": "Bearer " + token,
+                "Content-Type": "application/json"
+            }
+        );
+        var response = JSON.parse(restMessage.getBody());
+        var responseResults = response.result.results;
         for (var i = 0; i < responseResults.length; i++) {
             var currentResultRecord = responseResults[i];
             var netmap = currentResultRecord.netmap;
@@ -36,14 +47,15 @@
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
         <expand_node_children>false</expand_node_children>
         <file_path/>
         <file_retrieval_method>Attachment</file_retrieval_method>
-        <format>CSV</format>
+        <format/>
         <glide_keystore>false</glide_keystore>
         <header_row>0</header_row>
-        <import_set_table_label>Ceburu-SG-Win-Server</import_set_table_label>
-        <import_set_table_name>x_cesy_service_gr_ceburu_sg_win_server</import_set_table_name>
+        <import_set_table_label>Ceburu-Win-Server</import_set_table_label>
+        <import_set_table_name>x_cesy_service_gr_ceburu_win_server</import_set_table_name>
         <instance_name/>
         <jdbc_password/>
         <jdbc_server/>
@@ -51,7 +63,7 @@
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time/>
+        <last_success_import_time>2026-02-15 18:01:06</last_success_import_time>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit/>
@@ -61,6 +73,7 @@
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script/>
         <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
 // The function uses result variable to return parse result back. 
 (function(line,lineNumber,result) {
@@ -84,14 +97,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-05 16:14:36</sys_created_on>
         <sys_id>d17c23fecffe7a1070a276d42d851c5b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Ceburu-SG</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_data_source_d17c23fecffe7a1070a276d42d851c5b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-05 16:14:36</sys_updated_on>
+        <sys_updated_on>2026-02-15 18:01:07</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>

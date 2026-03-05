@@ -15,7 +15,7 @@
 			<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true"/>
 			<g:evaluate var="jvar_monetizeText" jelly="true">
 				var monetizeUrl = GlideSecurityUtils.escapeScript(gs.getProperty("sn_cmdb_int_util.monetize.url"));
-				var monetizeText = gs.getMessage("Usage of this Service Graph Connector requires a subscription to the IT Operations Management (ITOM) Visibility application.  Managed IT Resources (as defined in &#160; {0}{1}{2}) created or modified in the CMDB by this Service Graph Connector, but not yet managed by ITOM Visibility, will increase Subscription Unit consumption within ITOM Visibility. Customers should review their current ITOM Visibility Subscription Unit consumption to ensure available capacity.", ['&lt;a href=&quot;', monetizeUrl, '&quot; target=&quot;_blank&quot;&gt;Section 1.1 of the ServiceNow Subscription Unit Overview&lt;/a&gt;']);
+				var monetizeText = gs.getMessage("Using this Service Graph Connector requires an active subscription to the IT Operations Management (ITOM) Visibility application. Any Managed IT Resources (as defined in &#160; {0}{1}{2}) that are created or updated in the CMDB by this connector—and are not already managed by ITOM Visibility—will count toward ITOM Visibility Subscription Unit consumption. Customers should review their current ITOM Visibility Subscription Unit usage to confirm they have sufficient capacity available.", ['&lt;a href=&quot;', monetizeUrl, '&quot; target=&quot;_blank&quot;&gt;Section 1.1 of the ServiceNow Subscription Unit Overview&lt;/a&gt;']);
 				monetizeText;
 			</g:evaluate>
 			<style type="text/css">
@@ -307,16 +307,16 @@
         <name>$ceburu_guided_setup</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
-        <sys_created_by>mbang</sys_created_by>
-        <sys_created_on>2022-09-02 17:17:16</sys_created_on>
-        <sys_id>69945000dbf1159013d8c458139619c9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-17 17:44:09</sys_created_on>
+        <sys_id>b605f9b2cf4f721050fef7a13d851c5b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>$ceburu_guided_setup</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
-        <sys_update_name>sys_ui_page_69945000dbf1159013d8c458139619c9</sys_update_name>
-        <sys_updated_by>mbang</sys_updated_by>
-        <sys_updated_on>2022-09-08 19:08:06</sys_updated_on>
+        <sys_update_name>sys_ui_page_b605f9b2cf4f721050fef7a13d851c5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 20:48:31</sys_updated_on>
     </sys_ui_page>
 </record_update>

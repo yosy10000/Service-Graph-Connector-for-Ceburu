@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>u_status</field>
+        <name>u_status</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 21:21:58</sys_created_on>
+        <sys_id>e6c64e0ecf53b69070a276d42d851c2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_status</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Copy of Ceburu-SG Network">d2c60a0ecf53b69070a276d42d851cda</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Import">eac60e0ecf53b69070a276d42d851cf9</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_field_e6c64e0ecf53b69070a276d42d851c2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 21:21:58</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_last_modified" label="last_modified" language="en" table="x_cesy_service_gr_ceburu_network_copy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_last_modified</element>
+            <help/>
+            <hint/>
+            <label>last_modified</label>
+            <language>en</language>
+            <name>x_cesy_service_gr_ceburu_network_copy</name>
+            <plural>last_modified</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-27 21:21:35</sys_created_on>
+            <sys_id>0db68a0ecf53b69070a276d42d851c32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>last_modified</sys_name>
+            <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+            <sys_update_name>sys_documentation_x_cesy_service_gr_ceburu_network_copy_u_last_modified_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-27 21:21:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

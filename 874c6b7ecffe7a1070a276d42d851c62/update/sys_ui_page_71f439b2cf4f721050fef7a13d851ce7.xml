@@ -13,7 +13,7 @@
 	xmlns:g2="null">
 	<div class="container">
 		<h1>
-			<strong>HashiCorp Support</strong>
+			<strong>Ceburu Support</strong>
 		</h1>
 		<br/>
 		<div class="container">
@@ -26,7 +26,7 @@
 				<tr>
 					<td>
 						<h3>
-							<a rel="noopener noreferrer nofollow" href="https://support.hashicorp.com/" target="_blank">https://support.hashicorp.com/</a>
+							<a rel="noopener noreferrer nofollow" href="https://support.ceburu.com/" target="_blank">https://support.ceburu.com/</a>
 						</h3>
 					</td>
 				</tr>
@@ -37,16 +37,16 @@
         <name>$ceburu_contact_support</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
-        <sys_created_by>mbang</sys_created_by>
-        <sys_created_on>2022-09-15 16:32:47</sys_created_on>
-        <sys_id>82b7cf88db42595013d8c458139619a9</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-17 17:43:49</sys_created_on>
+        <sys_id>71f439b2cf4f721050fef7a13d851ce7</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>$ceburu_contact_support</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
-        <sys_update_name>sys_ui_page_82b7cf88db42595013d8c458139619a9</sys_update_name>
-        <sys_updated_by>mbang</sys_updated_by>
-        <sys_updated_on>2022-09-15 16:33:43</sys_updated_on>
+        <sys_update_name>sys_ui_page_71f439b2cf4f721050fef7a13d851ce7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-17 17:46:05</sys_updated_on>
     </sys_ui_page>
 </record_update>

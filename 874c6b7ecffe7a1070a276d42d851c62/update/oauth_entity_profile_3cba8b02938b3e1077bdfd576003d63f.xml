@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>PDI default_profile</name>
+        <oauth_entity display_value="PDI">de7a0702938b3e1077bdfd576003d6bf</oauth_entity>
+        <oauth_resources/>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 16:02:58</sys_created_on>
+        <sys_id>3cba8b02938b3e1077bdfd576003d63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PDI default_profile</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>oauth_entity_profile_3cba8b02938b3e1077bdfd576003d63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 16:02:58</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

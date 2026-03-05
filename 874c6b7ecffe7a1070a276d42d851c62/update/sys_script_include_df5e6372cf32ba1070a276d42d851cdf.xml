@@ -6,10 +6,117 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>SGCeburuConnectionUtil</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var SGCeburuConnectionUtil = Class.create();
 SGCeburuConnectionUtil.prototype = {
-    initialize: function() {},
+    initialize: function() {
+        this.encr = new global.Encrypter();
+        this.IntegrationUtil = new x_cesy_service_gr.SGCeburuIntegrationUtil();
+        this.PDIOauth = {
+            "username": gs.getProperty("x_cesy_service_gr.pdi.username"),
+            "password": gs.getProperty("x_cesy_service_gr.pdi.password"),
+            "client_id": gs.getProperty("x_cesy_service_gr.pdi.client.id"),
+            "client_secret": gs.getProperty("x_cesy_service_gr.pdi.client.secret"),
+            "endpoint": gs.getProperty("x_cesy_service_gr.pdi.endpoint")
+        };
+    },
+
+	getDemoToken: function(){
+		var DemoToken = new GlideRecord("oauth_credential");
+        DemoToken.addQuery("peer.name", "Demo");
+        DemoToken.addQuery("type", "access_token");
+        DemoToken.query();
+
+		if(DemoToken.next()){
+			return DemoToken.token_received;
+		}
+	},
+
+    getPDIToken: function() {
+		return this.getPDIAccessToken();
+    },
+
+    getPDIAccessToken: function() {
+        var PDIToken = new GlideRecord("oauth_credential");
+        PDIToken.addQuery("peer.name", "PDI");
+        PDIToken.addQuery("type", "access_token");
+        PDIToken.query();
+
+        if (PDIToken.next()) {
+            return PDIToken.token_received;
+        } else {
+			return this.setPDIAccessToken();
+        }
+    },
+
+    setPDIAccessToken: function() {
+        var refreshToken = this.encr.decrypt(this.getPDIRefreshToken());
+		var clientSecret = this.encr.decrypt(this.PDIOauth.client_secret);
+
+        var restMessage = this.IntegrationUtil.createRESTMessage(
+            this.PDIOauth.endpoint,
+            "post", {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            "grant_type=refresh_token&client_id=" + this.PDIOauth.client_id + "&client_secret=" + clientSecret + "&refresh_token=" + refreshToken
+        );
+        var messageBody = JSON.parse(restMessage.getBody());
+
+        // Store the retrieved token and return it
+        var PDIToken = new GlideRecord("oauth_credential");
+        PDIToken.initialize();
+        PDIToken.peer.setDisplayValue("PDI");
+        PDIToken.type = "access_token";
+        PDIToken.token_received = this.encr.encrypt(messageBody.access_token);
+        var expiresIn = new GlideDateTime();
+		var ms = expiresIn.getNumericValue();
+		expiresIn.setNumericValue(ms + (messageBody.expires_in * 1000));
+        PDIToken.expires = expiresIn;
+        var token_sys_id = PDIToken.insert();
+        return this.encr.encrypt(messageBody.access_token);
+    },
+
+    getPDIRefreshToken: function() {
+        var PDIToken = new GlideRecord("oauth_credential");
+        PDIToken.addQuery("peer.name", "PDI");
+        PDIToken.addQuery("type", "refresh_token");
+        PDIToken.query();
+
+        if (PDIToken.next()) {
+            return PDIToken.token_received;
+        } else {
+            return this.setPDIRefreshToken();
+        }
+    },
+
+    setPDIRefreshToken: function() {
+		var clientSecret = this.encr.decrypt(this.PDIOauth.client_secret);
+		var password = this.encr.decrypt(this.PDIOauth.password);
+
+        var restMessage = this.IntegrationUtil.createRESTMessage(
+            this.PDIOauth.endpoint,
+            "post", {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            "grant_type=password&username=" + this.PDIOauth.username + "&password=" + password + "&client_id=" + this.PDIOauth.client_id + "&client_secret=" + clientSecret
+        );
+        var messageBody = JSON.parse(restMessage.getBody());
+
+        // Store the retrieved token and return it
+        var PDIToken = new GlideRecord("oauth_credential");
+        PDIToken.initialize();
+        PDIToken.peer.setDisplayValue("PDI");
+        PDIToken.type = "refresh_token";
+        PDIToken.token_received = this.encr.encrypt(messageBody.refresh_token);
+        var expiresIn = new GlideDateTime();
+		var ms = expiresIn.getNumericValue();
+		expiresIn.setNumericValue(ms + (8640000 * 1000));
+        PDIToken.expires = expiresIn;
+        var token_sys_id = PDIToken.insert();
+        return this.encr.encrypt(messageBody.refresh_token);
+    },
 
     testConnection: function(gr) {
         gr.status = "Pending";
@@ -94,13 +201,13 @@ SGCeburuConnectionUtil.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-05 16:27:40</sys_created_on>
         <sys_id>df5e6372cf32ba1070a276d42d851cdf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>SGCeburuConnectionUtil</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_script_include_df5e6372cf32ba1070a276d42d851cdf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-05 16:27:40</sys_updated_on>
+        <sys_updated_on>2026-02-26 19:50:11</sys_updated_on>
     </sys_script_include>
 </record_update>
