@@ -22,19 +22,19 @@ SGCeburuConnectionUtil.prototype = {
         };
     },
 
-	getDemoToken: function(){
-		var DemoToken = new GlideRecordSecure("oauth_credential");
+    getDemoToken: function() {
+        var DemoToken = new GlideRecordSecure("oauth_credential");
         DemoToken.addQuery("peer.name", "Demo");
         DemoToken.addQuery("type", "access_token");
         DemoToken.query();
 
-		if(DemoToken.next()){
-			return DemoToken.token_received;
-		}
-	},
+        if (DemoToken.next()) {
+            return DemoToken.token_received;
+        }
+    },
 
     getPDIToken: function() {
-		return this.getPDIAccessToken();
+        return this.getPDIAccessToken();
     },
 
     getPDIAccessToken: function() {
@@ -46,13 +46,13 @@ SGCeburuConnectionUtil.prototype = {
         if (PDIToken.next()) {
             return PDIToken.token_received;
         } else {
-			return this.setPDIAccessToken();
+            return this.setPDIAccessToken();
         }
     },
 
     setPDIAccessToken: function() {
         var refreshToken = this.getPDIRefreshToken();
-		var clientSecret = this.PDIOauth.client_secret;
+        var clientSecret = this.PDIOauth.client_secret;
 
         var restMessage = this.IntegrationUtil.createRESTMessage(
             this.PDIOauth.endpoint,
@@ -70,8 +70,8 @@ SGCeburuConnectionUtil.prototype = {
         PDIToken.type = "access_token";
         PDIToken.token_received = messageBody.access_token;
         var expiresIn = new GlideDateTime();
-		var ms = expiresIn.getNumericValue();
-		expiresIn.setNumericValue(ms + (messageBody.expires_in * 1000));
+        var ms = expiresIn.getNumericValue();
+        expiresIn.setNumericValue(ms + (messageBody.expires_in * 1000));
         PDIToken.expires = expiresIn;
         var token_sys_id = PDIToken.insert();
         return messageBody.access_token;
@@ -91,8 +91,8 @@ SGCeburuConnectionUtil.prototype = {
     },
 
     setPDIRefreshToken: function() {
-		var clientSecret = this.PDIOauth.client_secret;
-		var password = this.PDIOauth.password;
+        var clientSecret = this.PDIOauth.client_secret;
+        var password = this.PDIOauth.password;
 
         var restMessage = this.IntegrationUtil.createRESTMessage(
             this.PDIOauth.endpoint,
@@ -110,8 +110,8 @@ SGCeburuConnectionUtil.prototype = {
         PDIToken.type = "refresh_token";
         PDIToken.token_received = messageBody.refresh_token;
         var expiresIn = new GlideDateTime();
-		var ms = expiresIn.getNumericValue();
-		expiresIn.setNumericValue(ms + (8640000 * 1000));
+        var ms = expiresIn.getNumericValue();
+        expiresIn.setNumericValue(ms + (8640000 * 1000));
         PDIToken.expires = expiresIn;
         var token_sys_id = PDIToken.insert();
         return messageBody.refresh_token;
@@ -194,19 +194,81 @@ SGCeburuConnectionUtil.prototype = {
 
     },
 
+    testConnection: function(gr) {
+
+        // Reset status
+        gr.status = "Pending";
+        gr.message = "";
+        gr.suggestion = "";
+        gr.update();
+
+        try {
+
+            var inputs = {};
+            inputs['connectionAlias'] = gr.connection_alias;
+
+            var result = sn_fd.FlowAPI.getRunner()
+                .action('x_cesy_service_gr.test_connection') // ⚠️ CHANGE if your action name differs
+                .inForeground()
+                .withInputs(inputs)
+                .run();
+
+            var outputs = result.getOutputs();
+
+            var statusCode = outputs.statusCode;
+            var responseBody = outputs.body;
+
+            gr.status_code = statusCode;
+
+            if (statusCode == 200) {
+                gr.status = "success";
+                gr.message = "Connection successful";
+                gr.suggestion = "";
+
+            } else if (statusCode == 401) {
+                gr.status = "error";
+                gr.message = "Unauthorized";
+                gr.suggestion = "Check API token (Bearer format)";
+
+            } else if (statusCode == 403) {
+                gr.status = "error";
+                gr.message = "Forbidden";
+                gr.suggestion = "Check API permissions/scopes";
+
+            } else if (statusCode == 404) {
+                gr.status = "error";
+                gr.message = "Endpoint not found";
+                gr.suggestion = "Verify endpoint URL";
+
+            } else {
+                gr.status = "error";
+                gr.message = responseBody;
+                gr.suggestion = "Unexpected error — check logs";
+            }
+
+        } catch (ex) {
+
+            gr.status = "error";
+            gr.message = ex.getMessage();
+            gr.suggestion = "Execution failure — check Flow and logs";
+        }
+
+        gr.update();
+    },
+
     type: 'SGCeburuConnectionUtil'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-05 16:27:40</sys_created_on>
         <sys_id>df5e6372cf32ba1070a276d42d851cdf</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>SGCeburuConnectionUtil</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_script_include_df5e6372cf32ba1070a276d42d851cdf</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-04-06 22:24:22</sys_updated_on>
+        <sys_updated_on>2026-04-06 23:04:58</sys_updated_on>
     </sys_script_include>
 </record_update>

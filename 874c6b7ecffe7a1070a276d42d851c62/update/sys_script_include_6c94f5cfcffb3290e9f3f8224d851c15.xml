@@ -181,19 +181,81 @@ cesyCcfHelper.prototype = {
         return gr.getUniqueValue();
     },
 
+    testConnection: function(gr) {
+
+        // Reset status
+        gr.status = "Pending";
+        gr.message = "";
+        gr.suggestion = "";
+        gr.update();
+
+        try {
+
+            var inputs = {};
+            inputs['connectionAlias'] = gr.connection_alias;
+
+            var result = sn_fd.FlowAPI.getRunner()
+                .action('x_cesy_service_gr.test_connection')
+                .inForeground()
+                .withInputs(inputs)
+                .run();
+
+            var outputs = result.getOutputs();
+
+            var statusCode = outputs.statusCode;
+            var responseBody = outputs.body;
+
+            gr.status_code = statusCode;
+
+            if (statusCode == 200) {
+                gr.status = "success";
+                gr.message = "Connection successful";
+                gr.suggestion = "";
+
+            } else if (statusCode == 401) {
+                gr.status = "error";
+                gr.message = "Unauthorized";
+                gr.suggestion = "Check API token (Bearer format)";
+
+            } else if (statusCode == 403) {
+                gr.status = "error";
+                gr.message = "Forbidden";
+                gr.suggestion = "Check API permissions/scopes";
+
+            } else if (statusCode == 404) {
+                gr.status = "error";
+                gr.message = "Endpoint not found";
+                gr.suggestion = "Verify endpoint URL";
+
+            } else {
+                gr.status = "error";
+                gr.message = responseBody;
+                gr.suggestion = "Unexpected error — check logs";
+            }
+
+        } catch (ex) {
+
+            gr.status = "error";
+            gr.message = ex.getMessage();
+            gr.suggestion = "Execution failure — check Flow and logs";
+        }
+
+        gr.update();
+    },
+
     type: 'cesyCcfHelper'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-03-27 21:03:14</sys_created_on>
         <sys_id>6c94f5cfcffb3290e9f3f8224d851c15</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>cesyCcfHelper</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_script_include_6c94f5cfcffb3290e9f3f8224d851c15</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-04-06 22:44:40</sys_updated_on>
+        <sys_updated_on>2026-04-06 23:09:25</sys_updated_on>
     </sys_script_include>
 </record_update>
