@@ -11,10 +11,9 @@
         <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
 
     try {
-        var IntegUtil = new x_cesy_service_gr.IntegrationUtil();
+        var IntegUtil = new x_cesy_service_gr.SGCeburuIntegrationUtil();
         var connect = new SGCeburuConnectionUtil();
-		var encr = new global.Encrypter();
-		var token = encr.decrypt(connect.getPDIToken());
+		var token = connect.getPDIToken();
 
         var restMessage = IntegUtil.createRESTMessage(
             "https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo",
@@ -97,14 +96,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-05 16:14:36</sys_created_on>
         <sys_id>d17c23fecffe7a1070a276d42d851c5b</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Ceburu-SG</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_data_source_d17c23fecffe7a1070a276d42d851c5b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-15 18:01:07</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-23 09:05:26</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>

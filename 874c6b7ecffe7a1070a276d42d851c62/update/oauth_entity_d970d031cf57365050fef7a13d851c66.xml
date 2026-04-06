@@ -4,6 +4,7 @@
         <access_token_lifespan>1800</access_token_lifespan>
         <active>true</active>
         <auth_aig_client>false</auth_aig_client>
+        <auth_cimd_client>false</auth_cimd_client>
         <auth_code_lifespan>60</auth_code_lifespan>
         <auth_url/>
         <bind_token_to_session>false</bind_token_to_session>

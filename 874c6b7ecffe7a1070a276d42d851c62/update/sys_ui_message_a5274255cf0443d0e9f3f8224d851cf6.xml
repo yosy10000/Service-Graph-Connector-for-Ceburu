@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_3521650ccf8ccf50e7b3bb4e5d851c8a</code>
+        <commented_message/>
+        <key>&lt;div style="font-size: 1rem;"&gt;
+&lt;p&gt;&lt;span&gt;Update the Data Source access to enable creating data sources for the new connection by verifying that you have edit permissions on the Data Source [sys_data_source] table. &lt;/span&gt;&lt;br&gt;&lt;span&gt;To verify and update perm</key>
+        <language>en</language>
+        <message>&lt;div style="font-size: 1rem;"&gt;
+&lt;p&gt;&lt;span&gt;Update the Data Source access to enable creating data sources for the new connection by verifying that you have edit permissions on the Data Source [sys_data_source] table. &lt;/span&gt;&lt;br&gt;&lt;span&gt;To verify and update permissions on the Data Source[sys_data_source] table:&lt;/span&gt;&lt;/p&gt;
+&lt;ol style="list-style-type: decimal;"&gt;
+&lt;li&gt;&lt;span&gt;Select the &lt;strong&gt;Global&lt;/strong&gt; application scope from the application picker.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;In the Application Access related list, select the &lt;strong&gt;Can create&lt;/strong&gt;, &lt;strong&gt;Can update&lt;/strong&gt;, and &lt;strong&gt;Can delete&lt;/strong&gt; check boxes, and then select &lt;strong&gt;Update&lt;/strong&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Select the application scope associated with the connector from the application picker.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-03 20:15:10</sys_created_on>
+        <sys_id>a5274255cf0443d0e9f3f8224d851cf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&lt;div style="font-size: 1rem;"&gt;
+&lt;p&gt;&lt;span&gt;Update the Data Source access to enable creating data sources for the new connection by verifying that you have edit permissions on the Data Source [sys_data_source] table. &lt;/span&gt;&lt;br&gt;&lt;span&gt;To verify and update perm</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_ui_message_a5274255cf0443d0e9f3f8224d851cf6</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-03 20:15:10</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -5,8 +5,10 @@
         <description>Service Graph Connector for Ceburu, Guided Setup</description>
         <designer_state/>
         <engine_major_version/>
+        <evaluate_variant_children_after/>
         <label>Service Graph Connector for Ceburu</label>
         <name>service_graph_connector_for_ceburu</name>
+        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>
@@ -68,10 +70,17 @@
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
+        <ai_agent_execution_mode>off</ai_agent_execution_mode>
+        <ai_agent_obj_additional_detail/>
+        <ai_agent_objective/>
+        <ai_agent_run_as>playbook_user</ai_agent_run_as>
+        <ai_agent_run_with_roles/>
+        <ai_agent_user/>
         <condition_to_run/>
         <derivative_order/>
         <derivative_parent/>
         <description>&lt;p&gt;Get Service Graph Connector for Ceburu up and running, quickly and easily.&lt;/p&gt;</description>
+        <enable_ai_agent>false</enable_ai_agent>
         <inputs/>
         <inputs/>
         <label>Get going</label>
@@ -91,9 +100,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-17 16:23:02</sys_created_on>
         <sys_id>96722572cfcb721050fef7a13d851ca0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-17 16:23:02</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-25 19:49:44</sys_updated_on>
         <type_vals/>
         <type_vals/>
         <variant/>
@@ -767,8 +776,10 @@
         <description>Service Graph Connector for Ceburu, Guided Setup</description>
         <designer_state/>
         <engine_major_version/>
+        <evaluate_variant_children_after/>
         <label>Service Graph Connector for Ceburu</label>
         <name>service_graph_connector_for_ceburu</name>
+        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>

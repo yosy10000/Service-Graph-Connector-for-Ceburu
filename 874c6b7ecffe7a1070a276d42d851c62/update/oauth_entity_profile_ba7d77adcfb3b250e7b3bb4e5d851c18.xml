@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>false</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Instance B Profile</name>
+        <oauth_entity display_value="Instance B Provider">c40df329cf33b250e7b3bb4e5d851cf8</oauth_entity>
+        <oauth_resources/>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-03-23 13:14:57</sys_created_on>
+        <sys_id>ba7d77adcfb3b250e7b3bb4e5d851c18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instance B Profile</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>oauth_entity_profile_ba7d77adcfb3b250e7b3bb4e5d851c18</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-23 13:14:57</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

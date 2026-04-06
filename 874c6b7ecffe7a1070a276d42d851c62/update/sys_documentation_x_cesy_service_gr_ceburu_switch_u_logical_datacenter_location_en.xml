@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_logical_datacenter_location" label="logical_datacenter_location" language="en" table="x_cesy_service_gr_ceburu_switch">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_logical_datacenter_location</element>
+            <help/>
+            <hint/>
+            <label>logical_datacenter_location</label>
+            <language>en</language>
+            <name>x_cesy_service_gr_ceburu_switch</name>
+            <plural>logical_datacenter_locations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-08 22:24:51</sys_created_on>
+            <sys_id>e77be489cfe7ba9050fef7a13d851c0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>logical_datacenter_location</sys_name>
+            <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+            <sys_update_name>sys_documentation_x_cesy_service_gr_ceburu_switch_u_logical_datacenter_location_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-08 22:24:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

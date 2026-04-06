@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cesy_service_gr.cesyCcfHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>cesyCcfHelper</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var cesyCcfHelper = Class.create();
+cesyCcfHelper.prototype = {
+    initialize: function() {},
+
+    migrateToCommnConnFramework: function() {
+
+        var propertiesArr = [];
+
+        propertiesArr.push({
+            name: "x_cesy_service_gr.username",
+            value: "admin2"
+        });
+
+        propertiesArr.push({
+            name: "x_cesy_service_gr.client.id",
+            value: "945b992c2706407aa415a02bee293a24"
+        });
+
+        propertiesArr.push({
+            name: "x_cesy_service_gr.endpoint",
+            value: "" // to be filled later
+        });
+
+        propertiesArr.push({
+            name: "x_cesy_service_gr.password",
+            value: "" // should NOT stay like this in production
+        });
+
+        propertiesArr.push({
+            name: "x_cesy_service_gr.client.secret",
+            value: "" // should NOT stay like this in production
+        });
+
+        propertiesArr.push({
+            name: "x_cesy_service_gr.api.token",
+            value: ""
+        });
+
+        var ccFHelper = new x_cesy_service_gr.cesyCcfHelper();
+
+        ccFHelper.createCommonConnAndMapTheDetails(
+            '43a002accf8b721070a276d42d851cb2', // aliasId
+            'x_cesy_service_gr', // scope
+            '26239835cf57365050fef7a13d851c95', // data source
+            propertiesArr
+        );
+    },
+
+    // ================= CORE LOGIC =================
+
+    createCommonConnAndMapTheDetails: function(aliasId, scopeId, dsSysID, propertiesArr) {
+
+        var sysAliasGr = new GlideRecord('sys_alias');
+
+        if (sysAliasGr.get(aliasId)) {
+
+            var common_connection_id = this.createCommonConnectionRecord(
+                sysAliasGr.getValue('name'),
+                sysAliasGr.getUniqueValue()
+            );
+
+            this.createCommonConnectionDataSourceRecord(common_connection_id, dsSysID);
+
+            var scheduledImportGr = new GlideRecord('scheduled_import_set');
+            scheduledImportGr.addQuery('data_source', dsSysID);
+            scheduledImportGr.query();
+
+            if (scheduledImportGr.next()) {
+                this.createCommonConnectionScheduledImportRecord(
+                    common_connection_id,
+                    scheduledImportGr.getUniqueValue()
+                );
+            }
+
+            for (var i = 0; i < propertiesArr.length; i++) {
+                var propertyObj = propertiesArr[i];
+
+                this.createCommonConnectionPropertyRecord(
+                    common_connection_id,
+                    propertyObj.name,
+                    propertyObj.value
+                );
+            }
+
+        } else {
+            gs.error("Connection alias not found: " + aliasId);
+        }
+    },
+
+    createCommonConnectionRecord: function(name, conAliasSysId) {
+
+        var ccf_connection = new GlideRecord('sn_cmdb_int_util_service_graph_connection');
+
+        ccf_connection.addQuery('connection_alias', conAliasSysId);
+        ccf_connection.query();
+
+        if (!ccf_connection.next()) {
+            ccf_connection.initialize();
+            ccf_connection.name = name;
+            ccf_connection.connection_alias = conAliasSysId;
+            ccf_connection.insert();
+        }
+
+        return ccf_connection.getUniqueValue();
+    },
+
+    createCommonConnectionDataSourceRecord: function(connectionId, dsSysId) {
+
+        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_data_source');
+
+        gr.addQuery('sn_cmdb_int_util_service_graph_connection', connectionId);
+        gr.addQuery('sys_data_source', dsSysId);
+        gr.query();
+
+        if (!gr.next()) {
+            gr.initialize();
+            gr.sn_cmdb_int_util_service_graph_connection = connectionId;
+            gr.sys_data_source = dsSysId;
+            gr.insert();
+        }
+    },
+
+    createCommonConnectionScheduledImportRecord: function(connectionId, siSysId) {
+
+        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_scheduled_data_import');
+
+        gr.addQuery('sn_cmdb_int_util_service_graph_connection', connectionId);
+        gr.addQuery('scheduled_import_set', siSysId);
+        gr.query();
+
+        if (!gr.next()) {
+            gr.initialize();
+            gr.sn_cmdb_int_util_service_graph_connection = connectionId;
+            gr.scheduled_import_set = siSysId;
+            gr.insert();
+        }
+    },
+
+    createCommonConnectionPropertyRecord: function(connectionId, name, value) {
+
+        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_property');
+
+        gr.initialize();
+        gr.property = name;
+        gr.value = value;
+        gr.sn_cmdb_int_util_service_graph_connection = connectionId;
+        gr.insert();
+    },
+
+    getCCFPropertiesAsMap: function(ccf_connection_sysid) {
+
+        var map = {};
+
+        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_property');
+        gr.addQuery('sn_cmdb_int_util_service_graph_connection', ccf_connection_sysid);
+        gr.query();
+
+        while (gr.next()) {
+            map[gr.property.toString()] = gr.value.toString();
+        }
+
+        return map;
+    },
+
+    getCCFConnectionFromAlias: function(aliasId) {
+
+        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection');
+        gr.get('connection_alias', aliasId);
+
+        return gr.getUniqueValue();
+    },
+
+    type: 'cesyCcfHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-03-27 21:03:14</sys_created_on>
+        <sys_id>6c94f5cfcffb3290e9f3f8224d851c15</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>cesyCcfHelper</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_script_include_6c94f5cfcffb3290e9f3f8224d851c15</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:44:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

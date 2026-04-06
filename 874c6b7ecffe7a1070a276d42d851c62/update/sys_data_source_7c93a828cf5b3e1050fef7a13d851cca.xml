@@ -13,8 +13,7 @@
     try {
         var IntegUtil = new x_cesy_service_gr.IntegrationUtil();
         var connect = new SGCeburuConnectionUtil();
-		var encr = new global.Encrypter();
-		var token = encr.decrypt(connect.getPDIToken());
+		var token = connect.getPDIToken();
 
 		var nextEndpoint = "https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo/network";
 		while(nextEndpoint){
@@ -111,14 +110,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-22 22:17:35</sys_created_on>
         <sys_id>7c93a828cf5b3e1050fef7a13d851cca</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Ceburu-SG Network</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_data_source_7c93a828cf5b3e1050fef7a13d851cca</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 18:32:02</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-17 09:04:43</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>

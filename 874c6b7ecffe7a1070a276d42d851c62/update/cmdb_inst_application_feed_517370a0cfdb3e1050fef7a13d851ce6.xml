@@ -11,7 +11,7 @@
         <sys_class_name>cmdb_inst_application_feed</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-22 23:26:59</sys_created_on>
-        <sys_data_source display_value="Demo Ceburu-SG Network">26239835cf57365050fef7a13d851c95</sys_data_source>
+        <sys_data_source display_value="Ceburu-SG Switch">26239835cf57365050fef7a13d851c95</sys_data_source>
         <sys_id>517370a0cfdb3e1050fef7a13d851ce6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Ceburu-SG Network</sys_name>

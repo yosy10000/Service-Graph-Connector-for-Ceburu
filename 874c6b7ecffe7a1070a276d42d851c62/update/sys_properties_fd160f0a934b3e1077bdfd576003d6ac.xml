@@ -4,23 +4,23 @@
         <description/>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_cesy_service_gr.pdi.client.secret</name>
+        <name>x_cesy_service_gr.client.secret</name>
         <read_roles/>
         <suffix>pdi.client.secret</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-15 15:42:49</sys_created_on>
         <sys_id>fd160f0a934b3e1077bdfd576003d6ac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_cesy_service_gr.pdi.client.secret</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_cesy_service_gr.client.secret</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_properties_fd160f0a934b3e1077bdfd576003d6ac</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-22 23:22:19</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:29:17</sys_updated_on>
         <type>password</type>
-        <value>{{dflt-gpaes}}kYHOvT/bYOUh9u2T9W22Pg==</value>
+        <value/>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=fd160f0a934b3e1077bdfd576003d6ac"/>

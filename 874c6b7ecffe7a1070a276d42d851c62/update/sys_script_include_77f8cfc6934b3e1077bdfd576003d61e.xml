@@ -13,7 +13,7 @@
 SGCeburuIntegrationUtil.prototype = {
     initialize: function() {},
 
-    createRESTMessage: function(endpoint, method, headers, body, queryParams) {
+    createRESTMessage: function(endpoint, method, headers, body, queryParams, oauthProfileObj) {
         var RESTMessage = new sn_ws.RESTMessageV2();
         RESTMessage.setEndpoint(endpoint);
         RESTMessage.setHttpMethod(method);
@@ -27,9 +27,9 @@ SGCeburuIntegrationUtil.prototype = {
         if (body) {
             if (typeof(body) == "string") {
                 RESTMessage.setRequestBody(body);
-            }else{
+            } else {
                 RESTMessage.setRequestBody(JSON.stringify(body));
-			}
+            }
         }
 
         if (queryParams) {
@@ -39,10 +39,16 @@ SGCeburuIntegrationUtil.prototype = {
             }
         }
 
+        if (oauthProfileObj) {
+            if (typeof(oauthProfileObj) == "object") {
+                RESTMessage.setAuthenticationProfile(oauthProfileObj.type, oauthProfileObj.name);
+            }
+        }
         // RESTMessage.setLogLevel("all");
 
         var result = RESTMessage.execute();
         return result;
+        // return JSON.stringify(result);
     },
 
     type: 'SGCeburuIntegrationUtil'
@@ -51,13 +57,13 @@ SGCeburuIntegrationUtil.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-15 15:56:06</sys_created_on>
         <sys_id>77f8cfc6934b3e1077bdfd576003d61e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>SGCeburuIntegrationUtil</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_script_include_77f8cfc6934b3e1077bdfd576003d61e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 18:19:19</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-23 09:09:31</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_3521650ccf8ccf50e7b3bb4e5d851c8a</code>
+        <commented_message/>
+        <key>&lt;div style="font-size: 1rem;"&gt;
+&lt;p&gt;Clear the cache of the tables Data Source [sys_data_source] and Tables [sys_db_object]. &lt;br /&gt;&lt;br /&gt;To clear the cache:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In the &lt;strong&gt;Run script&lt;/strong&gt; text box of the background script page, enter the</key>
+        <language>en</language>
+        <message>&lt;div style="font-size: 1rem;"&gt;
+&lt;p&gt;Clear the cache of the tables Data Source [sys_data_source] and Tables [sys_db_object]. &lt;br /&gt;&lt;br /&gt;To clear the cache:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In the &lt;strong&gt;Run script&lt;/strong&gt; text box of the background script page, enter the following script:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;GlideTableManager.invalidateTable('sys_data_source'); 
+GlideCacheManager.flushTable('sys_data_source');
+GlideTableManager.invalidateTable('sys_db_object'); 
+GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Select &lt;strong&gt;Run Script&lt;/strong&gt; to run the background script in the &lt;strong&gt;global&lt;/strong&gt; scope.&lt;br /&gt;The script may take several minutes to execute.&lt;/li&gt;
+&lt;li&gt;After the script is executed successfully, select the application scope associated with the connector from the application picker.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-03 20:15:10</sys_created_on>
+        <sys_id>2d278255cf0443d0e9f3f8224d851c33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&lt;div style="font-size: 1rem;"&gt;
+&lt;p&gt;Clear the cache of the tables Data Source [sys_data_source] and Tables [sys_db_object]. &lt;br /&gt;&lt;br /&gt;To clear the cache:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In the &lt;strong&gt;Run script&lt;/strong&gt; text box of the background script page, enter the</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_ui_message_2d278255cf0443d0e9f3f8224d851c33</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-03 20:15:10</sys_updated_on>
+    </sys_ui_message>
+</record_update>

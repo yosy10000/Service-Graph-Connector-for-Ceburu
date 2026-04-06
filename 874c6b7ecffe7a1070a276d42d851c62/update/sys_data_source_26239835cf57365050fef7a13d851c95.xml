@@ -13,47 +13,147 @@
     try {
         var IntegUtil = new x_cesy_service_gr.SGCeburuIntegrationUtil();
         var connect = new SGCeburuConnectionUtil();
-		var encr = new global.Encrypter();
-		var token = encr.getDecryptedValue(connect.getDemoToken());
+        var token = connect.getDemoToken();
 
-		var i = 0, limit = 50;
-		var nextEndpoint = "http://stage.ceburuai.com:7877/integrations/aiops/devices/by-customer/?page=1&page_size=50";
-		while(nextEndpoint && i < limit){
-			var restMessage = IntegUtil.createRESTMessage(
-				nextEndpoint,
-				"get", 
-				{
-					"Authorization": "Bearer " + token,
-					"Content-Type": "application/json"
-				}
-			);
-			var response = JSON.parse(restMessage.getBody());
-			nextEndpoint = response.next;
+        var i = 0,
+            limit = 50;
+        var nextEndpoint = "http://stage.ceburuai.com:7877/integrations/aiops/devices/by-customer/?page=1&page_size=50";
+        while (nextEndpoint && i < limit) {
+            var restMessage = IntegUtil.createRESTMessage(
+                nextEndpoint,
+                "get", {
+                    "Authorization": "Bearer " + token,
+                    "Content-Type": "application/json"
+                }
+            );
+            var response = JSON.parse(restMessage.getBody());
+            nextEndpoint = response.next;
 
-			var responseResults = response.results;
-			for (var i = 0; i < responseResults.length; i++) {
-				var currentResultRecord = responseResults[i];
+            // var responseResults = response.results;
 
-				var importRecord = {};
-				importRecord.device_name = currentResultRecord.deviceName;
-				importRecord.device_ip = currentResultRecord.deviceIP;
-				importRecord.serial_number = currentResultRecord.serialnumber;
-				importRecord.device_brand = currentResultRecord.deviceBrand;
-				importRecord.device_model = currentResultRecord.deviceModel;
-				importRecord.mac_address = currentResultRecord.macaddress;
-				importRecord.location = currentResultRecord.location;
-				importRecord.version = currentResultRecord.version;
-				importRecord.status = currentResultRecord.status;
-				importRecord.aiopsconfigmanagement_id = currentResultRecord.aiopsconfigmanagement_id;
-				importRecord.company = currentResultRecord.organizationId;
-				importRecord.network_id = currentResultRecord.networkid;
-				importRecord.country_name = currentResultRecord.countryname;
-				importRecord.last_modified = currentResultRecord.lastmodified;
 
-				import_set_table.insert(importRecord);
-			}
-		i++;
-		}
+
+
+            var responseResults = [{
+                "id": 34,
+                "aiopsconfigmanagement_id": 13,
+                "snmpprofile_id": 49,
+                "routercred_id": null,
+                "deviceName": "SNMPTest",
+                "deviceIP": "192.168.30.201",
+                "deviceRole": "Core switch",
+                "deviceBrand": "Cisco",
+                "deviceType": 0,
+                "deviceModel": "Catalyst 8200",
+                "deviceDesc": "Cisco Catalyst 8200 Core Switch",
+                "version": "17.12.5",
+                "serialnumber": "JAE23050BMF",
+
+                "macaddress": "b8:ab:61:8b:7c:70",
+                "manufacture": "Cisco Systems",
+
+                "entrytime": "2025-12-05T07:46:42.657626Z",
+                "lastmodified": "2025-11-05T13:23:56.921429Z",
+
+                "status": true,
+                "credstatus": true,
+
+                "uplinks": [{
+                    "uplinkDeviceName": "CORE-DIST-01",
+                    "uplinkDeviceIP": "192.168.30.1",
+                    "uplinkInterface": "GigabitEthernet1/0/1"
+                }],
+
+                "lat": 25.2048,
+                "lng": 55.2708,
+                "countryname": "United States",
+
+                "givenname": "CAT-8200",
+
+                "location": "CEBURU Datacenter Rack A12",
+                "organizationId": "Ceburu Corporation",
+
+                "network": {
+                    "network_id": "NET-192-168-30",
+                    "network_name": "Corporate LAN 192.168.30.0",
+                    "network_cidr": "192.168.30.0/24",
+                    "network_gateway": "192.168.30.1",
+                    "network_type": "LAN",
+                    "network_status": "Operational"
+                },
+
+                "logical_datacenter": {
+                    "dc_id": "DC-CEBURU-01",
+                    "dc_name": "Ceburu Primary Datacenter",
+                    "dc_location": "Miramar, Florida",
+                    "dc_region": "US-East",
+                    "dc_status": "Operational"
+                },
+
+                "monitoring": {
+                    "monstatus": 1,
+                    "jitter": 0.57,
+                    "latency": 0.78,
+                    "packetloss": 0,
+                    "overallseverity": 3
+                },
+
+                "polling": {
+                    "metricpollstatus": true,
+                    "interfacepollstatus": true,
+                    "metricpolltime": "2026-01-29T06:11:48.183064Z",
+                    "interfacepolltime": "2026-01-29T06:11:48.183064Z"
+                },
+
+                "lifecycle": {
+                    "purchasedfrom": "Cisco Authorized Partner",
+                    "purchasedon": "2024-01-12T00:00:00Z",
+                    "warrantyends": "2027-01-12T00:00:00Z"
+                },
+
+                "lastReachTime": "2026-01-21T13:24:43.242420Z",
+                "archived": false
+            }];
+            for (var i = 0; i < responseResults.length; i++) {
+                var currentResultRecord = responseResults[i];
+                if (!currentResultRecord.serialnumber) {
+                    continue;
+                }
+                var importRecord = {};
+
+                //
+                // Logical Datacenter
+                //
+                importRecord.logical_datacenter_name = currentResultRecord.logical_datacenter.dc_name;
+                importRecord.logical_datacenter_location = currentResultRecord.logical_datacenter.dc_location;
+                importRecord.company = currentResultRecord.organizationId;
+
+                //
+                // Network
+                //
+                importRecord.network_name = currentResultRecord.network.network_name;
+                importRecord.network_id = currentResultRecord.network.network_id;
+
+                importRecord.device_name = currentResultRecord.deviceName;
+                importRecord.device_ip = currentResultRecord.deviceIP;
+                importRecord.serial_number = currentResultRecord.serialnumber;
+                importRecord.device_brand = currentResultRecord.deviceBrand;
+                importRecord.device_model = currentResultRecord.deviceModel;
+                importRecord.mac_address = currentResultRecord.macaddress;
+                importRecord.location = currentResultRecord.location;
+                importRecord.version = currentResultRecord.version;
+                importRecord.status = currentResultRecord.status;
+                importRecord.aiopsconfigmanagement_id = currentResultRecord.aiopsconfigmanagement_id;
+                importRecord.company = currentResultRecord.organizationId;
+                importRecord.country_name = currentResultRecord.countryname;
+                importRecord.last_modified = currentResultRecord.lastmodified;
+                importRecord.core_company = "f66b14e1c611227b0166c3a0df4046ff";
+                importRecord.model_id = "2a07b187c1f00300964f3cf0d6c8902e";
+
+                import_set_table.insert(importRecord);
+            }
+            i++;
+        }
 
     } catch (ex) {
         var message = ex.message;
@@ -71,8 +171,8 @@
         <format>CSV</format>
         <glide_keystore>false</glide_keystore>
         <header_row>0</header_row>
-        <import_set_table_label>Ceburu-Network</import_set_table_label>
-        <import_set_table_name>x_cesy_service_gr_ceburu_network</import_set_table_name>
+        <import_set_table_label>Ceburu-Switch</import_set_table_label>
+        <import_set_table_name>x_cesy_service_gr_ceburu_switch</import_set_table_name>
         <instance_name/>
         <jdbc_password/>
         <jdbc_server/>
@@ -80,13 +180,13 @@
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time>2026-02-27 20:52:37</last_success_import_time>
+        <last_success_import_time>2026-03-08 22:24:50</last_success_import_time>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit/>
         <maximum_rows/>
         <mid_server/>
-        <name>Demo Ceburu-SG Network</name>
+        <name>Ceburu-SG Switch</name>
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
@@ -118,14 +218,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 18:18:18</sys_created_on>
         <sys_id>26239835cf57365050fef7a13d851c95</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Demo Ceburu-SG Network</sys_name>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Ceburu-SG Switch</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_data_source_26239835cf57365050fef7a13d851c95</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-27 20:52:38</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-17 09:04:52</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>
