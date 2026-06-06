@@ -61,7 +61,7 @@ cesyCcfHelper.prototype = {
 
     createCommonConnAndMapTheDetails: function(aliasId, scopeId, dsSysID, propertiesArr) {
 
-        var sysAliasGr = new GlideRecord('sys_alias');
+        var sysAliasGr = new GlideRecordSecure('sys_alias');
 
         if (sysAliasGr.get(aliasId)) {
 
@@ -72,7 +72,7 @@ cesyCcfHelper.prototype = {
 
             this.createCommonConnectionDataSourceRecord(common_connection_id, dsSysID);
 
-            var scheduledImportGr = new GlideRecord('scheduled_import_set');
+            var scheduledImportGr = new GlideRecordSecure('scheduled_import_set');
             scheduledImportGr.addQuery('data_source', dsSysID);
             scheduledImportGr.query();
 
@@ -100,7 +100,7 @@ cesyCcfHelper.prototype = {
 
     createCommonConnectionRecord: function(name, conAliasSysId) {
 
-        var ccf_connection = new GlideRecord('sn_cmdb_int_util_service_graph_connection');
+        var ccf_connection = new GlideRecordSecure('sn_cmdb_int_util_service_graph_connection');
 
         ccf_connection.addQuery('connection_alias', conAliasSysId);
         ccf_connection.query();
@@ -117,7 +117,7 @@ cesyCcfHelper.prototype = {
 
     createCommonConnectionDataSourceRecord: function(connectionId, dsSysId) {
 
-        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_data_source');
+        var gr = new GlideRecordSecure('sn_cmdb_int_util_service_graph_connection_data_source');
 
         gr.addQuery('sn_cmdb_int_util_service_graph_connection', connectionId);
         gr.addQuery('sys_data_source', dsSysId);
@@ -133,7 +133,7 @@ cesyCcfHelper.prototype = {
 
     createCommonConnectionScheduledImportRecord: function(connectionId, siSysId) {
 
-        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_scheduled_data_import');
+        var gr = new GlideRecordSecure('sn_cmdb_int_util_service_graph_connection_scheduled_data_import');
 
         gr.addQuery('sn_cmdb_int_util_service_graph_connection', connectionId);
         gr.addQuery('scheduled_import_set', siSysId);
@@ -149,7 +149,7 @@ cesyCcfHelper.prototype = {
 
     createCommonConnectionPropertyRecord: function(connectionId, name, value) {
 
-        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_property');
+        var gr = new GlideRecordSecure('sn_cmdb_int_util_service_graph_connection_property');
 
         gr.initialize();
         gr.property = name;
@@ -162,7 +162,7 @@ cesyCcfHelper.prototype = {
 
         var map = {};
 
-        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection_property');
+        var gr = new GlideRecordSecure('sn_cmdb_int_util_service_graph_connection_property');
         gr.addQuery('sn_cmdb_int_util_service_graph_connection', ccf_connection_sysid);
         gr.query();
 
@@ -175,10 +175,11 @@ cesyCcfHelper.prototype = {
 
     getCCFConnectionFromAlias: function(aliasId) {
 
-        var gr = new GlideRecord('sn_cmdb_int_util_service_graph_connection');
-        gr.get('connection_alias', aliasId);
-
-        return gr.getUniqueValue();
+        var gr = new GlideRecordSecure('sn_cmdb_int_util_service_graph_connection');
+        if (gr.get('connection_alias', aliasId)) {
+            return gr.getUniqueValue();
+        }
+		return false;
     },
 
     testConnection: function(gr) {
@@ -249,13 +250,13 @@ cesyCcfHelper.prototype = {
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-03-27 21:03:14</sys_created_on>
         <sys_id>6c94f5cfcffb3290e9f3f8224d851c15</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>cesyCcfHelper</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_script_include_6c94f5cfcffb3290e9f3f8224d851c15</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-04-06 23:09:25</sys_updated_on>
+        <sys_updated_on>2026-04-27 11:16:06</sys_updated_on>
     </sys_script_include>
 </record_update>

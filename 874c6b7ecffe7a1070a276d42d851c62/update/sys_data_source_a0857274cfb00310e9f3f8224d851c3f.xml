@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size>100000</batch_size>
+        <category/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url/>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+    try {
+
+
+        inputs = {};
+        inputs['attachment_name'] = "test";
+
+        var flowAction = sn_fd.FlowAPI.getRunner()
+            .action('x_cesy_service_gr.copy_of_get_ceburu_devices')
+            .inForeground()
+            .withInputs(inputs)
+            .run();
+
+
+        // 3. Extract the outputs from the completed execution
+        var outputs = flowAction.getOutputs();
+        var attachmentSysId = outputs['response_body'];
+
+        if (attachmentSysId && attachmentSysId.length == 32) {
+            // gs.info('Ceburu Flow Success. Attachment found with ID: ' + attachmentSysId);
+
+            // 4. Initialize the attachment API to extract the raw text content stream
+            var attachmentAPI = new GlideSysAttachment();
+            var contentStream = attachmentAPI.getContentStream(attachmentSysId);
+
+            // Read the binary data stream lines into a standard string variable
+            var reader = new GlideTextReader(contentStream);
+            var rawJsonText = "";
+            var line = "";
+
+            while ((line = reader.readLine()) != null) {
+                rawJsonText += line;
+            }
+
+            if (!rawJsonText) {
+                gs.error('Ceburu Staging Error: Extracted attachment text file content is empty.');
+            }
+
+            // 5. Parse the raw text data into an actionable JSON object
+            var responseBody = JSON.parse(rawJsonText);
+        }
+        var results = responseBody.results;
+
+
+        for (var i = 0; i < results.length; i++) {
+
+            var item = results[i];
+
+            var spec = item.specifications && item.specifications.length > 0 ? item.specifications[0] : {};
+
+            // =========================
+            // DEVICE IMPORT RECORD
+            // =========================
+
+            var importRecord = {};
+            importRecord.type = "device";
+            importRecord.device_id = item.device.id;
+			importRecord.correlation_id = item.device.id + '';
+
+            importRecord.hostname = spec.hostname || '';
+            importRecord.ip_address = spec.ipaddress || '';
+            importRecord.model = spec.model || '';
+            importRecord.serial_number = spec.serialno || '';
+
+            importRecord.cpu = spec.cpu || 0;
+            importRecord.memory = spec.memory || 0;
+
+            importRecord.health = spec.health || false;
+
+            import_set_table.insert(importRecord);
+
+            // =========================
+            // INTERFACE IMPORT RECORD
+            // =========================
+
+            var interfaces = item.interfaces && item.interfaces.length > 0 ? item.interfaces : [];
+            for (var j = 0; j < interfaces.length; j++) {
+
+                var iface = interfaces[j];
+
+                importRecord = {};
+
+                importRecord.type = "interface";
+
+                // =========================
+                // RELATIONSHIP TO PARENT DEVICE
+                // =========================
+
+                importRecord.device_id = item.device.id;
+
+                // =========================
+                // RECONCILIATION FIELDS
+                // =========================
+
+                importRecord.interface_id = iface.id || '';
+                importRecord.if_index = iface.number || '';
+
+                // Recommended unique key
+                importRecord.correlation_id =
+                    item.device.id + "_" + (iface.number || iface.name);
+
+                // =========================
+                // CORE INTERFACE FIELDS
+                // =========================
+
+                importRecord.name = iface.name || '';
+
+                // Status
+                importRecord.oper_status =
+                    iface.Operstatus === true ? 1 : 2;
+
+                importRecord.admin_status =
+                    iface.Adminstatus === true ? 1 : 2;
+
+                // Interface characteristics
+                importRecord.interface_type = iface.type || '';
+                importRecord.speed = iface.speed || 0;
+                importRecord.mtu = iface.mtuPkts || 0;
+
+                // =========================
+                // OPTIONAL OPERATIONAL DATA
+                // =========================
+
+                importRecord.packet_loss = iface.packetloss || 0;
+
+                importRecord.last_change = iface.lastchangesince || '';
+
+                importRecord.last_updated =
+				iface.lastupdatedtime || '';
+
+                // Error counters
+                importRecord.in_errors = iface.inerr || 0;
+                importRecord.out_errors = iface.outerr || 0;
+
+                // Discards
+                importRecord.in_discards = iface.indiscard || 0;
+                importRecord.out_discards = iface.outdiscard || 0;
+
+                import_set_table.insert(importRecord);
+
+            }
+        }
+
+    } catch (ex) {
+
+        import_log.error('Load Data Error: ' + ex);
+
+    }
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>false</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format/>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>Ceburu Devices</import_set_table_label>
+        <import_set_table_name>x_cesy_service_gr_ceburu_devices</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node>/results/results</jpath_root_node>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time>2026-06-05 09:44:31</last_success_import_time>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit>50</limit>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Ceburu Devices</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]></parallel_loading_script>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_name>1</sheet_name>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-09 17:07:51</sys_created_on>
+        <sys_id>a0857274cfb00310e9f3f8224d851c3f</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>Ceburu Devices</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_data_source_a0857274cfb00310e9f3f8224d851c3f</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-06-05 09:44:33</sys_updated_on>
+        <table_name/>
+        <type>CUSTOM</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

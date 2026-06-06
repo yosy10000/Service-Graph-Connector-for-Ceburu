@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="interface_id" label="Interface ID" language="en" table="x_cesy_service_gr_ceburu_interfaces">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>interface_id</element>
+            <help/>
+            <hint/>
+            <label>Interface ID</label>
+            <language>en</language>
+            <name>x_cesy_service_gr_ceburu_interfaces</name>
+            <plural>Interface IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2026-05-09 22:51:34</sys_created_on>
+            <sys_id>a724cc85cff04310e9f3f8224d851c0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Interface ID</sys_name>
+            <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+            <sys_update_name>sys_documentation_x_cesy_service_gr_ceburu_interfaces_interface_id_en</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2026-05-09 22:51:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

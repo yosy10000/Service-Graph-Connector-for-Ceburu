@@ -3,23 +3,23 @@
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
         <checksum/>
         <content display_value="Configure Ceburu Webhook token">91673d701b7aa510c216ebd56e4bcbff</content>
-        <effective_weight>1</effective_weight>
+        <effective_weight>0</effective_weight>
         <more_info_visited>false</more_info_visited>
-        <previous_status>0</previous_status>
+        <previous_status>1</previous_status>
         <progress>0</progress>
-        <related_log_entry display_value="2026-03-23 00:48:26">b3b276a9cff3b650e9f3f8224d851c19</related_log_entry>
-        <status>1</status>
+        <related_log_entry display_value="2026-04-30 08:50:48">5c9dcccacfac03d0e9f3f8224d851c0d</related_log_entry>
+        <status>3</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-07 18:09:40</sys_created_on>
         <sys_id>3afa1aa3cf7a3e1070a276d42d851cd2</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_name>1</sys_name>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>3</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>gsw_status_of_content_3afa1aa3cf7a3e1070a276d42d851cd2</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-23 07:48:26</sys_updated_on>
+        <sys_updated_on>2026-04-30 15:50:48</sys_updated_on>
     </gsw_status_of_content>
 </record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_multiple_input_output_script_operation">
+    <sys_rte_eb_multiple_input_output_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Multiple Input/Output Script - u_netmap</name>
+        <operation_group/>
+        <order>100</order>
+        <script><![CDATA[(function(batch, output) {
+   for (var i = 0; i < batch.length; i++) {
+      var input = batch[i].input; // Value of the input columns concatenated with '|'. 
+      // Access input column values by their names, ex: batch[i].column_name
+      // In order to access columns containing multiple parts concatenated by a dot, use bracket notation ex. batch[i]['prefix_name.column_name']
+      // Add your code here.
+
+      var netmap = JSON.parse(batch[i].u_netmap);
+      var id = netmap.id;
+      var network_id = netmap.network_id;
+      var host = netmap.host;
+      var hostip = netmap.hostip;
+      var vendor = netmap.vendor;
+      var os = netmap.os;
+      var status = netmap.status;
+      var overallseverity = netmap.overallseverity;
+      output[i].u_id = id;
+      output[i].u_network_id = network_id;
+      output[i].u_host = host;
+      output[i].u_hostip = hostip;
+      output[i].u_vendor = vendor;
+      output[i].u_os = os;
+      output[i].u_status = status;
+      output[i].u_overallseverity = overallseverity;
+
+
+      // Set each output element below, accessing output column values by their names
+      //output[i].column_name = output_variable_name;
+   }
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>2a6bb6facfe80fd0e7b3bb4e5d851c6c</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_multiple_input_output_script_operation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-03 12:43:26</sys_created_on>
+        <sys_id>347fb276cf2c0fd0e7b3bb4e5d851c22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multiple Input/Output Script - u_netmap</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">1a6bb6facfe80fd0e7b3bb4e5d851c43</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_multiple_input_output_script_operation_347fb276cf2c0fd0e7b3bb4e5d851c22</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-03 12:43:26</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>607f7276cf2c0fd0e7b3bb4e5d851c7b,207fb276cf2c0fd0e7b3bb4e5d851c08,a87fb276cf2c0fd0e7b3bb4e5d851c0b,a47fb276cf2c0fd0e7b3bb4e5d851c0f,b07fb276cf2c0fd0e7b3bb4e5d851c13,bc7fb276cf2c0fd0e7b3bb4e5d851c16,b87fb276cf2c0fd0e7b3bb4e5d851c1a,b47fb276cf2c0fd0e7b3bb4e5d851c1e</target_sys_rte_eb_fields>
+        <type display_value="Multiple Input/Output Script">6557c22387613010e04358d8f6cb0bcd</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_multiple_input_output_script_operation>
+</record_update>

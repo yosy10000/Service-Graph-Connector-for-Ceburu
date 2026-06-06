@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size>1000</batch_size>
+        <category/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url/>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+    try {
+		var token = "";
+		var apiKey = new GlideRecord("api_key_credentials");
+		if(apiKey.get("name", "SG-Ceburu Spoke Credential")){
+			token = apiKey.api_key;
+		}
+        var r = new sn_ws.RESTMessageV2('x_cesy_service_gr.Ceburu Provider', 'Get Ceburu Network new');
+		r.setRequestHeader("Authorization", "Bearer " + token);
+
+        var responseMessage = r.execute();
+        var responseBody = JSON.parse(responseMessage.getBody());
+        var httpStatus = responseMessage.getStatusCode();
+
+        var networks = responseBody.result.networks;
+
+        for (var j = 0; j < networks.length; j++) {
+
+            var net = networks[j];
+
+            var importRecord = {};
+            importRecord.network_id = net.id;
+            importRecord.name = net.name;
+            importRecord.probe_name = net.probe_name;
+            importRecord.probe_ip = net.probe_ip;
+            importRecord.network_group_id = net.network_group_id;
+            importRecord.customer_id = net.customer_id;
+
+            import_set_table.insert(importRecord);
+        }
+		
+    } catch (ex) {
+        gs.error("Data Source (Ceburu Network) Error: " + ex.message);
+    }
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>JSON</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>Ceburu Networks</import_set_table_label>
+        <import_set_table_name>x_cesy_service_gr_ceburu_networks</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node>/results/results</jpath_root_node>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time>2026-06-05 09:44:26</last_success_import_time>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit>1000</limit>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Ceburu Networks </name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]></parallel_loading_script>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action display_value="Get Ceburu Networks">08d7d0e6cf6c0bd0e7b3bb4e5d851cfd</request_action>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_name>1</sheet_name>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>true</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-02 05:27:01</sys_created_on>
+        <sys_id>16f1506acf2c0bd0e7b3bb4e5d851c40</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Ceburu Networks </sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_data_source_16f1506acf2c0bd0e7b3bb4e5d851c40</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-06-05 09:44:29</sys_updated_on>
+        <table_name/>
+        <type>REST</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

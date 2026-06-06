@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <article><![CDATA[<ul style="list-style-position: inside;"><li>If you choose to import resources upon a successful completion of each Ceburu run, use this section to pass the Webhook <strong>token</strong>. Enter the same token that will be used in Webhook Notification configuration of your Ceburu workspaces. It will ensure that your ServiceNow instance securely accepts Webhook requests from HCP Ceburu or Ceburu Enterprise. <a title="Read more in the documentation" href="https://developer.hashicorp.com/ceburu/cloud-docs/api-docs/notification-configurations#notification-authenticity" target="_blank" rel="noopener noreferrer nofollow">Read more in the documentation</a>.</li></ul>]]></article>
         <best_practice_acceptable>false</best_practice_acceptable>
         <dependent_on_contents/>
@@ -33,14 +33,14 @@
         <sys_created_by>polina</sys_created_by>
         <sys_created_on>2023-05-11 21:41:42</sys_created_on>
         <sys_id>91673d701b7aa510c216ebd56e4bcbff</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Configure Ceburu Webhook token</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>gsw_content_information_91673d701b7aa510c216ebd56e4bcbff</sys_update_name>
-        <sys_updated_by>polina</sys_updated_by>
-        <sys_updated_on>2024-05-15 16:29:50</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-02 11:22:22</sys_updated_on>
         <table/>
         <title>Configure Ceburu Webhook token</title>
         <weight>1</weight>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>model_number</col_name_string>
+        <index_col_name element="model_number" name="cmdb_ci_ip_network">7e131d54cf43321070a276d42d851cf7</index_col_name>
+        <logical_table_name>cmdb_ci_ip_network</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-04-23 18:24:56</sys_created_on>
+        <sys_id>fdbd6873cf50cf50e7b3bb4e5d851c60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_ip_network</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_index_cmdb_ci_ip_network_model_number</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-04-23 18:24:56</sys_updated_on>
+        <table display_value="IP Network" name="cmdb_ci_ip_network">32131d54cf43321070a276d42d851cc2</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

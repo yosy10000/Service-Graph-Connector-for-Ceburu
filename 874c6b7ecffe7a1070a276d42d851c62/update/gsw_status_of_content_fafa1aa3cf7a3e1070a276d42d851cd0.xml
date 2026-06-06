@@ -6,20 +6,20 @@
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
-        <progress>0</progress>
-        <related_log_entry display_value="2026-03-23 00:48:27">94c276a9cff3b650e9f3f8224d851ca8</related_log_entry>
-        <status>1</status>
+        <progress>100</progress>
+        <related_log_entry display_value="2026-05-04 08:39:42">b861f417cf6c0fd0e9f3f8224d851ccf</related_log_entry>
+        <status>2</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-07 18:09:40</sys_created_on>
         <sys_id>fafa1aa3cf7a3e1070a276d42d851cd0</sys_id>
-        <sys_mod_count>74</sys_mod_count>
-        <sys_name>1</sys_name>
+        <sys_mod_count>109</sys_mod_count>
+        <sys_name>2</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>gsw_status_of_content_fafa1aa3cf7a3e1070a276d42d851cd0</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-23 07:48:27</sys_updated_on>
+        <sys_updated_on>2026-05-04 15:39:42</sys_updated_on>
     </gsw_status_of_content>
 </record_update>

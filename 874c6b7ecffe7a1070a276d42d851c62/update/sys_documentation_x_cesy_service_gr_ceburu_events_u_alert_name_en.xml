@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_alert_name" label="alert_name" language="en" table="x_cesy_service_gr_ceburu_events">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_alert_name</element>
+            <help/>
+            <hint/>
+            <label>alert_name</label>
+            <language>en</language>
+            <name>x_cesy_service_gr_ceburu_events</name>
+            <plural>alert_names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2026-04-24 21:09:44</sys_created_on>
+            <sys_id>a10d16c4cf6ccf50e9f3f8224d851cf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>alert_name</sys_name>
+            <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+            <sys_update_name>sys_documentation_x_cesy_service_gr_ceburu_events_u_alert_name_en</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2026-04-24 21:09:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

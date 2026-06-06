@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>19e2fa81cf348310e7b3bb4e5d851c1b</entity_mapping_group>
+        <ignore>true</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToSwitch 1</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">ddc2fa81cf348310e7b3bb4e5d851c4a</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-10 11:34:55</sys_created_on>
+        <sys_id>11e2fa81cf348310e7b3bb4e5d851c20</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tempToSwitch 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG Devices">7d923681cf348310e7b3bb4e5d851c9a</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_11e2fa81cf348310e7b3bb4e5d851c20</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-25 17:21:54</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Switch 1">9de2fa81cf348310e7b3bb4e5d851c1b</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

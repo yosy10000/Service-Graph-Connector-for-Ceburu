@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">3142199ccf03321070a276d42d851c16</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-14 16:12:07</sys_created_on>
+        <sys_id>e4093178cf50c710e9f3f8224d851c63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-14 16:12:07</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

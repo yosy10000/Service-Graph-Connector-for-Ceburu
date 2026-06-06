@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <hint/>
+        <name>Ceburu</name>
+        <order/>
+        <roles>x_cesy_service_gr.ceburu_server_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-21 17:41:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c90d207cfd48750e9f3f8224d851c6f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ceburu</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_ui_application_3c90d207cfd48750e9f3f8224d851c6f</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:12:22</sys_updated_on>
+    </sys_ui_application>
+</record_update>

@@ -7,7 +7,7 @@
         <basic_auth_user/>
         <description/>
         <name>PDI</name>
-        <oauth2_profile display_value="Instance B Profile">ba7d77adcfb3b250e7b3bb4e5d851c18</oauth2_profile>
+        <oauth2_profile/>
         <protocol_name/>
         <rest_endpoint>https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>

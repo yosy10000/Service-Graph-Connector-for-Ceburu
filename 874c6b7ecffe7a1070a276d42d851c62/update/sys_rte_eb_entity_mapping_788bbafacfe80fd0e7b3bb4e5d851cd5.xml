@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>748bb6facfe80fd0e7b3bb4e5d851cd5</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>TempToCeburu Network Region</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">1a6bb6facfe80fd0e7b3bb4e5d851c43</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-03 12:26:15</sys_created_on>
+        <sys_id>788bbafacfe80fd0e7b3bb4e5d851cd5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>TempToCeburu Network Region</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_788bbafacfe80fd0e7b3bb4e5d851cd5</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-24 19:58:11</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Ceburu Network Region">788bb6facfe80fd0e7b3bb4e5d851cd5</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

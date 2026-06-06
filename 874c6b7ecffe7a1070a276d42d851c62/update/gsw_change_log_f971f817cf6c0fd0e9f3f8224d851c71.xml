@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2026-05-04 15:40:03</change_date>
+        <changed_by display_value="">8e0ab5a6cfa33210e7b3bb4e5d851c64</changed_by>
+        <content display_value="Service Graph Connector for Ceburu">02f9d0afdbb5955013d8c45813961953</content>
+        <related_change_log_entry display_value="2026-05-04 08:40:03">f571f817cf6c0fd0e9f3f8224d851c6c</related_change_log_entry>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-04 15:40:03</sys_created_on>
+        <sys_id>f971f817cf6c0fd0e9f3f8224d851c71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2026-05-04 15:40:03</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>gsw_change_log_f971f817cf6c0fd0e9f3f8224d851c71</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-04 15:40:03</sys_updated_on>
+        <type>2</type>
+    </gsw_change_log>
+</record_update>
