@@ -64,14 +64,14 @@
         <jpath_root_node>/results/results</jpath_root_node>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time>2026-06-05 09:44:26</last_success_import_time>
+        <last_success_import_time>2026-07-13 08:43:48</last_success_import_time>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
-        <limit>1000</limit>
+        <limit>100</limit>
         <maximum_rows/>
         <mid_server/>
         <name>Ceburu Networks </name>
-        <offset>0</offset>
+        <offset>1</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
         <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
@@ -102,14 +102,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 05:27:01</sys_created_on>
         <sys_id>16f1506acf2c0bd0e7b3bb4e5d851c40</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Ceburu Networks </sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_data_source_16f1506acf2c0bd0e7b3bb4e5d851c40</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-06-05 09:44:29</sys_updated_on>
+        <sys_updated_on>2026-07-13 08:43:49</sys_updated_on>
         <table_name/>
         <type>REST</type>
         <use_batch_import>false</use_batch_import>

@@ -3,10 +3,12 @@
         <access>public</access>
         <access_token_lifespan>1800</access_token_lifespan>
         <active>true</active>
+        <allow_snc_user_exchange>false</allow_snc_user_exchange>
         <auth_aig_client>false</auth_aig_client>
         <auth_cimd_client>false</auth_cimd_client>
         <auth_code_lifespan>0</auth_code_lifespan>
         <auth_url>https://dev295885.service-now.com/oauth_authorize.do</auth_url>
+        <bff_cookie_exchange_allowed>false</bff_cookie_exchange_allowed>
         <bind_token_to_session>false</bind_token_to_session>
         <certificate_url/>
         <client_id>945b992c2706407aa415a02bee293a24</client_id>

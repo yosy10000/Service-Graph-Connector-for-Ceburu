@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Get Networks</function_name>
+        <http_method>GET</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Ceburu Provider [ Get Networks ]</qualified_name>
+        <rest_endpoint>https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo</rest_endpoint>
+        <rest_message display_value="Ceburu Provider">c4affb61cff3b250e7b3bb4e5d851c13</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-03-23 13:24:20</sys_created_on>
+        <sys_id>44affb61cff3b250e7b3bb4e5d851c1d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Networks</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rest_message_fn_44affb61cff3b250e7b3bb4e5d851c1d</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-13 23:10:13</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_rest_message_fn_44affb61cff3b250e7b3bb4e5d851c1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Get Networks</function_name><http_method>GET</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Ceburu Provider [ Get Networks ]</qualified_name><rest_endpoint>https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo</rest_endpoint><rest_message display_value="Ceburu Provider">c4affb61cff3b250e7b3bb4e5d851c13</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-03-23 13:24:20</sys_created_on><sys_id>44affb61cff3b250e7b3bb4e5d851c1d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Get Networks</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_rest_message_fn_44affb61cff3b250e7b3bb4e5d851c1d</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-13 23:10:13</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-507806076</payload_hash>
+        <record_name>Get Networks</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-13 23:10:13</sys_created_on>
+        <sys_id>1f1f46a0cf984710e9f3f8224d851cbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d891c19940000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-13 23:10:13</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>5b1f46a0eb9847101834a9a3227f84bb</update_guid>
+        <update_guid_history>5b1f46a0eb9847101834a9a3227f84bb:-507806076,a882dcdc48d0c31023d36c479063e5c2:774408220,06e088f1d9f3b250ba598ce874f83280:1170457275,06e088f1d9f3b250ba598ce874f83280:1170457275,84affb614cf3b250208a5f0aa995e02c:5913507</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-02 11:30:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>7d23a4819c634041ae99fca9c446ab41</sys_id>
+        <sys_metadata>44affb61cff3b250e7b3bb4e5d851c1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Networks</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent display_value="Ceburu Provider">c4affb61cff3b250e7b3bb4e5d851c13</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_44affb61cff3b250e7b3bb4e5d851c1d</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_44affb61cff3b250e7b3bb4e5d851c1d">1f1f46a0cf984710e9f3f8224d851cbc</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-02 11:30:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

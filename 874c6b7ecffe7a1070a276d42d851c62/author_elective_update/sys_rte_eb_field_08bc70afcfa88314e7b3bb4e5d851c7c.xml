@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="DELETE">
+        <field>source_native_key</field>
+        <name>source_native_key</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-05 11:07:34</sys_created_on>
+        <sys_id>08bc70afcfa88314e7b3bb4e5d851c7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>source_native_key</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu IP_Switch">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IP Network 1">c69c346fcfa88314e7b3bb4e5d851cf6</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_field_08bc70afcfa88314e7b3bb4e5d851c7c</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-05 11:07:34</sys_updated_on>
+    </sys_rte_eb_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_rte_eb_field_08bc70afcfa88314e7b3bb4e5d851c7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field"><sys_rte_eb_field action="INSERT_OR_UPDATE"><field>source_native_key</field><name>source_native_key</name><sys_class_name>sys_rte_eb_field</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-05-05 11:07:34</sys_created_on><sys_id>08bc70afcfa88314e7b3bb4e5d851c7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>source_native_key</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_rte_eb_definition display_value="Ceburu IP_Switch">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition><sys_rte_eb_entity display_value="IP Network 1">c69c346fcfa88314e7b3bb4e5d851cf6</sys_rte_eb_entity><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_rte_eb_field_08bc70afcfa88314e7b3bb4e5d851c7c</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-05-05 11:07:34</sys_updated_on></sys_rte_eb_field></record_update>]]></payload>
+        <payload_hash>668731943</payload_hash>
+        <record_name>source_native_key</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-05 11:07:34</sys_created_on>
+        <sys_id>00bc70afcfa88314e7b3bb4e5d851c80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df7d268460000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-05 11:07:34</sys_updated_on>
+        <type>RTE Entity Field</type>
+        <update_guid>8cbc70af51a8831490d9e4dfffa6e27e</update_guid>
+        <update_guid_history>8cbc70af51a8831490d9e4dfffa6e27e:668731943</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:26:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field">sys_rte_eb_field</sys_db_object>
+        <sys_id>50f493e62ca54145a6c8f05ba44ba6a1</sys_id>
+        <sys_metadata>08bc70afcfa88314e7b3bb4e5d851c7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>source_native_key</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_08bc70afcfa88314e7b3bb4e5d851c7c</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_08bc70afcfa88314e7b3bb4e5d851c7c">00bc70afcfa88314e7b3bb4e5d851c80</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:26:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

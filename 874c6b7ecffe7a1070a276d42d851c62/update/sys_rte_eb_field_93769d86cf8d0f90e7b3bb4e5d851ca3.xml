@@ -11,7 +11,7 @@
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="Ceburu-SG Devices">7d923681cf348310e7b3bb4e5d851c9a</sys_rte_eb_definition>
-        <sys_rte_eb_entity display_value="Network Adapter 1">4822d90ecf4d0f90e7b3bb4e5d851c63</sys_rte_eb_entity>
+        <sys_rte_eb_entity display_value="IP Firewall 1">4822d90ecf4d0f90e7b3bb4e5d851c63</sys_rte_eb_entity>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_rte_eb_field_93769d86cf8d0f90e7b3bb4e5d851ca3</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>

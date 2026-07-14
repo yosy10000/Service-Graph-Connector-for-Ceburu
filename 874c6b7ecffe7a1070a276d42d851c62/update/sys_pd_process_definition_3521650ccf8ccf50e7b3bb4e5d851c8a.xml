@@ -2473,6 +2473,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <active>true</active>
         <data>{"trigger_on_unique_change":"org.mozilla.javascript.UniqueTag@1ca5b600: NOT_FOUND","parent_record":{"elementMapping":null,"variableValue":"INC0000001","elementMappingOrVariableValue":"INC0000001"},"run_trigger":"org.mozilla.javascript.UniqueTag@1ca5b600: NOT_FOUND"}</data>
         <identifier>4a21650ccf8ccf50e7b3bb4e5d851cd9</identifier>
+        <identifier_type/>
         <runner>PDTriggerRunner</runner>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-03 20:15:08</sys_created_on>

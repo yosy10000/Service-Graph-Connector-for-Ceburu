@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Ceburu Server</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Ceburu Server</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">b742999ccf03321070a276d42d851cb5</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-21 17:41:25</sys_created_on>
+        <sys_id>b0901607cfd48750e9f3f8224d851c01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu Server</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_wizard_answer_b0901607cfd48750e9f3f8224d851c01</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-21 17:41:25</sys_updated_on>
+        <table/>
+        <target_url>x_cesy_service_gr_ceburu_server.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_wizard_answer_b0901607cfd48750e9f3f8224d851c01</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Ceburu Server</answer><button_label/><dependent_value/><element/><name>Ceburu Server</name><next_question/><order>100</order><payload_name/><question display_value="Base Configuration Item" name="Base Configuration Item">b742999ccf03321070a276d42d851cb5</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-21 17:41:25</sys_created_on><sys_id>b0901607cfd48750e9f3f8224d851c01</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ceburu Server</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_wizard_answer_b0901607cfd48750e9f3f8224d851c01</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-21 17:41:25</sys_updated_on><table/><target_url>x_cesy_service_gr_ceburu_server.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1497201719</payload_hash>
+        <record_name>Ceburu Server</record_name>
+        <reverted_from/>
+        <source>c4bb9a21cf000310e7b3bb4e5d851cf3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-04-04 16:23:23</sys_created_on>
+        <sys_id>a63ab778cf68c790e9f3f8224d851cf8</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19d594e64780000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>663ab7781368c790ffdf41e6f34213f8</update_guid>
+        <update_guid_history>663ab7781368c790ffdf41e6f34213f8:1497201719</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-27 11:52:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2a5ce8ec25724ce0a8741c717e8e6400</sys_id>
+        <sys_metadata>b0901607cfd48750e9f3f8224d851c01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu Server</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent display_value="Base Configuration Item">b742999ccf03321070a276d42d851cb5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_b0901607cfd48750e9f3f8224d851c01</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_b0901607cfd48750e9f3f8224d851c01">a63ab778cf68c790e9f3f8224d851cf8</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:52:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="96534805cff04310e9f3f8224d851ccc" label="Ceburu Interfaces" max_length="40" name="x_cesy_service_gr_ceburu_interfaces" type="collection">
+        <element label="Interface ID" max_length="40" name="interface_id" type="string"/>
+        <element label="Device ID" max_length="40" name="device_id" type="string"/>
+        <element label="Oper Status" max_length="40" name="oper_status" type="boolean"/>
+        <element label="Speed" max_length="40" name="speed" type="integer"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Traffic" max_length="40" name="taffic" type="integer"/>
+        <element label="Admin Status" max_length="40" name="admin_status" type="boolean"/>
+    </element>
+</database>

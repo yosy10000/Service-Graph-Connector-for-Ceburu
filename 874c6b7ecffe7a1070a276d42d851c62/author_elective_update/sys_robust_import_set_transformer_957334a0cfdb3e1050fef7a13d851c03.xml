@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>100</batch_size>
+        <description/>
+        <name>Ceburu-SG Network</name>
+        <properties/>
+        <robust_transform_engine display_value="Ceburu-SG Network">517370a0cfdb3e1050fef7a13d851ce6</robust_transform_engine>
+        <source_table>x_cesy_service_gr_ceburu_network</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-22 23:26:59</sys_created_on>
+        <sys_id>957334a0cfdb3e1050fef7a13d851c03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu-SG Network</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_957334a0cfdb3e1050fef7a13d851c03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-22 23:26:59</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_robust_import_set_transformer_957334a0cfdb3e1050fef7a13d851c03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>100</batch_size><description/><name>Ceburu-SG Network</name><properties/><robust_transform_engine display_value="Ceburu-SG Network">517370a0cfdb3e1050fef7a13d851ce6</robust_transform_engine><source_table>x_cesy_service_gr_ceburu_network</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 23:26:59</sys_created_on><sys_id>957334a0cfdb3e1050fef7a13d851c03</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ceburu-SG Network</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_robust_import_set_transformer_957334a0cfdb3e1050fef7a13d851c03</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 23:26:59</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>1757593289</payload_hash>
+        <record_name>Ceburu-SG Network</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-22 23:26:59</sys_created_on>
+        <sys_id>d17334a0cfdb3e1050fef7a13d851c08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c87ad7b5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-22 23:26:59</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>917334a068db3e10a5edbb776735ec07</update_guid>
+        <update_guid_history>917334a068db3e10a5edbb776735ec07:1757593289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 19:10:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>9fbd4edd39a749ebb7fec32d176cb761</sys_id>
+        <sys_metadata>957334a0cfdb3e1050fef7a13d851c03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu-SG Network</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_957334a0cfdb3e1050fef7a13d851c03</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_957334a0cfdb3e1050fef7a13d851c03">d17334a0cfdb3e1050fef7a13d851c08</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 19:10:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

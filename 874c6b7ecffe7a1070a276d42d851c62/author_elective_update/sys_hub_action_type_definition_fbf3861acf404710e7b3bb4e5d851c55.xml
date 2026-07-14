@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>test_connection</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"sys_alias","reference_display":"Connection &amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connectionalias}}","label":"action➛connectionAlias","type":"action","ref":"sys_alias","reference_display":"Connection &amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connection_alias}}","label":"action➛Connection Alias","type":"action","ref":"sys_alias","reference_display":"Connection &amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>6de4029acf404710e7b3bb4e5d851c4e</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Test Connection</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:35:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbf3861acf404710e7b3bb4e5d851c55</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Test Connection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_fbf3861acf404710e7b3bb4e5d851c55</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=fbf3861acf404710e7b3bb4e5d851c55"/>
+    <sys_variable_value action="DELETE" query="document_key=fbf3861acf404710e7b3bb4e5d851c55"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fbf3861acf404710e7b3bb4e5d851c55</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>20e4ce5acf404710e7b3bb4e5d851c6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <value>{"serializationFormat":"JSON","version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}</value>
+        <variable display_value="Action Status">e8e4ce5acf404710e7b3bb4e5d851c52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fbf3861acf404710e7b3bb4e5d851c55</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>e8e4ce5acf404710e7b3bb4e5d851c6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">24e4ce5acf404710e7b3bb4e5d851c5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55^id=fbf3861acf404710e7b3bb4e5d851c55"/>
+    <sys_hub_step_instance action="DELETE" query="action=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT INa0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</action>
+        <cid>5d2bbfd7-5cb2-4e25-8a10-8f1310c70792</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:11</sys_created_on>
+        <sys_id>a0e4ce5acf404710e7b3bb4e5d851c21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=a0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e4ce5acf404710e7b3bb4e5d851c21</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>60e4ce5acf404710e7b3bb4e5d851c4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a0e4ce5acf404710e7b3bb4e5d851c21</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>a0e4ce5acf404710e7b3bb4e5d851c4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    var helper = new x_cesy_service_gr.cesyCcfHelper();&#13;
+&#13;
+    // 1. Get CCF connection&#13;
+    var connectionId = helper.getCCFConnectionFromAlias(inputs.connectionAlias);&#13;
+&#13;
+    // 2. Get properties&#13;
+    var props = helper.getCCFPropertiesAsMap(connectionId);&#13;
+&#13;
+    var endpoint = props["x_cesy_service_gr.endpoint"];&#13;
+    var token = props["x_cesy_service_gr.api.token"];&#13;
+&#13;
+    // 3. Build REST call&#13;
+    var rm = new sn_ws.RESTMessageV2();&#13;
+&#13;
+    rm.setEndpoint(endpoint);&#13;
+    rm.setHttpMethod("get");&#13;
+&#13;
+    rm.setRequestHeader("Authorization", "Bearer " + token);&#13;
+&#13;
+    var response = rm.execute();&#13;
+&#13;
+    outputs.statusCode = response.getStatusCode();&#13;
+    outputs.body = response.getBody();&#13;
+&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=a0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_element_mapping action="DELETE">
+        <field>application</field>
+        <id>a0e4ce5acf404710e7b3bb4e5d851c21</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>ece4ce5acf404710e7b3bb4e5d851c49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>connectionAlias</field>
+        <id>a0e4ce5acf404710e7b3bb4e5d851c21</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>e4e4ce5acf404710e7b3bb4e5d851c4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a0e4ce5acf404710e7b3bb4e5d851c21</table>
+        <value>{{action.connection_alias}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>script</field>
+        <id>a0e4ce5acf404710e7b3bb4e5d851c21</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>ace4ce5acf404710e7b3bb4e5d851c4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21^id=a0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_translated_text action="DELETE" query="documentkey=a0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=a0e4ce5acf404710e7b3bb4e5d851c21^sys_idNOT INece4ce5acf404710e7b3bb4e5d851c2b"/>
+    <sys_hub_step_ext_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connectionAlias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">a0e4ce5acf404710e7b3bb4e5d851c21</model>
+        <model_id>a0e4ce5acf404710e7b3bb4e5d851c21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a0e4ce5acf404710e7b3bb4e5d851c21</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>ece4ce5acf404710e7b3bb4e5d851c2b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="DELETE" query="model=a0e4ce5acf404710e7b3bb4e5d851c21^sys_idNOT IN2567c69ecf404710e7b3bb4e5d851cd8,2d67c69ecf404710e7b3bb4e5d851cdf"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=614f98d6-02fc-4afa-81ae-4d278ad03581</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>statuscode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>statusCode</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">a0e4ce5acf404710e7b3bb4e5d851c21</model>
+        <model_id>a0e4ce5acf404710e7b3bb4e5d851c21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:11</sys_created_on>
+        <sys_id>2567c69ecf404710e7b3bb4e5d851cd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=aeec4937-50a1-444f-8a6f-e3177a85bfb1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a0e4ce5acf404710e7b3bb4e5d851c21</model>
+        <model_id>a0e4ce5acf404710e7b3bb4e5d851c21</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:11</sys_created_on>
+        <sys_id>2d67c69ecf404710e7b3bb4e5d851cdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="DELETE" query="instance=a0e4ce5acf404710e7b3bb4e5d851c21"/>
+    <sys_documentation action="DELETE">
+        <element>statuscode</element>
+        <help/>
+        <hint/>
+        <label>statusCode</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:11</sys_created_on>
+        <sys_id>a567c69ecf404710e7b3bb4e5d851cde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:12</sys_created_on>
+        <sys_id>e967c69ecf404710e7b3bb4e5d851ce3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="DELETE" query="model=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT IN9ce48e5acf404710e7b3bb4e5d851cd1"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b24c7e6c-5193-4039-98b6-be8dadcdb132</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_alias</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Connection Alias</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</model>
+        <model_id>fbf3861acf404710e7b3bb4e5d851c55</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:11</sys_created_on>
+        <sys_id>9ce48e5acf404710e7b3bb4e5d851cd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=9ce48e5acf404710e7b3bb4e5d851cd1"/>
+    <sys_hub_action_output action="DELETE" query="model=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT IN24e4ce5acf404710e7b3bb4e5d851c5b,e8e4ce5acf404710e7b3bb4e5d851c52"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5fcad213-aade-4ff4-b182-fbcebf9303b8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</model>
+        <model_id>fbf3861acf404710e7b3bb4e5d851c55</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>24e4ce5acf404710e7b3bb4e5d851c5b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=24e4ce5acf404710e7b3bb4e5d851c5b"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=24e4ce5acf404710e7b3bb4e5d851c5b"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=fe30b941-b656-4467-a1d0-8a731afea8e2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</model>
+        <model_id>fbf3861acf404710e7b3bb4e5d851c55</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>e8e4ce5acf404710e7b3bb4e5d851c52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=e8e4ce5acf404710e7b3bb4e5d851c52"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=e8e4ce5acf404710e7b3bb4e5d851c52"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=fbf3861acf404710e7b3bb4e5d851c55"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT IN24e4ce5acf404710e7b3bb4e5d851c6f"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</action_type_id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>24e4ce5acf404710e7b3bb4e5d851c6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=24e4ce5acf404710e7b3bb4e5d851c6f"/>
+    <sys_documentation action="DELETE">
+        <element>connection_alias</element>
+        <help/>
+        <hint/>
+        <label>Connection Alias</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:11</sys_created_on>
+        <sys_id>d8e48e5acf404710e7b3bb4e5d851ce0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_fbf3861acf404710e7b3bb4e5d851c55"/>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>20e4ce5acf404710e7b3bb4e5d851c65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:12</sys_created_on>
+        <sys_id>ace4ce5acf404710e7b3bb4e5d851c59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT INcae4029acf404710e7b3bb4e5d851cf9"/>
+    <sys_hub_action_plan action="DELETE">
+        <action_id display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"cae4029acf404710e7b3bb4e5d851cf9","name":"plan","plan_signature":null}}</plan>
+        <snapshot>71e4029acf404710e7b3bb4e5d851cc0</snapshot>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cae4029acf404710e7b3bb4e5d851cf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:18</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>test_connection</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"sys_alias","reference_display":"Connection &amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connectionalias}}","label":"action➛connectionAlias","type":"action","ref":"sys_alias","reference_display":"Connection &amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connection_alias}}","label":"action➛Connection Alias","type":"action","ref":"sys_alias","reference_display":"Connection &amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Test Connection</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Test Connection">fbf3861acf404710e7b3bb4e5d851c55</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6de4029acf404710e7b3bb4e5d851c4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=6de4029acf404710e7b3bb4e5d851c4e"/>
+    <sys_variable_value action="DELETE" query="document_key=6de4029acf404710e7b3bb4e5d851c4e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6de4029acf404710e7b3bb4e5d851c4e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>39e4029acf404710e7b3bb4e5d851cbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <value>{"serializationFormat":"JSON","version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}</value>
+        <variable display_value="Action Status">b5e4029acf404710e7b3bb4e5d851ca6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6de4029acf404710e7b3bb4e5d851c4e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>f1e4029acf404710e7b3bb4e5d851cbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">3de4029acf404710e7b3bb4e5d851cad</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e^id=6de4029acf404710e7b3bb4e5d851c4e"/>
+    <sys_hub_step_instance action="DELETE" query="action=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT INf5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Test Connection">6de4029acf404710e7b3bb4e5d851c4e</action>
+        <cid>5d2bbfd7-5cb2-4e25-8a10-8f1310c70792</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>f5e4029acf404710e7b3bb4e5d851c7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=f5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5e4029acf404710e7b3bb4e5d851c7c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>71e4029acf404710e7b3bb4e5d851ca0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5e4029acf404710e7b3bb4e5d851c7c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>b5e4029acf404710e7b3bb4e5d851ca0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    var helper = new x_cesy_service_gr.cesyCcfHelper();&#13;
+&#13;
+    // 1. Get CCF connection&#13;
+    var connectionId = helper.getCCFConnectionFromAlias(inputs.connectionAlias);&#13;
+&#13;
+    // 2. Get properties&#13;
+    var props = helper.getCCFPropertiesAsMap(connectionId);&#13;
+&#13;
+    var endpoint = props["x_cesy_service_gr.endpoint"];&#13;
+    var token = props["x_cesy_service_gr.api.token"];&#13;
+&#13;
+    // 3. Build REST call&#13;
+    var rm = new sn_ws.RESTMessageV2();&#13;
+&#13;
+    rm.setEndpoint(endpoint);&#13;
+    rm.setHttpMethod("get");&#13;
+&#13;
+    rm.setRequestHeader("Authorization", "Bearer " + token);&#13;
+&#13;
+    var response = rm.execute();&#13;
+&#13;
+    outputs.statusCode = response.getStatusCode();&#13;
+    outputs.body = response.getBody();&#13;
+&#13;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=f5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_element_mapping action="DELETE">
+        <field>application</field>
+        <id>f5e4029acf404710e7b3bb4e5d851c7c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>79e4029acf404710e7b3bb4e5d851c9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>connectionAlias</field>
+        <id>f5e4029acf404710e7b3bb4e5d851c7c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>f5e4029acf404710e7b3bb4e5d851ca1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f5e4029acf404710e7b3bb4e5d851c7c</table>
+        <value>{{action.connection_alias}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>script</field>
+        <id>f5e4029acf404710e7b3bb4e5d851c7c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>bde4029acf404710e7b3bb4e5d851c9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c^id=f5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_translated_text action="DELETE" query="documentkey=f5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=f5e4029acf404710e7b3bb4e5d851c7c^sys_idNOT IN7de4029acf404710e7b3bb4e5d851c8f"/>
+    <sys_hub_step_ext_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connectionAlias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>connectionAlias</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">f5e4029acf404710e7b3bb4e5d851c7c</model>
+        <model_id>f5e4029acf404710e7b3bb4e5d851c7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f5e4029acf404710e7b3bb4e5d851c7c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>7de4029acf404710e7b3bb4e5d851c8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="DELETE" query="model=f5e4029acf404710e7b3bb4e5d851c7c^sys_idNOT IN3d670a9ecf404710e7b3bb4e5d851c7b,79670a9ecf404710e7b3bb4e5d851c75"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=aeec4937-50a1-444f-8a6f-e3177a85bfb1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f5e4029acf404710e7b3bb4e5d851c7c</model>
+        <model_id>f5e4029acf404710e7b3bb4e5d851c7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:13</sys_created_on>
+        <sys_id>3d670a9ecf404710e7b3bb4e5d851c7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=614f98d6-02fc-4afa-81ae-4d278ad03581</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>statuscode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>statusCode</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">f5e4029acf404710e7b3bb4e5d851c7c</model>
+        <model_id>f5e4029acf404710e7b3bb4e5d851c7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:13</sys_created_on>
+        <sys_id>79670a9ecf404710e7b3bb4e5d851c75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="DELETE" query="instance=f5e4029acf404710e7b3bb4e5d851c7c"/>
+    <sys_documentation action="DELETE">
+        <element>statuscode</element>
+        <help/>
+        <hint/>
+        <label>statusCode</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:13</sys_created_on>
+        <sys_id>b5670a9ecf404710e7b3bb4e5d851c7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:13</sys_created_on>
+        <sys_id>ca670a9ecf404710e7b3bb4e5d851c7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="DELETE" query="model=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT INade4029acf404710e7b3bb4e5d851c54"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b24c7e6c-5193-4039-98b6-be8dadcdb132</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_alias</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>connection_alias</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Connection Alias</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Test Connection">6de4029acf404710e7b3bb4e5d851c4e</model>
+        <model_id>6de4029acf404710e7b3bb4e5d851c4e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_6de4029acf404710e7b3bb4e5d851c4e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:16</sys_created_on>
+        <sys_id>ade4029acf404710e7b3bb4e5d851c54</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=ade4029acf404710e7b3bb4e5d851c54"/>
+    <sys_hub_action_output action="DELETE" query="model=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT IN3de4029acf404710e7b3bb4e5d851cad,b5e4029acf404710e7b3bb4e5d851ca6"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5fcad213-aade-4ff4-b182-fbcebf9303b8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Test Connection">6de4029acf404710e7b3bb4e5d851c4e</model>
+        <model_id>6de4029acf404710e7b3bb4e5d851c4e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>3de4029acf404710e7b3bb4e5d851cad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=3de4029acf404710e7b3bb4e5d851cad"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3de4029acf404710e7b3bb4e5d851cad"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=fe30b941-b656-4467-a1d0-8a731afea8e2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Test Connection">6de4029acf404710e7b3bb4e5d851c4e</model>
+        <model_id>6de4029acf404710e7b3bb4e5d851c4e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>b5e4029acf404710e7b3bb4e5d851ca6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=b5e4029acf404710e7b3bb4e5d851ca6"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=b5e4029acf404710e7b3bb4e5d851ca6"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=6de4029acf404710e7b3bb4e5d851c4e"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT IN3de4029acf404710e7b3bb4e5d851cbf"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Test Connection">6de4029acf404710e7b3bb4e5d851c4e</action_type_id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>3de4029acf404710e7b3bb4e5d851cbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=3de4029acf404710e7b3bb4e5d851cbf"/>
+    <sys_documentation action="DELETE">
+        <element>connection_alias</element>
+        <help/>
+        <hint/>
+        <label>Connection Alias</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_6de4029acf404710e7b3bb4e5d851c4e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:16</sys_created_on>
+        <sys_id>35e4029acf404710e7b3bb4e5d851c75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_6de4029acf404710e7b3bb4e5d851c4e"/>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>b5e4029acf404710e7b3bb4e5d851cac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:39:17</sys_created_on>
+        <sys_id>b9e4029acf404710e7b3bb4e5d851cb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:39:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e"/>
+    <sys_hub_action_type_definition action="DELETE">
+        <sys_id>fbf3861acf404710e7b3bb4e5d851c55</sys_id>
+        <latest_snapshot>6de4029acf404710e7b3bb4e5d851c4e</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch7-02-19-2026_03-04-2026_1012.zip</compiler_build>
+    </sys_hub_action_type_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_hub_action_type_definition_fbf3861acf404710e7b3bb4e5d851c55</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;{labelCacheCleanUpExecuted=true}&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority/&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;test_connection&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"sys_alias","reference_display":"Connection &amp;amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connectionalias}}","label":"action➛connectionAlias","type":"action","ref":"sys_alias","reference_display":"Connection &amp;amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connection_alias}}","label":"action➛Connection Alias","type":"action","ref":"sys_alias","reference_display":"Connection &amp;amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Test Connection&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;state&gt;published&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:35:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test Connection&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_fbf3861acf404710e7b3bb4e5d851c55&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:13&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=fbf3861acf404710e7b3bb4e5d851c55"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fbf3861acf404710e7b3bb4e5d851c55"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;20e4ce5acf404710e7b3bb4e5d851c6d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;value&gt;{"serializationFormat":"JSON","version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;e8e4ce5acf404710e7b3bb4e5d851c52&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;e8e4ce5acf404710e7b3bb4e5d851c6c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;24e4ce5acf404710e7b3bb4e5d851c5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55^id=fbf3861acf404710e7b3bb4e5d851c55"/&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT INa0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/action&gt;&lt;cid&gt;5d2bbfd7-5cb2-4e25-8a10-8f1310c70792&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;60e4ce5acf404710e7b3bb4e5d851c4b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value="MID Application"&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;a0e4ce5acf404710e7b3bb4e5d851c4c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {&amp;#13;
+&amp;#13;
+    var helper = new x_cesy_service_gr.cesyCcfHelper();&amp;#13;
+&amp;#13;
+    // 1. Get CCF connection&amp;#13;
+    var connectionId = helper.getCCFConnectionFromAlias(inputs.connectionAlias);&amp;#13;
+&amp;#13;
+    // 2. Get properties&amp;#13;
+    var props = helper.getCCFPropertiesAsMap(connectionId);&amp;#13;
+&amp;#13;
+    var endpoint = props["x_cesy_service_gr.endpoint"];&amp;#13;
+    var token = props["x_cesy_service_gr.api.token"];&amp;#13;
+&amp;#13;
+    // 3. Build REST call&amp;#13;
+    var rm = new sn_ws.RESTMessageV2();&amp;#13;
+&amp;#13;
+    rm.setEndpoint(endpoint);&amp;#13;
+    rm.setHttpMethod("get");&amp;#13;
+&amp;#13;
+    rm.setRequestHeader("Authorization", "Bearer " + token);&amp;#13;
+&amp;#13;
+    var response = rm.execute();&amp;#13;
+&amp;#13;
+    outputs.statusCode = response.getStatusCode();&amp;#13;
+    outputs.body = response.getBody();&amp;#13;
+&amp;#13;
+})(inputs, outputs);&lt;/value&gt;&lt;variable display_value="Script"&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=a0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;ece4ce5acf404710e7b3bb4e5d851c49&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connectionAlias&lt;/field&gt;&lt;id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;e4e4ce5acf404710e7b3bb4e5d851c4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_a0e4ce5acf404710e7b3bb4e5d851c21&lt;/table&gt;&lt;value&gt;{{action.connection_alias}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;ace4ce5acf404710e7b3bb4e5d851c4a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21^id=a0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=a0e4ce5acf404710e7b3bb4e5d851c21^sys_idNOT INece4ce5acf404710e7b3bb4e5d851c2b"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connectionAlias&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Script step"&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/model&gt;&lt;model_id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_a0e4ce5acf404710e7b3bb4e5d851c21&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_alias"&gt;sys_alias&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;ece4ce5acf404710e7b3bb4e5d851c2b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=a0e4ce5acf404710e7b3bb4e5d851c21^sys_idNOT IN2567c69ecf404710e7b3bb4e5d851cd8,2d67c69ecf404710e7b3bb4e5d851cdf"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=614f98d6-02fc-4afa-81ae-4d278ad03581&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;statuscode&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;label&gt;statusCode&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Script step"&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/model&gt;&lt;model_id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:11&lt;/sys_created_on&gt;&lt;sys_id&gt;2567c69ecf404710e7b3bb4e5d851cd8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=aeec4937-50a1-444f-8a6f-e3177a85bfb1&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;body&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;body&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/model&gt;&lt;model_id&gt;a0e4ce5acf404710e7b3bb4e5d851c21&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:11&lt;/sys_created_on&gt;&lt;sys_id&gt;2d67c69ecf404710e7b3bb4e5d851cdf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=a0e4ce5acf404710e7b3bb4e5d851c21"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;statuscode&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;statusCode&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:11&lt;/sys_created_on&gt;&lt;sys_id&gt;a567c69ecf404710e7b3bb4e5d851cde&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:11&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;body&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;body&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a0e4ce5acf404710e7b3bb4e5d851c21&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:12&lt;/sys_created_on&gt;&lt;sys_id&gt;e967c69ecf404710e7b3bb4e5d851ce3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT IN9ce48e5acf404710e7b3bb4e5d851cd1"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b24c7e6c-5193-4039-98b6-be8dadcdb132&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sys_alias&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection_alias&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Connection Alias&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/model&gt;&lt;model_id&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_fbf3861acf404710e7b3bb4e5d851c55&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_alias"&gt;sys_alias&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;9ce48e5acf404710e7b3bb4e5d851cd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9ce48e5acf404710e7b3bb4e5d851cd1"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT IN24e4ce5acf404710e7b3bb4e5d851c5b,e8e4ce5acf404710e7b3bb4e5d851c52"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5fcad213-aade-4ff4-b182-fbcebf9303b8,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/model&gt;&lt;model_id&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;24e4ce5acf404710e7b3bb4e5d851c5b&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=24e4ce5acf404710e7b3bb4e5d851c5b"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=24e4ce5acf404710e7b3bb4e5d851c5b"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=fe30b941-b656-4467-a1d0-8a731afea8e2&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/model&gt;&lt;model_id&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;e8e4ce5acf404710e7b3bb4e5d851c52&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e8e4ce5acf404710e7b3bb4e5d851c52"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=e8e4ce5acf404710e7b3bb4e5d851c52"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=fbf3861acf404710e7b3bb4e5d851c55"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT IN24e4ce5acf404710e7b3bb4e5d851c6f"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;24e4ce5acf404710e7b3bb4e5d851c6f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=24e4ce5acf404710e7b3bb4e5d851c6f"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;connection_alias&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Connection Alias&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_fbf3861acf404710e7b3bb4e5d851c55&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:11&lt;/sys_created_on&gt;&lt;sys_id&gt;d8e48e5acf404710e7b3bb4e5d851ce0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:11&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_fbf3861acf404710e7b3bb4e5d851c55"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;20e4ce5acf404710e7b3bb4e5d851c65&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:12&lt;/sys_created_on&gt;&lt;sys_id&gt;ace4ce5acf404710e7b3bb4e5d851c59&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_fbf3861acf404710e7b3bb4e5d851c55"/&gt;&lt;sys_hub_action_plan action="delete_multiple" query="action_id=fbf3861acf404710e7b3bb4e5d851c55^sys_idNOT INcae4029acf404710e7b3bb4e5d851cf9"/&gt;&lt;sys_hub_action_plan action="INSERT_OR_UPDATE"&gt;&lt;action_id display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/action_id&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"cae4029acf404710e7b3bb4e5d851cf9","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;snapshot&gt;71e4029acf404710e7b3bb4e5d851cc0&lt;/snapshot&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cae4029acf404710e7b3bb4e5d851cf9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:18&lt;/sys_updated_on&gt;&lt;/sys_hub_action_plan&gt;&lt;sys_hub_action_type_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;annotation/&gt;&lt;attributes&gt;{labelCacheCleanUpExecuted=true}&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority/&gt;&lt;internal_name&gt;test_connection&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"sys_alias","reference_display":"Connection &amp;amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connectionalias}}","label":"action➛connectionAlias","type":"action","ref":"sys_alias","reference_display":"Connection &amp;amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.connection_alias}}","label":"action➛Connection Alias","type":"action","ref":"sys_alias","reference_display":"Connection &amp;amp; Credential Aliases","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Test Connection&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_action display_value="Test Connection"&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/parent_action&gt;&lt;sys_class_name&gt;sys_hub_action_type_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:16&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6de4029acf404710e7b3bb4e5d851c4e"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6de4029acf404710e7b3bb4e5d851c4e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;39e4029acf404710e7b3bb4e5d851cbd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;value&gt;{"serializationFormat":"JSON","version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}}}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;b5e4029acf404710e7b3bb4e5d851ca6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;f1e4029acf404710e7b3bb4e5d851cbd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;3de4029acf404710e7b3bb4e5d851cad&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e^id=6de4029acf404710e7b3bb4e5d851c4e"/&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT INf5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Test Connection"&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/action&gt;&lt;cid&gt;5d2bbfd7-5cb2-4e25-8a10-8f1310c70792&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;71e4029acf404710e7b3bb4e5d851ca0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value="MID Application"&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b5e4029acf404710e7b3bb4e5d851ca0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {&amp;#13;
+&amp;#13;
+    var helper = new x_cesy_service_gr.cesyCcfHelper();&amp;#13;
+&amp;#13;
+    // 1. Get CCF connection&amp;#13;
+    var connectionId = helper.getCCFConnectionFromAlias(inputs.connectionAlias);&amp;#13;
+&amp;#13;
+    // 2. Get properties&amp;#13;
+    var props = helper.getCCFPropertiesAsMap(connectionId);&amp;#13;
+&amp;#13;
+    var endpoint = props["x_cesy_service_gr.endpoint"];&amp;#13;
+    var token = props["x_cesy_service_gr.api.token"];&amp;#13;
+&amp;#13;
+    // 3. Build REST call&amp;#13;
+    var rm = new sn_ws.RESTMessageV2();&amp;#13;
+&amp;#13;
+    rm.setEndpoint(endpoint);&amp;#13;
+    rm.setHttpMethod("get");&amp;#13;
+&amp;#13;
+    rm.setRequestHeader("Authorization", "Bearer " + token);&amp;#13;
+&amp;#13;
+    var response = rm.execute();&amp;#13;
+&amp;#13;
+    outputs.statusCode = response.getStatusCode();&amp;#13;
+    outputs.body = response.getBody();&amp;#13;
+&amp;#13;
+})(inputs, outputs);&lt;/value&gt;&lt;variable display_value="Script"&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=f5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;79e4029acf404710e7b3bb4e5d851c9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connectionAlias&lt;/field&gt;&lt;id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;f5e4029acf404710e7b3bb4e5d851ca1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_f5e4029acf404710e7b3bb4e5d851c7c&lt;/table&gt;&lt;value&gt;{{action.connection_alias}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;bde4029acf404710e7b3bb4e5d851c9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c^id=f5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=f5e4029acf404710e7b3bb4e5d851c7c^sys_idNOT IN7de4029acf404710e7b3bb4e5d851c8f"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connectionAlias&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;connectionAlias&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Script step"&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/model&gt;&lt;model_id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_f5e4029acf404710e7b3bb4e5d851c7c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_alias"&gt;sys_alias&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;7de4029acf404710e7b3bb4e5d851c8f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=f5e4029acf404710e7b3bb4e5d851c7c^sys_idNOT IN3d670a9ecf404710e7b3bb4e5d851c7b,79670a9ecf404710e7b3bb4e5d851c75"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=aeec4937-50a1-444f-8a6f-e3177a85bfb1&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;body&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;body&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/model&gt;&lt;model_id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:13&lt;/sys_created_on&gt;&lt;sys_id&gt;3d670a9ecf404710e7b3bb4e5d851c7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=614f98d6-02fc-4afa-81ae-4d278ad03581&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;statuscode&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;label&gt;statusCode&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Script step"&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/model&gt;&lt;model_id&gt;f5e4029acf404710e7b3bb4e5d851c7c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:13&lt;/sys_created_on&gt;&lt;sys_id&gt;79670a9ecf404710e7b3bb4e5d851c75&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=f5e4029acf404710e7b3bb4e5d851c7c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;statuscode&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;statusCode&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:13&lt;/sys_created_on&gt;&lt;sys_id&gt;b5670a9ecf404710e7b3bb4e5d851c7a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:13&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;body&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;body&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_f5e4029acf404710e7b3bb4e5d851c7c&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:50:13&lt;/sys_created_on&gt;&lt;sys_id&gt;ca670a9ecf404710e7b3bb4e5d851c7f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:13&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT INade4029acf404710e7b3bb4e5d851c54"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=b24c7e6c-5193-4039-98b6-be8dadcdb132&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;sys_alias&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;connection_alias&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Connection Alias&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Test Connection"&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/model&gt;&lt;model_id&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_6de4029acf404710e7b3bb4e5d851c4e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_alias"&gt;sys_alias&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:16&lt;/sys_created_on&gt;&lt;sys_id&gt;ade4029acf404710e7b3bb4e5d851c54&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:16&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ade4029acf404710e7b3bb4e5d851c54"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT IN3de4029acf404710e7b3bb4e5d851cad,b5e4029acf404710e7b3bb4e5d851ca6"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5fcad213-aade-4ff4-b182-fbcebf9303b8,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Test Connection"&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/model&gt;&lt;model_id&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;3de4029acf404710e7b3bb4e5d851cad&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:50:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3de4029acf404710e7b3bb4e5d851cad"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=3de4029acf404710e7b3bb4e5d851cad"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=fe30b941-b656-4467-a1d0-8a731afea8e2&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Test Connection"&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/model&gt;&lt;model_id&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b5e4029acf404710e7b3bb4e5d851ca6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5e4029acf404710e7b3bb4e5d851ca6"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b5e4029acf404710e7b3bb4e5d851ca6"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=6de4029acf404710e7b3bb4e5d851c4e"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6de4029acf404710e7b3bb4e5d851c4e^sys_idNOT IN3de4029acf404710e7b3bb4e5d851cbf"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Test Connection"&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;3de4029acf404710e7b3bb4e5d851cbf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3de4029acf404710e7b3bb4e5d851cbf"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;connection_alias&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Connection Alias&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_6de4029acf404710e7b3bb4e5d851c4e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:16&lt;/sys_created_on&gt;&lt;sys_id&gt;35e4029acf404710e7b3bb4e5d851c75&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:16&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6de4029acf404710e7b3bb4e5d851c4e"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b5e4029acf404710e7b3bb4e5d851cac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-06 22:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b9e4029acf404710e7b3bb4e5d851cb5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-06 22:39:17&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_6de4029acf404710e7b3bb4e5d851c4e"/&gt;&lt;sys_hub_action_type_definition action="UPDATE"&gt;&lt;sys_id&gt;fbf3861acf404710e7b3bb4e5d851c55&lt;/sys_id&gt;&lt;latest_snapshot&gt;6de4029acf404710e7b3bb4e5d851c4e&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-zurich-07-01-2025__patch7-02-19-2026_03-04-2026_1012.zip&lt;/compiler_build&gt;&lt;/sys_hub_action_type_definition&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2144251084</payload_hash>
+        <record_name>Test Connection</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-06 22:50:14</sys_created_on>
+        <sys_id>8a674a9ecf404710e7b3bb4e5d851c09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d64fd499b0000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-06 22:50:14</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>c6674a9ed34047105666963c5d4a6908</update_guid>
+        <update_guid_history>c6674a9ed34047105666963c5d4a6908:2144251084,3d670a9e26404710e1688dd8c3913f40:602165922,8ee4029a74404710fb9b81a5f799aff5:229863751,21e4029a19404710e687b2b3616b5743:-1152709494,b4e4ce5a3a4047109d3ff85505dbc58c:1595172196,bff3861abf404710ddf3ddd99deb705d:1280308343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-20 15:20:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>2e91a25d54864e4e9f2ef33cb6dd7284</sys_id>
+        <sys_metadata>fbf3861acf404710e7b3bb4e5d851c55</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Connection</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_fbf3861acf404710e7b3bb4e5d851c55</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_fbf3861acf404710e7b3bb4e5d851c55">8a674a9ecf404710e7b3bb4e5d851c09</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-20 15:20:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

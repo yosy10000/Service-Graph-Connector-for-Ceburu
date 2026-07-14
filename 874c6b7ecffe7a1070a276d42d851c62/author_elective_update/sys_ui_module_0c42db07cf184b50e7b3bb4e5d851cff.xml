@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>false</active>
+        <application display_value="Ceburu IP Switch">0442db07cf184b50e7b3bb4e5d851cfa</application>
+        <filter/>
+        <name>Ceburu IP Switches</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_cesy_service_gr.ceburu_ip_switch_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-21 22:28:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c42db07cf184b50e7b3bb4e5d851cff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ceburu IP Switches</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_ui_module_0c42db07cf184b50e7b3bb4e5d851cff</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:19:00</sys_updated_on>
+        <table>x_cesy_service_gr_ceburu_ip_switch</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_ui_module_0c42db07cf184b50e7b3bb4e5d851cff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="Ceburu IP Switch">0442db07cf184b50e7b3bb4e5d851cfa</application><filter/><name>Ceburu IP Switches</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_cesy_service_gr.ceburu_ip_switch_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-21 22:28:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0c42db07cf184b50e7b3bb4e5d851cff</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Ceburu IP Switches</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_ui_module_0c42db07cf184b50e7b3bb4e5d851cff</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-27 11:19:00</sys_updated_on><table>x_cesy_service_gr_ceburu_ip_switch</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1019530901</payload_hash>
+        <record_name>Ceburu IP Switches</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-27 11:19:00</sys_created_on>
+        <sys_id>a192f734cf28c790e9f3f8224d851c8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dcea9fed20000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:19:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ed92f7340d28c79053247ffa3896368b</update_guid>
+        <update_guid_history>ed92f7340d28c79053247ffa3896368b:1019530901,00421f0763184b50df793c1a9c556204:1624741730</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-27 11:52:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0e064b4a5fb34ddc952c3befc0dcb990</sys_id>
+        <sys_metadata>0c42db07cf184b50e7b3bb4e5d851cff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu IP Switches</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_0c42db07cf184b50e7b3bb4e5d851cff</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_0c42db07cf184b50e7b3bb4e5d851cff">a192f734cf28c790e9f3f8224d851c8d</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:52:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

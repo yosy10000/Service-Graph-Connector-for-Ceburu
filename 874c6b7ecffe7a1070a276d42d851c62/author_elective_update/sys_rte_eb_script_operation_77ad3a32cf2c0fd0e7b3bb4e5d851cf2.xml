@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Script Operation - u_netmap</name>
+        <operation_group/>
+        <order>200</order>
+        <script><![CDATA[(function(batch, output) {
+   for (var i = 0; i < batch.length; i++) {
+      var input = batch[i].input; // Value of the input columns concatenated with '|'. 
+      // Access input column values by their names, ex: batch[i].column_name
+      // In order to access columns containing multiple parts concatenated by a dot, use bracket notation ex. batch[i]['prefix_name.column_name']
+      // Add your code here.
+
+      var netmap = JSON.parse(batch[i].u_netmap);
+      var networkId = netmap.network_id;
+      output[i] = networkId;
+      // Set each output element below
+      //output[i] = output_variable_name;
+   }
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field display_value="u_netmap">2a6bb6facfe80fd0e7b3bb4e5d851c6c</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-03 12:35:44</sys_created_on>
+        <sys_id>77ad3a32cf2c0fd0e7b3bb4e5d851cf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_netmap</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG IP_Network">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">1a6bb6facfe80fd0e7b3bb4e5d851c43</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_77ad3a32cf2c0fd0e7b3bb4e5d851cf2</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-03 12:35:44</sys_updated_on>
+        <target_sys_rte_eb_field display_value="u_network_id">fbad3a32cf2c0fd0e7b3bb4e5d851ced</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_rte_eb_script_operation_77ad3a32cf2c0fd0e7b3bb4e5d851cf2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_script_operation"&gt;&lt;sys_rte_eb_script_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;Script Operation - u_netmap&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;200&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function(batch, output) {
+   for (var i = 0; i &lt; batch.length; i++) {
+      var input = batch[i].input; // Value of the input columns concatenated with '|'. 
+      // Access input column values by their names, ex: batch[i].column_name
+      // In order to access columns containing multiple parts concatenated by a dot, use bracket notation ex. batch[i]['prefix_name.column_name']
+      // Add your code here.
+
+      var netmap = JSON.parse(batch[i].u_netmap);
+      var networkId = netmap.network_id;
+      output[i] = networkId;
+      // Set each output element below
+      //output[i] = output_variable_name;
+   }
+})(batch, output);]]&gt;&lt;/script&gt;&lt;source_sys_rte_eb_field display_value="u_netmap"&gt;2a6bb6facfe80fd0e7b3bb4e5d851c6c&lt;/source_sys_rte_eb_field&gt;&lt;source_sys_rte_eb_fields/&gt;&lt;sys_class_name&gt;sys_rte_eb_script_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-03 12:35:44&lt;/sys_created_on&gt;&lt;sys_id&gt;77ad3a32cf2c0fd0e7b3bb4e5d851cf2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Script Operation - u_netmap&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Ceburu-SG IP_Network"&gt;216b76facfe80fd0e7b3bb4e5d851c75&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;1a6bb6facfe80fd0e7b3bb4e5d851c43&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_script_operation_77ad3a32cf2c0fd0e7b3bb4e5d851cf2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-03 12:35:44&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="u_network_id"&gt;fbad3a32cf2c0fd0e7b3bb4e5d851ced&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Script Operation"&gt;941f88e273b333002b6265a751ab9e84&lt;/type&gt;&lt;use_unique_input_sets&gt;true&lt;/use_unique_input_sets&gt;&lt;/sys_rte_eb_script_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-17462484</payload_hash>
+        <record_name>Script Operation - u_netmap</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-03 12:35:44</sys_created_on>
+        <sys_id>33adfa32cf2c0fd0e7b3bb4e5d851c27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dedd665d00000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-03 12:35:44</sys_updated_on>
+        <type>RTE Entity Script Operation</type>
+        <update_guid>7fadfa328e2c0fd09343598b0b209925</update_guid>
+        <update_guid_history>7fadfa328e2c0fd09343598b0b209925:-17462484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-03 12:37:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_script_operation">sys_rte_eb_script_operation</sys_db_object>
+        <sys_id>386f852b60d644f0a55383016c967a40</sys_id>
+        <sys_metadata>77ad3a32cf2c0fd0e7b3bb4e5d851cf2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script Operation - u_netmap</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_script_operation_77ad3a32cf2c0fd0e7b3bb4e5d851cf2</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_script_operation_77ad3a32cf2c0fd0e7b3bb4e5d851cf2">33adfa32cf2c0fd0e7b3bb4e5d851c27</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-03 12:37:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

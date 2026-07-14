@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e393e76cfe80fd0e7b3bb4e5d851cf6" extends="sys_import_set_row" label="Ceburu IP Network new" max_length="40" name="x_cesy_service_gr_ceburu_ip_networks_new" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=scope" label="scope" max_length="40" name="u_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=networkdetails_id" label="networkdetails_id" max_length="40" name="u_networkdetails_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=networkname" label="networkname" max_length="40" name="u_networkname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=customer_id" label="customer_id" max_length="40" name="u_customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=networkname_id" label="networkname_id" max_length="40" name="u_networkname_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=netmap" label="netmap" max_length="173" name="u_netmap" type="string"/>
+    </element>
+</database>

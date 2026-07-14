@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="Server 1">ad9c94b9cfc18b90e7b3bb4e5d851c8e</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-24 18:51:41</sys_created_on>
+        <sys_id>271dd8f9cfc18b90e7b3bb4e5d851c0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1779648700961_0">2f1dd8f9cfc18b90e7b3bb4e5d851c06</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_271dd8f9cfc18b90e7b3bb4e5d851c0f</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-24 18:51:41</sys_updated_on>
+        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1779648700961_0.child">af1d18f9cfc18b90e7b3bb4e5d851cc6</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_rte_eb_field_mapping_271dd8f9cfc18b90e7b3bb4e5d851c0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>10000</order><referenced_sys_rte_eb_entity display_value="Server 1">ad9c94b9cfc18b90e7b3bb4e5d851c8e</referenced_sys_rte_eb_entity><source_sys_rte_eb_field/><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-05-24 18:51:41</sys_created_on><sys_id>271dd8f9cfc18b90e7b3bb4e5d851c0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1779648700961_0">2f1dd8f9cfc18b90e7b3bb4e5d851c06</sys_rte_eb_entity_mapping><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_rte_eb_field_mapping_271dd8f9cfc18b90e7b3bb4e5d851c0f</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-05-24 18:51:41</sys_updated_on><target_sys_rte_eb_field display_value="cmdb_rel_ci_1779648700961_0.child">af1d18f9cfc18b90e7b3bb4e5d851cc6</target_sys_rte_eb_field></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>601963878</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-24 18:51:41</sys_created_on>
+        <sys_id>2b1dd8f9cfc18b90e7b3bb4e5d851c12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e5b5422f00000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-24 18:51:41</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>a71dd8f9a9c18b90c947169c6b0cc811</update_guid>
+        <update_guid_history>a71dd8f9a9c18b90c947169c6b0cc811:601963878</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-14 10:57:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>524f501c043c44d1af8e27666037d2c9</sys_id>
+        <sys_metadata>271dd8f9cfc18b90e7b3bb4e5d851c0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_271dd8f9cfc18b90e7b3bb4e5d851c0f</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_271dd8f9cfc18b90e7b3bb4e5d851c0f">2b1dd8f9cfc18b90e7b3bb4e5d851c12</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-14 10:57:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

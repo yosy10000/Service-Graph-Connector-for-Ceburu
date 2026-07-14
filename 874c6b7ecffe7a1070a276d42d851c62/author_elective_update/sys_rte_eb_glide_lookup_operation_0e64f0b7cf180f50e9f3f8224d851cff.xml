@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_glide_lookup_operation">
+    <sys_rte_eb_glide_lookup_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <glide_matching_fields>model_number</glide_matching_fields>
+        <glide_target_fields>sys_id</glide_target_fields>
+        <is_conditional>false</is_conditional>
+        <name>IPnetwork lookup</name>
+        <operation_group/>
+        <order>100</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>53ba8743cfd44b50e7b3bb4e5d851ce9</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_glide_lookup_operation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-23 18:54:10</sys_created_on>
+        <sys_id>0e64f0b7cf180f50e9f3f8224d851cff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPnetwork lookup</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu IP_Switch">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">cfba8743cfd44b50e7b3bb4e5d851c57</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_glide_lookup_operation_0e64f0b7cf180f50e9f3f8224d851cff</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-23 18:54:10</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>b564f0b7cf180f50e9f3f8224d851cfb</target_sys_rte_eb_fields>
+        <target_table>cmdb_ci_ip_network</target_table>
+        <type display_value="Glide Lookup Operation">a068e629730000102b6265a751ab9e77</type>
+    </sys_rte_eb_glide_lookup_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_rte_eb_glide_lookup_operation_0e64f0b7cf180f50e9f3f8224d851cff</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_glide_lookup_operation"&gt;&lt;sys_rte_eb_glide_lookup_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;glide_matching_fields&gt;model_number&lt;/glide_matching_fields&gt;&lt;glide_target_fields&gt;sys_id&lt;/glide_target_fields&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;IPnetwork lookup&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;100&lt;/order&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields&gt;53ba8743cfd44b50e7b3bb4e5d851ce9&lt;/source_sys_rte_eb_fields&gt;&lt;sys_class_name&gt;sys_rte_eb_glide_lookup_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-23 18:54:10&lt;/sys_created_on&gt;&lt;sys_id&gt;0e64f0b7cf180f50e9f3f8224d851cff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IPnetwork lookup&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Ceburu IP_Switch"&gt;c3ba0743cfd44b50e7b3bb4e5d851cf6&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="temp"&gt;cfba8743cfd44b50e7b3bb4e5d851c57&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_glide_lookup_operation_0e64f0b7cf180f50e9f3f8224d851cff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-23 18:54:10&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field/&gt;&lt;target_sys_rte_eb_fields&gt;b564f0b7cf180f50e9f3f8224d851cfb&lt;/target_sys_rte_eb_fields&gt;&lt;target_table&gt;cmdb_ci_ip_network&lt;/target_table&gt;&lt;type display_value="Glide Lookup Operation"&gt;a068e629730000102b6265a751ab9e77&lt;/type&gt;&lt;/sys_rte_eb_glide_lookup_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1344083209</payload_hash>
+        <record_name>IPnetwork lookup</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-23 18:54:10</sys_created_on>
+        <sys_id>826434b7cf180f50e9f3f8224d851c03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dbbb144bb0000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-23 18:54:10</sys_updated_on>
+        <type>RTE Glide Lookup Operation</type>
+        <update_guid>026434b729180f5041a4b83ea81a9a02</update_guid>
+        <update_guid_history>026434b729180f5041a4b83ea81a9a02:1344083209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:26:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_glide_lookup_operation">sys_rte_eb_glide_lookup_operation</sys_db_object>
+        <sys_id>64b00d1738e94fb489bf5e093d62c489</sys_id>
+        <sys_metadata>0e64f0b7cf180f50e9f3f8224d851cff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPnetwork lookup</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_glide_lookup_operation_0e64f0b7cf180f50e9f3f8224d851cff</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_glide_lookup_operation_0e64f0b7cf180f50e9f3f8224d851cff">826434b7cf180f50e9f3f8224d851c03</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:26:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

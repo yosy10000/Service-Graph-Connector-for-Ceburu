@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Ceburu IP Network</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cesy_service_gr_ceburu_ip_networks</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-21 21:40:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71378b0bcf944b50e7b3bb4e5d851c94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu IP Network</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_app_module_71378b0bcf944b50e7b3bb4e5d851c94</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-21 21:40:09</sys_updated_on>
+        <timeline_page/>
+        <title>Ceburu IP Network</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_app_module_71378b0bcf944b50e7b3bb4e5d851c94</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Ceburu IP Network</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cesy_service_gr_ceburu_ip_networks</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-21 21:40:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>71378b0bcf944b50e7b3bb4e5d851c94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ceburu IP Network</sys_name><sys_overrides/><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_app_module_71378b0bcf944b50e7b3bb4e5d851c94</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-21 21:40:09</sys_updated_on><timeline_page/><title>Ceburu IP Network</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-776726627</payload_hash>
+        <record_name>Ceburu IP Network</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-21 21:40:09</sys_created_on>
+        <sys_id>b1378b0bcf944b50e7b3bb4e5d851c9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19db1fc864d0000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-21 21:40:09</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fd378b0be9944b50ccd91ce4b3194699</update_guid>
+        <update_guid_history>fd378b0be9944b50ccd91ce4b3194699:-776726627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ceburu IP Network">e1589604cf814390e9f3f8224d851cbf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:20:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>00d68a2756a442458bbcfb2d2880e391</sys_id>
+        <sys_metadata>71378b0bcf944b50e7b3bb4e5d851c94</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu IP Network</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_app_module_71378b0bcf944b50e7b3bb4e5d851c94</sys_update_name>
+        <sys_update_version display_value="sys_app_module_71378b0bcf944b50e7b3bb4e5d851c94">b1378b0bcf944b50e7b3bb4e5d851c9b</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:20:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

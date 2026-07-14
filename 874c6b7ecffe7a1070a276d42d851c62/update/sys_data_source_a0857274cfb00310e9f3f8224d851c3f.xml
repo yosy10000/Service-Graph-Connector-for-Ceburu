@@ -64,19 +64,68 @@
             // =========================
 
             var importRecord = {};
-            importRecord.type = "device";
+
+            importRecord.target_class = "";
+
+            switch ((item.device.deviceType || "").toLowerCase()) {
+
+                case "router":
+                    importRecord.target_class = "cmdb_ci_ip_router";
+                    break;
+
+                case "switch":
+                    importRecord.target_class = "cmdb_ci_switch";
+                    break;
+
+                case "firewall":
+                    importRecord.target_class = "cmdb_ci_ip_firewall";
+                    break;
+
+                default:
+                    importRecord.target_class = "";
+            }
+
+            // Identification
             importRecord.device_id = item.device.id;
-			importRecord.correlation_id = item.device.id + '';
+            importRecord.correlation_id = item.device.id + "";
 
-            importRecord.hostname = spec.hostname || '';
-            importRecord.ip_address = spec.ipaddress || '';
-            importRecord.model = spec.model || '';
-            importRecord.serial_number = spec.serialno || '';
+            // Name
+            importRecord.name = spec.hostname || item.device.deviceName || "";
+            importRecord.hostname = spec.hostname || "";
 
-            importRecord.cpu = spec.cpu || 0;
-            importRecord.memory = spec.memory || 0;
+            // Classification
+			importRecord.networkid = item.device.networkid;
+            importRecord.device_type = item.device.deviceType || "";
+            importRecord.device_role = item.device.deviceRole || "";
 
-            importRecord.health = spec.health || false;
+            // Networking
+            importRecord.ip_address = item.device.deviceIP || spec.ipaddress || "";
+            importRecord.mac_address = item.device.macaddress || "";
+
+            // Vendor / Model
+            importRecord.manufacturer = item.device.manufacture || "";
+            importRecord.vendor = spec.vendor || "";
+            importRecord.model = item.device.deviceModel || spec.model || "";
+            importRecord.model_number = spec.model || "";
+
+            // Hardware
+            importRecord.serial_number = item.device.serialnumber || spec.serialno || "";
+
+            // Operating System
+            importRecord.os_name = spec.osname || "";
+            importRecord.os_version = spec.softwareversion || "";
+            importRecord.firmware_version = spec.currentversion || "";
+
+            // Location
+            importRecord.location = item.device.location || "";
+            importRecord.country = item.device.countryname || "";
+
+            // Discovery
+            importRecord.discovery_source = "SG-Ceburu";
+            importRecord.neighbours =
+                (item.device.neighbour && item.device.neighbour.length) ?
+                item.device.neighbour.join(",") :
+                "";
 
             import_set_table.insert(importRecord);
 
@@ -84,7 +133,7 @@
             // INTERFACE IMPORT RECORD
             // =========================
 
-            var interfaces = item.interfaces && item.interfaces.length > 0 ? item.interfaces : [];
+            var interfaces = item.interfaces || [];
             for (var j = 0; j < interfaces.length; j++) {
 
                 var iface = interfaces[j];
@@ -99,53 +148,30 @@
 
                 importRecord.device_id = item.device.id;
 
-                // =========================
-                // RECONCILIATION FIELDS
-                // =========================
-
-                importRecord.interface_id = iface.id || '';
-                importRecord.if_index = iface.number || '';
-
-                // Recommended unique key
+                // Identification
+                importRecord.interface_id = iface.id || "";
                 importRecord.correlation_id =
                     item.device.id + "_" + (iface.number || iface.name);
 
-                // =========================
-                // CORE INTERFACE FIELDS
-                // =========================
-
-                importRecord.name = iface.name || '';
+                // Basic info
+                importRecord.name = iface.name || "";
+                importRecord.interface_number = iface.number || "";
+                importRecord.interface_type = iface.type || "";
 
                 // Status
-                importRecord.oper_status =
-                    iface.Operstatus === true ? 1 : 2;
+                importRecord.admin_status = iface.Adminstatus === true ? 1 : 2;
+                importRecord.oper_status = iface.Operstatus === true ? 1 : 2;
 
-                importRecord.admin_status =
-                    iface.Adminstatus === true ? 1 : 2;
-
-                // Interface characteristics
-                importRecord.interface_type = iface.type || '';
+                // Characteristics
                 importRecord.speed = iface.speed || 0;
-                importRecord.mtu = iface.mtuPkts || 0;
+                importRecord.duplex = iface.duplex || "";
+                importRecord.vlan = iface.vlan || "";
 
-                // =========================
-                // OPTIONAL OPERATIONAL DATA
-                // =========================
-
-                importRecord.packet_loss = iface.packetloss || 0;
-
-                importRecord.last_change = iface.lastchangesince || '';
-
-                importRecord.last_updated =
-				iface.lastupdatedtime || '';
-
-                // Error counters
-                importRecord.in_errors = iface.inerr || 0;
-                importRecord.out_errors = iface.outerr || 0;
-
-                // Discards
-                importRecord.in_discards = iface.indiscard || 0;
-                importRecord.out_discards = iface.outdiscard || 0;
+                // Topology
+                importRecord.connected_device =
+                    (iface.connecteddevice && iface.connecteddevice.length) ?
+                    iface.connecteddevice.join(",") :
+                    "";
 
                 import_set_table.insert(importRecord);
 
@@ -178,7 +204,7 @@
         <jpath_root_node>/results/results</jpath_root_node>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time>2026-06-05 09:44:31</last_success_import_time>
+        <last_success_import_time>2026-07-10 19:52:09</last_success_import_time>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit>50</limit>
@@ -216,14 +242,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-09 17:07:51</sys_created_on>
         <sys_id>a0857274cfb00310e9f3f8224d851c3f</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>Ceburu Devices</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_data_source_a0857274cfb00310e9f3f8224d851c3f</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-06-05 09:44:33</sys_updated_on>
+        <sys_updated_on>2026-07-10 19:52:12</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>

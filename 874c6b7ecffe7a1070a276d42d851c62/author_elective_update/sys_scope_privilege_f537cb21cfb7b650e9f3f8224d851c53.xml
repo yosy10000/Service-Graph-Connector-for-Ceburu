@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-03-23 09:17:51</sys_created_on>
+        <sys_id>f537cb21cfb7b650e9f3f8224d851c53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableRESTMessageClient.execute</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_scope_privilege_f537cb21cfb7b650e9f3f8224d851c53</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-23 09:17:51</sys_updated_on>
+        <target_name>ScriptableRESTMessageClient.execute</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_scope_privilege_f537cb21cfb7b650e9f3f8224d851c53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-03-23 09:17:51</sys_created_on><sys_id>f537cb21cfb7b650e9f3f8224d851c53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.execute</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_scope_privilege_f537cb21cfb7b650e9f3f8224d851c53</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-03-23 09:17:51</sys_updated_on><target_name>ScriptableRESTMessageClient.execute</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>2033664797</payload_hash>
+        <record_name>ScriptableRESTMessageClient.execute</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-03-23 09:17:52</sys_created_on>
+        <sys_id>f937cb21cfb7b650e9f3f8224d851c57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d19fc82470000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-03-23 09:17:52</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>7537cb218fb7b65071d9b9657fc54456</update_guid>
+        <update_guid_history>7537cb218fb7b65071d9b9657fc54456:2033664797</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-27 11:25:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>79ff3ff92cfd4361839dca4e2376b5a1</sys_id>
+        <sys_metadata>f537cb21cfb7b650e9f3f8224d851c53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableRESTMessageClient.execute</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_f537cb21cfb7b650e9f3f8224d851c53</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_f537cb21cfb7b650e9f3f8224d851c53">f937cb21cfb7b650e9f3f8224d851c57</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:25:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

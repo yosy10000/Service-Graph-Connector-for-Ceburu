@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Serial Number 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_serial_number_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-23 17:52:44</sys_created_on>
+        <sys_id>d656a837cf940f50e9f3f8224d851cb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Serial Number 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>cmdb_inst_entity_d656a837cf940f50e9f3f8224d851cb4</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-23 17:52:44</sys_updated_on>
+        <table>cmdb_serial_number</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>cmdb_inst_entity_d656a837cf940f50e9f3f8224d851cb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>Serial Number 1</name><parent_entity/><parent_id_field/><path>cmdb_serial_number_1</path><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-23 17:52:44</sys_created_on><sys_id>d656a837cf940f50e9f3f8224d851cb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Serial Number 1</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_rte_eb_definition display_value="">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>cmdb_inst_entity_d656a837cf940f50e9f3f8224d851cb4</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-23 17:52:44</sys_updated_on><table>cmdb_serial_number</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>1605720727</payload_hash>
+        <record_name>Serial Number 1</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:26:14</sys_created_on>
+        <sys_id>df991a08cf814390e9f3f8224d851cbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e41461c0e0000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:26:14</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>1a56a837a7940f505a763fc949e1c5b8</update_guid>
+        <update_guid_history>1a56a837a7940f505a763fc949e1c5b8:1782585876,1a56a837a7940f505a763fc949e1c5b8:1782585876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Serial Number 1">bb995a08cf814390e9f3f8224d851ceb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:26:15</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>38d2347faf4f41768e0c0f61a7704861</sys_id>
+        <sys_metadata>d656a837cf940f50e9f3f8224d851cb4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Serial Number 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_d656a837cf940f50e9f3f8224d851cb4</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_d656a837cf940f50e9f3f8224d851cb4">df991a08cf814390e9f3f8224d851cbd</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:26:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

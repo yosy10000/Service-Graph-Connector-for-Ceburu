@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Import</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path/>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-17 16:58:30</sys_created_on>
+        <sys_id>f19ae572cf0f721050fef7a13d851ce4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-Ceburu">099ae572cf0f721050fef7a13d851c36</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>cmdb_inst_entity_f19ae572cf0f721050fef7a13d851ce4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-17 16:58:30</sys_updated_on>
+        <table>x_cesy_service_gr_ceburu_win_server</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>cmdb_inst_entity_f19ae572cf0f721050fef7a13d851ce4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>Import</name><parent_entity/><parent_id_field/><path/><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-17 16:58:30</sys_created_on><sys_id>f19ae572cf0f721050fef7a13d851ce4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG-Ceburu">099ae572cf0f721050fef7a13d851c36</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>cmdb_inst_entity_f19ae572cf0f721050fef7a13d851ce4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-17 16:58:30</sys_updated_on><table>x_cesy_service_gr_ceburu_win_server</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-374206476</payload_hash>
+        <record_name>Import</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-17 16:58:30</sys_created_on>
+        <sys_id>829ae572cf0f721050fef7a13d851ce9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c6c8a05d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-17 16:58:30</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>429ae572ff0f7210b55a6f5855527ee8</update_guid>
+        <update_guid_history>429ae572ff0f7210b55a6f5855527ee8:-374206476</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Import">dfa10a84cf28cf50e9f3f8224d851c82</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-24 19:10:14</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>2acb8a1b91e74ea9952ffcf92af81af1</sys_id>
+        <sys_metadata>f19ae572cf0f721050fef7a13d851ce4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_f19ae572cf0f721050fef7a13d851ce4</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_f19ae572cf0f721050fef7a13d851ce4">829ae572cf0f721050fef7a13d851ce9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-24 19:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

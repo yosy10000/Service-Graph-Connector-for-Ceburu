@@ -731,6 +731,7 @@
         <active>true</active>
         <data>{"trigger_on_unique_change":"false","run_trigger":"run_once"}</data>
         <identifier>96722572cfcb721050fef7a13d851c9d</identifier>
+        <identifier_type/>
         <runner>PDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-17 16:23:04</sys_created_on>

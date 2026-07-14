@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="639aa71ccf8d8f50e7b3bb4e5d851cbd" extends="sys_import_set_row" label="Ceburu Networks " max_length="40" name="x_cesy_service_gr_ceburu_networks" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=networkname" label="networkname" max_length="40" name="u_networkname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=subnet_cidr" label="subnet_cidr" max_length="40" name="u_subnet_cidr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=network_group_id" label="network_group_id" max_length="40" name="u_network_group_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=networkdetails_id" label="networkdetails_id" max_length="40" name="u_networkdetails_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=networkname_id" label="networkname_id" max_length="40" name="u_networkname_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=netmap" label="netmap" max_length="181" name="u_netmap" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=scope" label="scope" max_length="40" name="u_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=probe_name" label="probe_name" max_length="40" name="u_probe_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=probe_ip" label="probe_ip" max_length="40" name="u_probe_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=customer_id" label="customer_id" max_length="40" name="u_customer_id" type="string"/>
+    </element>
+</database>

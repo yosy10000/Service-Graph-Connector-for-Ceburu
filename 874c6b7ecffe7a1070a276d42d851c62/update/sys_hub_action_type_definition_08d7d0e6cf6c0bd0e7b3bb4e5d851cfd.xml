@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>08d7d0e6cf6c0bd0e7b3bb4e5d851cfd</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Get Ceburu Networks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_08d7d0e6cf6c0bd0e7b3bb4e5d851cfd</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:10</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -53,10 +53,10 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>22bb5062cfac0bd0e7b3bb4e5d851ca0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-02 06:09:38</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2026-07-08 21:14:48</sys_updated_on>
+        <value>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">1ebb5062cfac0bd0e7b3bb4e5d851c02</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -176,10 +176,10 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:37</sys_created_on>
         <sys_id>c2bb1062cfac0bd0e7b3bb4e5d851cbc</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-02 07:51:53</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:11:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c2bb1062cfac0bd0e7b3bb4e5d851cbc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -297,6 +297,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>c2bb1062cfac0bd0e7b3bb4e5d851cbc</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-06 17:25:08</sys_created_on>
+        <sys_id>8fa5a96fcfbd8710e9f3f8224d851c33</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-10 22:10:12</sys_updated_on>
+        <value>/integrations/network-map/by-customer</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c2bb1062cfac0bd0e7b3bb4e5d851cbc</document_key>
         <order>49</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
@@ -400,10 +414,10 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>debb1062cfac0bd0e7b3bb4e5d851cf6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-02 07:51:53</sys_updated_on>
-        <value>https://portal.ceburu.com:7878/integrations/network-map/by-customer</value>
+        <sys_updated_on>2026-07-10 22:11:11</sys_updated_on>
+        <value>https://stage.ceburu.com:7878</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c2bb1062cfac0bd0e7b3bb4e5d851cbc^id=c2bb1062cfac0bd0e7b3bb4e5d851cbc"/>
@@ -561,6 +575,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-05-02 06:09:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>c2bb1062cfac0bd0e7b3bb4e5d851cbc</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-06 17:25:08</sys_created_on>
+        <sys_id>03a5a96fcfbd8710e9f3f8224d851c33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-06 17:25:08</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -1336,14 +1362,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>56bb5062cfac0bd0e7b3bb4e5d851c0b</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:06</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1423,14 +1449,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>5abb5062cfac0bd0e7b3bb4e5d851c4e</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:06</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1510,14 +1536,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>5ebb5062cfac0bd0e7b3bb4e5d851c5a</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:06</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1597,14 +1623,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>92bb5062cfac0bd0e7b3bb4e5d851c23</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:06</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1684,14 +1710,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>dabb5062cfac0bd0e7b3bb4e5d851c54</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:06</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1771,14 +1797,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:09:38</sys_created_on>
         <sys_id>debb5062cfac0bd0e7b3bb4e5d851c60</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:06</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2087,17 +2113,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Ceburu Networks">08d7d0e6cf6c0bd0e7b3bb4e5d851cfd</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"005c98a2cfac0bd0e7b3bb4e5d851ccc","name":"plan","plan_signature":null}}</plan>
-        <snapshot>208a631ccf8d8f50e7b3bb4e5d851c43</snapshot>
+        <snapshot>21cd4f3ccf4a4350e7b3bb4e5d851c6e</snapshot>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>005c98a2cfac0bd0e7b3bb4e5d851ccc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:11</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:23</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2163,10 +2189,10 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:11</sys_created_on>
         <sys_id>ef4c98a2cfac0bd0e7b3bb4e5d851c51</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-02 06:12:11</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2026-07-08 21:19:05</sys_updated_on>
+        <value>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">e74c58a2cfac0bd0e7b3bb4e5d851c9f</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=174c58a2cfac0bd0e7b3bb4e5d851c1e"/>
@@ -2272,10 +2298,10 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:09</sys_created_on>
         <sys_id>134c58a2cfac0bd0e7b3bb4e5d851c56</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-03 12:16:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=134c58a2cfac0bd0e7b3bb4e5d851c56"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2454,10 +2480,10 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>e34c58a2cfac0bd0e7b3bb4e5d851c94</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-03 12:16:09</sys_updated_on>
-        <value>https://portal.ceburu.com:7878/integrations/network-map/by-customer</value>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
+        <value>https://stage.ceburu.com:7878</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2473,6 +2499,20 @@
         <sys_updated_on>2026-05-02 06:12:10</sys_updated_on>
         <value/>
         <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>134c58a2cfac0bd0e7b3bb4e5d851c56</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-06 17:26:11</sys_created_on>
+        <sys_id>eae5e5afcfbd8710e9f3f8224d851c2b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
+        <value>/integrations/network-map/by-customer</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2657,6 +2697,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-05-02 06:12:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>134c58a2cfac0bd0e7b3bb4e5d851c56</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-06 17:26:11</sys_created_on>
+        <sys_id>66e5e5afcfbd8710e9f3f8224d851c2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-06 17:26:11</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -3345,14 +3397,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>634c58a2cfac0bd0e7b3bb4e5d851cb0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3432,14 +3484,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>674c58a2cfac0bd0e7b3bb4e5d851cbc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3519,14 +3571,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>674c58a2cfac0bd0e7b3bb4e5d851cdb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3606,14 +3658,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>6f4c58a2cfac0bd0e7b3bb4e5d851ca6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3693,14 +3745,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>e34c58a2cfac0bd0e7b3bb4e5d851cb6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3867,14 +3919,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-02 06:12:10</sys_created_on>
         <sys_id>e74c58a2cfac0bd0e7b3bb4e5d851ce1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-05-20 17:58:09</sys_updated_on>
+        <sys_updated_on>2026-07-10 22:12:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4182,6 +4234,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>08d7d0e6cf6c0bd0e7b3bb4e5d851cfd</sys_id>
         <latest_snapshot>174c58a2cfac0bd0e7b3bb4e5d851c1e</latest_snapshot>
-        <compiler_build>glide-zurich-07-01-2025__patch7a-03-24-2026_04-08-2026_0745.zip</compiler_build>
+        <compiler_build>glide-zurich-07-01-2025__patch10-hotfix3-07-01-2026_07-02-2026_1215.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

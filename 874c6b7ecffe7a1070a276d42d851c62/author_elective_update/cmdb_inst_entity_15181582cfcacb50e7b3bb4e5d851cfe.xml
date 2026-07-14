@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>cmdb_rel_ci_1784026234129_0</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_rel_ci_1784026234129_0</path>
+        <related_for_entity/>
+        <relationship_type display_value="Runs on::Runs">60bc4e22c0a8010e01f074cbe6bd73c3</relationship_type>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-14 10:50:34</sys_created_on>
+        <sys_id>15181582cfcacb50e7b3bb4e5d851cfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1784026234129_0</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>cmdb_inst_entity_15181582cfcacb50e7b3bb4e5d851cfe</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-14 10:50:34</sys_updated_on>
+        <table>cmdb_rel_ci</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>cmdb_inst_entity_15181582cfcacb50e7b3bb4e5d851cfe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>cmdb_rel_ci_1784026234129_0</name><parent_entity/><parent_id_field/><path>cmdb_rel_ci_1784026234129_0</path><related_for_entity/><relationship_type display_value="Runs on::Runs">60bc4e22c0a8010e01f074cbe6bd73c3</relationship_type><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-07-14 10:50:34</sys_created_on><sys_id>15181582cfcacb50e7b3bb4e5d851cfe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_rel_ci_1784026234129_0</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>cmdb_inst_entity_15181582cfcacb50e7b3bb4e5d851cfe</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-07-14 10:50:34</sys_updated_on><table>cmdb_rel_ci</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-49061849</payload_hash>
+        <record_name>cmdb_rel_ci_1784026234129_0</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-14 10:50:34</sys_created_on>
+        <sys_id>59185582cfcacb50e7b3bb4e5d851c2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f603ffd580000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-14 10:50:34</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>1518558296cacb50abf64d1583a5dc29</update_guid>
+        <update_guid_history>1518558296cacb50abf64d1583a5dc29:-49061849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cmdb_rel_ci_1784026234129_0">48385982cfcacb50e7b3bb4e5d851c3e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-14 10:51:02</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>0f14c306387647609255893fbaac5a90</sys_id>
+        <sys_metadata>15181582cfcacb50e7b3bb4e5d851cfe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_rel_ci_1784026234129_0</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_15181582cfcacb50e7b3bb4e5d851cfe</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_15181582cfcacb50e7b3bb4e5d851cfe">59185582cfcacb50e7b3bb4e5d851c2a</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-14 10:51:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

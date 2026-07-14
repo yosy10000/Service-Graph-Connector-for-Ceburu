@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="eb665948cfeb361070a276d42d851c37" sys_domain="global" table="x_cesy_service_gr_ceburu_switch" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>eb665948cfeb361070a276d42d851c74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_serial_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>a7665948cfeb361070a276d42d851c76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_ip</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>63665948cfeb361070a276d42d851c77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_model</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>2f665948cfeb361070a276d42d851c77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_version</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>e7665948cfeb361070a276d42d851c78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_last_modified</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>a3665948cfeb361070a276d42d851c79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>6f665948cfeb361070a276d42d851c79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mac_address</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>2b665948cfeb361070a276d42d851c7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_aiopsconfigmanagement_id</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>e3665948cfeb361070a276d42d851c7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>af665948cfeb361070a276d42d851c7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_network_id</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>6b665948cfeb361070a276d42d851c7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>27665948cfeb361070a276d42d851c7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>ef665948cfeb361070a276d42d851c7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country_name</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>ab665948cfeb361070a276d42d851c7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_name</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>67665948cfeb361070a276d42d851c7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_brand</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>23665948cfeb361070a276d42d851c80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_model_id</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>eb665948cfeb361070a276d42d851c80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_id>a7665948cfeb361070a276d42d851c81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_cesy_service_gr_ceburu_switch</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb665948cfeb361070a276d42d851c37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cesy_service_gr_ceburu_switch</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+            <sys_update_name>sys_ui_section_eb665948cfeb361070a276d42d851c37</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_ui_section_eb665948cfeb361070a276d42d851c37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="eb665948cfeb361070a276d42d851c37" sys_domain="global" table="x_cesy_service_gr_ceburu_switch" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>eb665948cfeb361070a276d42d851c74</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_serial_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>a7665948cfeb361070a276d42d851c76</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device_ip</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>63665948cfeb361070a276d42d851c77</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device_model</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>2f665948cfeb361070a276d42d851c77</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_version</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>e7665948cfeb361070a276d42d851c78</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_last_modified</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>a3665948cfeb361070a276d42d851c79</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_location</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>6f665948cfeb361070a276d42d851c79</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_mac_address</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>2b665948cfeb361070a276d42d851c7a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_aiopsconfigmanagement_id</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>e3665948cfeb361070a276d42d851c7b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>af665948cfeb361070a276d42d851c7b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_network_id</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>6b665948cfeb361070a276d42d851c7c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>27665948cfeb361070a276d42d851c7d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_company</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>ef665948cfeb361070a276d42d851c7d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_country_name</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>ab665948cfeb361070a276d42d851c7e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device_name</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>67665948cfeb361070a276d42d851c7f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_device_brand</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>23665948cfeb361070a276d42d851c80</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_model_id</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>eb665948cfeb361070a276d42d851c80</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_id>a7665948cfeb361070a276d42d851c81</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cesy_service_gr_ceburu_switch" sys_domain="global" view="Default view">eb665948cfeb361070a276d42d851c37</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_cesy_service_gr_ceburu_switch</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-05 22:58:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eb665948cfeb361070a276d42d851c37</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cesy_service_gr_ceburu_switch</sys_name><sys_overrides/><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_ui_section_eb665948cfeb361070a276d42d851c37</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-05 22:58:32</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>265529108</payload_hash>
+        <record_name>Ceburu-SG Switch</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 22:58:32</sys_created_on>
+        <sys_id>ab665948cfeb361070a276d42d851c86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cc039630b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 22:58:32</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>eb6659487ceb3610d4aa1c250f273385</update_guid>
+        <update_guid_history>eb6659487ceb3610d4aa1c250f273385:265529108,ab66594836eb36102547fb8cc0c10c6f:-1323257427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 11:27:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>a34d436ed72f4570a2b03a35d42b2904</sys_id>
+        <sys_metadata>eb665948cfeb361070a276d42d851c37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cesy_service_gr_ceburu_switch</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent display_value="">779255c0cfeb361070a276d42d851ca0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_eb665948cfeb361070a276d42d851c37</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_eb665948cfeb361070a276d42d851c37">ab665948cfeb361070a276d42d851c86</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 11:27:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

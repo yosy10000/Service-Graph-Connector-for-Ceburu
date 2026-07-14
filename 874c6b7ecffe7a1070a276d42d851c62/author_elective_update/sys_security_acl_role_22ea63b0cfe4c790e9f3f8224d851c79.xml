@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-27 10:46:53</sys_created_on>
+        <sys_id>22ea63b0cfe4c790e9f3f8224d851c79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_cesy_service_gr.ceburu_ip_switch_user</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_security_acl display_value="">55ea23b0cfe4c790e9f3f8224d851c6a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_22ea63b0cfe4c790e9f3f8224d851c79</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 10:46:53</sys_updated_on>
+        <sys_user_role display_value="x_cesy_service_gr.ceburu_ip_switch_user" name="x_cesy_service_gr.ceburu_ip_switch_user">0442db07cf184b50e7b3bb4e5d851cd6</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_security_acl_role_22ea63b0cfe4c790e9f3f8224d851c79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-27 10:46:53</sys_created_on><sys_id>22ea63b0cfe4c790e9f3f8224d851c79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_cesy_service_gr.ceburu_ip_switch_user</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_security_acl display_value="">55ea23b0cfe4c790e9f3f8224d851c6a</sys_security_acl><sys_update_name>sys_security_acl_role_22ea63b0cfe4c790e9f3f8224d851c79</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-27 10:46:53</sys_updated_on><sys_user_role display_value="x_cesy_service_gr.ceburu_ip_switch_user" name="x_cesy_service_gr.ceburu_ip_switch_user">0442db07cf184b50e7b3bb4e5d851cd6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1460744918</payload_hash>
+        <record_name>.x_cesy_service_gr.ceburu_ip_switch_user</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-27 10:46:53</sys_created_on>
+        <sys_id>0b3b6fb0cfe4c790e9f3f8224d851cee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dce8c98040000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-27 10:46:53</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>873b6fb055e4c790101800d0682ac5ed</update_guid>
+        <update_guid_history>873b6fb055e4c790101800d0682ac5ed:1460744918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_cesy_service_gr.ceburu_ip_switch_user">dd1896c0cf814390e9f3f8224d851cec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:19:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0e4b4e3e94314d71a8df4b9adc117691</sys_id>
+        <sys_metadata>22ea63b0cfe4c790e9f3f8224d851c79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_cesy_service_gr.ceburu_ip_switch_user</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent display_value="">55ea23b0cfe4c790e9f3f8224d851c6a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_22ea63b0cfe4c790e9f3f8224d851c79</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_22ea63b0cfe4c790e9f3f8224d851c79">0b3b6fb0cfe4c790e9f3f8224d851cee</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:19:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

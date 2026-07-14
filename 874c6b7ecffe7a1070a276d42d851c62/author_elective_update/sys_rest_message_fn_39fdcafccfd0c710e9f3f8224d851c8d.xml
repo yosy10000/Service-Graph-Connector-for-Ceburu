@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Get Ceburu Networks</function_name>
+        <http_method>GET</http_method>
+        <lock>false</lock>
+        <oauth2_profile display_value="Ceburu Provider default_profile">d7c11c9ccfd0c310e9f3f8224d851ccc</oauth2_profile>
+        <protocol_name/>
+        <qualified_name>Ceburu Provider [ Get Ceburu Networks ]</qualified_name>
+        <rest_endpoint>https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo/ceburu/network</rest_endpoint>
+        <rest_message display_value="Ceburu Provider">c4affb61cff3b250e7b3bb4e5d851c13</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-14 17:43:41</sys_created_on>
+        <sys_id>39fdcafccfd0c710e9f3f8224d851c8d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Ceburu Networks</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rest_message_fn_39fdcafccfd0c710e9f3f8224d851c8d</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-04 13:25:26</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_rest_message_fn_39fdcafccfd0c710e9f3f8224d851c8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>oauth2</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Get Ceburu Networks</function_name><http_method>GET</http_method><lock>false</lock><oauth2_profile display_value="Ceburu Provider default_profile">d7c11c9ccfd0c310e9f3f8224d851ccc</oauth2_profile><protocol_name/><qualified_name>Ceburu Provider [ Get Ceburu Networks ]</qualified_name><rest_endpoint>https://dev295885.service-now.com/api/x_659150_sg_ceburu/ceburu_object_demo/ceburu/network</rest_endpoint><rest_message display_value="Ceburu Provider">c4affb61cff3b250e7b3bb4e5d851c13</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-14 17:43:41</sys_created_on><sys_id>39fdcafccfd0c710e9f3f8224d851c8d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Get Ceburu Networks</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>sys_rest_message_fn_39fdcafccfd0c710e9f3f8224d851c8d</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-05-04 13:25:26</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-270144017</payload_hash>
+        <record_name>Get Ceburu Networks</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-04 13:25:26</sys_created_on>
+        <sys_id>f9a2509fcf280fd0e9f3f8224d851cfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19df32a42790000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-04 13:25:26</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>75a2509fec280fd0418982e785555bfc</update_guid>
+        <update_guid_history>75a2509fec280fd0418982e785555bfc:-270144017,71fd0efcdad0c710d3920cc2e1a39ffa:-897247380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:20:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>6ad15864d5154738ba8c4ab109769640</sys_id>
+        <sys_metadata>39fdcafccfd0c710e9f3f8224d851c8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Ceburu Networks</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent display_value="Ceburu Provider">c4affb61cff3b250e7b3bb4e5d851c13</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_39fdcafccfd0c710e9f3f8224d851c8d</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_39fdcafccfd0c710e9f3f8224d851c8d">f9a2509fcf280fd0e9f3f8224d851cfd</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:20:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

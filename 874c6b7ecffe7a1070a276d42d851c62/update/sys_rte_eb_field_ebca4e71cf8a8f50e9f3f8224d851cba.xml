@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>correlation_id</field>
+        <name>correlation_id</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-07-13 19:53:41</sys_created_on>
+        <sys_id>ebca4e71cf8a8f50e9f3f8224d851cba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>correlation_id</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Ceburu-SG Networks">216b76facfe80fd0e7b3bb4e5d851c75</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Windows Server 1">b04a8631cf8a8f50e9f3f8224d851ca4</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_rte_eb_field_ebca4e71cf8a8f50e9f3f8224d851cba</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-07-13 19:53:41</sys_updated_on>
+    </sys_rte_eb_field>
+</record_update>

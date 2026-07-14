@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin2</sys_created_by>
             <sys_created_on>2026-04-24 21:09:46</sys_created_on>
-            <sys_id>0e0d96c4cf6ccf50e9f3f8224d851c9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>last_event</sys_name>
             <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>

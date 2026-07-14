@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <batch_size>100000</batch_size>
+        <category/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url/>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+    try {
+
+        var r = new sn_ws.RESTMessageV2(
+            'x_cesy_service_gr.Ceburu Provider',
+            'Get Ceburu Devices'
+        );
+
+        var responseMessage = r.execute();
+
+        var responseBody = JSON.parse(responseMessage.getBody());
+
+        var httpStatus = responseMessage.getStatusCode();
+
+        if (httpStatus != 200) {
+            gs.error('Ceburu API returned status: ' + httpStatus);
+            return;
+        }
+
+        var devices = responseBody.result.results;
+
+        for (var j = 0; j < devices.length; j++) {
+
+            var net = devices[j];
+
+            var spec = (net.specifications &&
+                net.specifications[0]) ?
+                net.specifications[0] : {};
+
+            var dev = net.device || {};
+
+            var importRecord = {};
+
+            // =========================
+            // Core Identification
+            // =========================
+
+            importRecord.name = spec.hostname;
+
+            importRecord.ip_address = spec.ipaddress;
+
+            importRecord.serial_number = spec.serialno;
+
+            // =========================
+            // Manufacturer / Model
+            // =========================
+
+            importRecord.manufacturer = spec.vendor || 'Cisco';
+
+            importRecord.model_number = spec.model;
+
+            // =========================
+            // OS Information
+            // =========================
+
+            importRecord.os = spec.osname || 'NX-OS';
+
+            importRecord.os_version =
+                spec.softwareversion ||
+                spec.currentversion ||
+                spec.primaryversion;
+
+            // =========================
+            // MAC Address
+            // =========================
+
+            importRecord.mac_address = spec.basemac;
+
+            // =========================
+            // Operational Status
+            // =========================
+
+            importRecord.operational_status =
+                spec.status === true ? 1 : 2;
+
+            // =========================
+            // Discovery Metadata
+            // =========================
+
+            importRecord.last_discovered =
+                spec.lastupdated;
+
+            // =========================
+            // Custom Fields
+            // =========================
+
+            importRecord.u_health_status =
+                spec.health;
+
+            importRecord.u_cpu_usage_percent =
+                spec.cpu;
+
+            importRecord.u_memory_usage_percent =
+                spec.memory;
+
+            importRecord.u_uptime =
+                spec.uptime;
+
+            importRecord.u_up_since =
+                spec.upsince;
+
+            importRecord.u_last_config_change =
+                spec.lastconfchangetime;
+
+            importRecord.u_snmp_status =
+                spec.snmppoolstatus;
+
+            importRecord.u_stp_change_count =
+                spec.stpchanges;
+
+            importRecord.u_total_traffic =
+                spec.traffic;
+
+            importRecord.u_license =
+                spec.license;
+
+            // =========================
+            // Optional Metadata
+            // =========================
+
+            importRecord.u_aiopsconfigmanagement_id =
+                dev.aiopsconfigmanagement_id;
+
+            importRecord.u_network_id =
+                dev.id;
+
+            if (spec.productdescr) {
+                importRecord.short_description =
+                    spec.productdescr;
+            }
+
+            // =========================
+            // Insert Import Row
+            // =========================
+
+            import_set_table.insert(importRecord);
+        }
+
+    } catch (ex) {
+
+        gs.error(
+            'Data Source (Ceburu Network Switches) Error: ' +
+            ex.message
+        );
+    }
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>false</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>JSON</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>Ceburu IP Switch Device</import_set_table_label>
+        <import_set_table_name>x_cesy_service_gr_ceburu_ip_switch_device</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node>/results/results</jpath_root_node>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time>2026-05-20 15:22:16</last_success_import_time>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit>50</limit>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Ceburu IP Switch Device</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]></parallel_loading_script>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_name>1</sheet_name>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-09 15:41:17</sys_created_on>
+        <sys_id>58b162bccf74cf14e7b3bb4e5d851c13</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Ceburu IP Switch Device</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>sys_data_source_58b162bccf74cf14e7b3bb4e5d851c13</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-20 15:22:17</sys_updated_on>
+        <table_name/>
+        <type>REST</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>sys_data_source_58b162bccf74cf14e7b3bb4e5d851c13</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;100000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url/&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table, data_source, import_log, last_success_import_time) {
+
+    try {
+
+        var r = new sn_ws.RESTMessageV2(
+            'x_cesy_service_gr.Ceburu Provider',
+            'Get Ceburu Devices'
+        );
+
+        var responseMessage = r.execute();
+
+        var responseBody = JSON.parse(responseMessage.getBody());
+
+        var httpStatus = responseMessage.getStatusCode();
+
+        if (httpStatus != 200) {
+            gs.error('Ceburu API returned status: ' + httpStatus);
+            return;
+        }
+
+        var devices = responseBody.result.results;
+
+        for (var j = 0; j &lt; devices.length; j++) {
+
+            var net = devices[j];
+
+            var spec = (net.specifications &amp;&amp;
+                net.specifications[0]) ?
+                net.specifications[0] : {};
+
+            var dev = net.device || {};
+
+            var importRecord = {};
+
+            // =========================
+            // Core Identification
+            // =========================
+
+            importRecord.name = spec.hostname;
+
+            importRecord.ip_address = spec.ipaddress;
+
+            importRecord.serial_number = spec.serialno;
+
+            // =========================
+            // Manufacturer / Model
+            // =========================
+
+            importRecord.manufacturer = spec.vendor || 'Cisco';
+
+            importRecord.model_number = spec.model;
+
+            // =========================
+            // OS Information
+            // =========================
+
+            importRecord.os = spec.osname || 'NX-OS';
+
+            importRecord.os_version =
+                spec.softwareversion ||
+                spec.currentversion ||
+                spec.primaryversion;
+
+            // =========================
+            // MAC Address
+            // =========================
+
+            importRecord.mac_address = spec.basemac;
+
+            // =========================
+            // Operational Status
+            // =========================
+
+            importRecord.operational_status =
+                spec.status === true ? 1 : 2;
+
+            // =========================
+            // Discovery Metadata
+            // =========================
+
+            importRecord.last_discovered =
+                spec.lastupdated;
+
+            // =========================
+            // Custom Fields
+            // =========================
+
+            importRecord.u_health_status =
+                spec.health;
+
+            importRecord.u_cpu_usage_percent =
+                spec.cpu;
+
+            importRecord.u_memory_usage_percent =
+                spec.memory;
+
+            importRecord.u_uptime =
+                spec.uptime;
+
+            importRecord.u_up_since =
+                spec.upsince;
+
+            importRecord.u_last_config_change =
+                spec.lastconfchangetime;
+
+            importRecord.u_snmp_status =
+                spec.snmppoolstatus;
+
+            importRecord.u_stp_change_count =
+                spec.stpchanges;
+
+            importRecord.u_total_traffic =
+                spec.traffic;
+
+            importRecord.u_license =
+                spec.license;
+
+            // =========================
+            // Optional Metadata
+            // =========================
+
+            importRecord.u_aiopsconfigmanagement_id =
+                dev.aiopsconfigmanagement_id;
+
+            importRecord.u_network_id =
+                dev.id;
+
+            if (spec.productdescr) {
+                importRecord.short_description =
+                    spec.productdescr;
+            }
+
+            // =========================
+            // Insert Import Row
+            // =========================
+
+            import_set_table.insert(importRecord);
+        }
+
+    } catch (ex) {
+
+        gs.error(
+            'Data Source (Ceburu Network Switches) Error: ' +
+            ex.message
+        );
+    }
+
+})(import_set_table, data_source, import_log, last_success_import_time);]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;false&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path/&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;JSON&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;0&lt;/header_row&gt;&lt;import_set_table_label&gt;Ceburu IP Switch Device&lt;/import_set_table_label&gt;&lt;import_set_table_name&gt;x_cesy_service_gr_ceburu_ip_switch_device&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node&gt;/results/results&lt;/jpath_root_node&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time&gt;2026-05-20 15:22:16&lt;/last_success_import_time&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit&gt;50&lt;/limit&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;Ceburu IP Switch Device&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-09 15:41:17&lt;/sys_created_on&gt;&lt;sys_id&gt;58b162bccf74cf14e7b3bb4e5d851c13&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ceburu IP Switch Device&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Service Graph Connector for Ceburu"&gt;874c6b7ecffe7a1070a276d42d851c62&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_58b162bccf74cf14e7b3bb4e5d851c13&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-20 15:22:17&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;REST&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2062272490</payload_hash>
+        <record_name>Ceburu IP Switch Device</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-21 18:00:24</sys_created_on>
+        <sys_id>df947430cf0d4390e7b3bb4e5d851cfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e4bb21c640000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-21 18:00:24</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>cb15e6f4d6b4cf147c0c32460d929c1f</update_guid>
+        <update_guid_history>cb15e6f4d6b4cf147c0c32460d929c1f:-79951093,cb15e6f4d6b4cf147c0c32460d929c1f:-79951093,6824a27432b4cf1436c789165c610c44:2045628660,8353a2f0a9b4cf1483d355a2e4dcf9c6:-361207270,35232ab0e0b4cf14b240c1cf02eba824:888352344,b703ee70fdb4cf14136c2a67ddcf4cbd:-1389971147,07d2ea7059b4cf1484b5dc676b3770bc:-369705893,d092ae3031b4cf14f9246ce2ef548147:693816437,5a426230dfb4cf145134409818918f17:231444011,322226fc6e74cf141b92433e5deff69a:1703413621,18e1eebc1c74cf14c8104c0cd906dc50:2092653571,94b162bc7b74cf147d7f5fc8ee686e17:-100081113</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-21 18:00:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>8d30d52a7d4b4c21931759e43bea04b1</sys_id>
+        <sys_metadata>58b162bccf74cf14e7b3bb4e5d851c13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ceburu IP Switch Device</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>sys_data_source_58b162bccf74cf14e7b3bb4e5d851c13</sys_update_name>
+        <sys_update_version display_value="sys_data_source_58b162bccf74cf14e7b3bb4e5d851c13">df947430cf0d4390e7b3bb4e5d851cfd</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-21 18:00:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Network Adapter 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_network_adapter_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-04-21 21:55:33</sys_created_on>
+        <sys_id>9bbac743cfd44b50e7b3bb4e5d851c5c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Network Adapter 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_update_name>cmdb_inst_entity_9bbac743cfd44b50e7b3bb4e5d851c5c</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-04-21 21:55:33</sys_updated_on>
+        <table>cmdb_ci_network_adapter</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</application>
+        <file_path/>
+        <instance_id>ad48135cfb76ba101feef633beefdc1d</instance_id>
+        <instance_name>ven08919</instance_name>
+        <name>cmdb_inst_entity_9bbac743cfd44b50e7b3bb4e5d851c5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>Network Adapter 1</name><parent_entity/><parent_id_field/><path>cmdb_ci_network_adapter_1</path><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2026-04-21 21:55:33</sys_created_on><sys_id>9bbac743cfd44b50e7b3bb4e5d851c5c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Network Adapter 1</sys_name><sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package><sys_policy/><sys_rte_eb_definition display_value="">c3ba0743cfd44b50e7b3bb4e5d851cf6</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope><sys_update_name>cmdb_inst_entity_9bbac743cfd44b50e7b3bb4e5d851c5c</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2026-04-21 21:55:33</sys_updated_on><table>cmdb_ci_network_adapter</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-1406155427</payload_hash>
+        <record_name>Network Adapter 1</record_name>
+        <reverted_from/>
+        <source>f9a6f52ccf4b721070a276d42d851c15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:26:14</sys_created_on>
+        <sys_id>5f991a08cf814390e9f3f8224d851cbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e41461c030000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:26:14</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>6fbac74388d44b50e317a861ce7be06b</update_guid>
+        <update_guid_history>6fbac74388d44b50e317a861ce7be06b:-872134736,6fbac74388d44b50e317a861ce7be06b:-872134736,9fbac74355d44b50e7b256f06bbdc75e:-1110699407</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Network Adapter 1">eb991a08cf814390e9f3f8224d851ce5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2026-05-19 17:26:14</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>21c1dc527edf4680871899e692d33b64</sys_id>
+        <sys_metadata>9bbac743cfd44b50e7b3bb4e5d851c5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Adapter 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
+        <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_9bbac743cfd44b50e7b3bb4e5d851c5c</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_9bbac743cfd44b50e7b3bb4e5d851c5c">5f991a08cf814390e9f3f8224d851cbb</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2026-05-19 17:26:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-25 17:16:37</sys_created_on>
-        <sys_id>b8f05d4acf4d0f90e7b3bb4e5d851c53</sys_id>
         <sys_name>last_updated</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
@@ -60,7 +59,7 @@
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier/>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type/>
         <widget/>
