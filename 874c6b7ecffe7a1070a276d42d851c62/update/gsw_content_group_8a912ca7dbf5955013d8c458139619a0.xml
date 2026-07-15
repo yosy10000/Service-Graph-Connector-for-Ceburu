@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
     <gsw_content_group action="INSERT_OR_UPDATE">
         <active>true</active>
-        <>DKwo/xDhLS7LxlLXhdYDyJqq5jo=</>
         <child_can_have_roles>false</child_can_have_roles>
         <children_layout>1</children_layout>
         <dependent_on_contents>5aca94efdbb5955013d8c45813961988</dependent_on_contents>
