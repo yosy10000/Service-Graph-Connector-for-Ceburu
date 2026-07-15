@@ -48,7 +48,7 @@
         <update_guid_history>127322344b94c710a366e5edcc7a3258:2107267476</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Ceburu Device">64b10e84cf28cf50e9f3f8224d851ccf</sys_audit_delete>
+        <sys_audit_delete display_value="">64b10e84cf28cf50e9f3f8224d851ccf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-24 19:10:25</sys_created_on>

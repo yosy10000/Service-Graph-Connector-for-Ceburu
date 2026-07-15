@@ -49,7 +49,7 @@
         <update_guid_history>6fbac74388d44b50e317a861ce7be06b:-872134736,6fbac74388d44b50e317a861ce7be06b:-872134736,9fbac74355d44b50e7b256f06bbdc75e:-1110699407</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Network Adapter 1">eb991a08cf814390e9f3f8224d851ce5</sys_audit_delete>
+        <sys_audit_delete display_value="">eb991a08cf814390e9f3f8224d851ce5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-19 17:26:14</sys_created_on>

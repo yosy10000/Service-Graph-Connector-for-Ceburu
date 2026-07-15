@@ -5,10 +5,8 @@
         <description>Service Graph Connector for Ceburu, Guided Setup</description>
         <designer_state/>
         <engine_major_version/>
-        <evaluate_variant_children_after/>
         <label>Service Graph Connector for Ceburu</label>
         <name>service_graph_connector_for_ceburu</name>
-        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>
@@ -697,6 +695,7 @@
         <trigger_inputs/>
         <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
     </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=96722572cfcb721050fef7a13d851c9d"/>
     <sys_variable_value action="delete_multiple" query="document_key=96722572cfcb721050fef7a13d851c9d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_trigger_instance</document>
@@ -777,10 +776,8 @@
         <description>Service Graph Connector for Ceburu, Guided Setup</description>
         <designer_state/>
         <engine_major_version/>
-        <evaluate_variant_children_after/>
         <label>Service Graph Connector for Ceburu</label>
         <name>service_graph_connector_for_ceburu</name>
-        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>

@@ -49,7 +49,7 @@
         <update_guid_history>f32b0b8362d44b5085319d522a20a3f8:-1201361539,17bac7438ad44b506a8efd0aa9d7d139:-1673414801</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="IP Switch 1">db991a08cf814390e9f3f8224d851c6d</sys_audit_delete>
+        <sys_audit_delete display_value="">db991a08cf814390e9f3f8224d851c6d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-19 17:26:14</sys_created_on>

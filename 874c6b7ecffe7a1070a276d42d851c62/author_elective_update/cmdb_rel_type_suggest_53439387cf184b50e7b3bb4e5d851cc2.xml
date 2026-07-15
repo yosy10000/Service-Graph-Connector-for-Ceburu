@@ -45,7 +45,7 @@
         <update_guid_history>93431bc79f184b50d7bc7fba64d6ae0c:1197811984</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="IP Network">1183530bcf184b50e7b3bb4e5d851c49</sys_audit_delete>
+        <sys_audit_delete display_value="">1183530bcf184b50e7b3bb4e5d851c49</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-21 22:33:55</sys_created_on>

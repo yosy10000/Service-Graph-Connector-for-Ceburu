@@ -37,7 +37,7 @@
         <pre_script_bool>false</pre_script_bool>
         <record_source>regular</record_source>
         <repeat_every/>
-        <run_as display_value="Ceburu User">6c88a23dcf590f50e7b3bb4e5d851cc4</run_as>
+        <run_as display_value="">6c88a23dcf590f50e7b3bb4e5d851cc4</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>

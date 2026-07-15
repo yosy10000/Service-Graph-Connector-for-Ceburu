@@ -42,13 +42,13 @@
         <source>c4bb9a21cf000310e7b3bb4e5d851cf3</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-04 16:23:23</sys_created_on>
         <sys_id>0b4a33b8cf68c790e9f3f8224d851cc0</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>19d594e64780000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-15 06:48:22</sys_updated_on>
         <type>Answer</type>
         <update_guid>c74a33b87668c790947632dc5cad9cc0</update_guid>
         <update_guid_history>c74a33b87668c790947632dc5cad9cc0:1179669400</update_guid_history>
@@ -64,7 +64,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Ceburu IP Switch</sys_name>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
-        <sys_parent display_value="Base Configuration Item">b742999ccf03321070a276d42d851cb5</sys_parent>
+        <sys_parent display_value="">b742999ccf03321070a276d42d851cb5</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_scope_delete display_value="">0c124281b83b43a08687861dab9289c4</sys_scope_delete>

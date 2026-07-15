@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="SGC Central" source="sn_sgc_central">0327142c93def150b7b532bb5cba10db</dependency>
+        <dependency display_value="">0327142c93def150b7b532bb5cba10db</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-03-24 18:18:11</sys_created_on>

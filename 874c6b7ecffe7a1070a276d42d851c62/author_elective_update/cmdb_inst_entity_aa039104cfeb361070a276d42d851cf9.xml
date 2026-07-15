@@ -49,7 +49,7 @@
         <update_guid_history>2603910444eb36103a3135b2a4f58efd:1182285950</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Import">e3b186c4cf28cf50e9f3f8224d851c43</sys_audit_delete>
+        <sys_audit_delete display_value="">e3b186c4cf28cf50e9f3f8224d851c43</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-24 19:10:33</sys_created_on>

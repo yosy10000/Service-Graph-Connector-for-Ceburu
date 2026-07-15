@@ -48,7 +48,7 @@
         <update_guid_history>2433bd8a0bdf76900129dab4cc1527f7:-1394097770,197334a0f8db3e107cd2521973881501:-87458120</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Ceburu-SG Network">17a10a84cf28cf50e9f3f8224d851c93</sys_audit_delete>
+        <sys_audit_delete display_value="">17a10a84cf28cf50e9f3f8224d851c93</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-24 19:10:20</sys_created_on>

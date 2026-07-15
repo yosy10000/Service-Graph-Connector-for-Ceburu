@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Service Graph Connectors">2214ad0b77c201100dfa1bfaae5a99a1</application>
+        <application display_value="">2214ad0b77c201100dfa1bfaae5a99a1</application>
         <assessment/>
         <device_type/>
         <filter table="scheduled_import_set">sys_scope=874c6b7ecffe7a1070a276d42d851c62^EQ<item display_table="sys_scope" display_value="Service Graph Connector for Ceburu" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="874c6b7ecffe7a1070a276d42d851c62"/>

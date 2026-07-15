@@ -66,7 +66,7 @@
         <update_guid_history>d9b68a0e7653b690cf527d4586298394:644357606</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Copy Demo Ceburu-SG Network">f1943fb8cf28c790e9f3f8224d851c9e</sys_audit_delete>
+        <sys_audit_delete display_value="">f1943fb8cf28c790e9f3f8224d851c9e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-27 11:27:46</sys_created_on>

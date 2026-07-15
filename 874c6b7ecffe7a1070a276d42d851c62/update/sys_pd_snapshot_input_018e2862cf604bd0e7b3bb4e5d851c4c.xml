@@ -38,7 +38,7 @@
         <label>Parent record</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="service_graph_connector_for_ceburu">388e2862cf604bd0e7b3bb4e5d851c36</model>
+        <model display_value="">388e2862cf604bd0e7b3bb4e5d851c36</model>
         <model_id>388e2862cf604bd0e7b3bb4e5d851c36</model_id>
         <model_table/>
         <name>var__m_sys_pd_snapshot_input_388e2862cf604bd0e7b3bb4e5d851c36</name>

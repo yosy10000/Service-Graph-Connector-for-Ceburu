@@ -49,7 +49,7 @@
         <update_guid_history>a2aaa9728d0f72105881f363e3dcbb39:-1598124300</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Windows Server 1">d7a10a84cf28cf50e9f3f8224d851c79</sys_audit_delete>
+        <sys_audit_delete display_value="">d7a10a84cf28cf50e9f3f8224d851c79</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-24 19:10:14</sys_created_on>

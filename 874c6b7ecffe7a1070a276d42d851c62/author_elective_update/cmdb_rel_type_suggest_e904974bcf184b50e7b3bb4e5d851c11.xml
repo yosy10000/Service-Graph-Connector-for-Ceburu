@@ -45,7 +45,7 @@
         <update_guid_history>6104974b83184b50ef0699d91a820c14:1418030661</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Ceburu IP Switch">bfe068f7cf540f50e9f3f8224d851c15</sys_audit_delete>
+        <sys_audit_delete display_value="">bfe068f7cf540f50e9f3f8224d851c15</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-23 17:29:05</sys_created_on>

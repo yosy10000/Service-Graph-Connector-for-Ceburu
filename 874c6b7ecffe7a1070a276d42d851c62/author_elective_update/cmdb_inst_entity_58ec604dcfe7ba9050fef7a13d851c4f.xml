@@ -49,7 +49,7 @@
         <update_guid_history>dcec604d1ae7ba90cabd23a14443a851:1252228440</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Logical Datacenter 1">ebb146c4cf28cf50e9f3f8224d851cef</sys_audit_delete>
+        <sys_audit_delete display_value="">ebb146c4cf28cf50e9f3f8224d851cef</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-24 19:10:32</sys_created_on>

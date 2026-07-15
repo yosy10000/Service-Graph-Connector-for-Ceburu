@@ -41,7 +41,7 @@
         <update_guid_history>e45b63f0efe4c79059927dcca0c72846:-195546552</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".x_cesy_service_gr.ceburu_ip_switch_user">d91896c0cf814390e9f3f8224d851cff</sys_audit_delete>
+        <sys_audit_delete display_value="">d91896c0cf814390e9f3f8224d851cff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-19 17:19:32</sys_created_on>

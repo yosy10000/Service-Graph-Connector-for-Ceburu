@@ -1,7 +1,7 @@
 # Generated files
-This repository contains generated files and a .
+This repository contains generated files and a checksum.
 
-If you find yourself unable to import your repository due to the presence of files edited outside an instance of ServiceNow, merge commits that mix files from different revisions, or other data that does not match the , you may recover using either of the following techniques:
+If you find yourself unable to import your repository due to the presence of files edited outside an instance of ServiceNow, merge commits that mix files from different revisions, or other data that does not match the checksum, you may recover using either of the following techniques:
 * Remove the problem commits:
   1. Clone your repository to a personal computer with the git command line tools installed and open a git command prompt in the repository root
   2. Run `git log` and take note of the SHA1s of the problem commits
@@ -24,9 +24,9 @@ If you find yourself unable to import your repository due to the presence of fil
    2.2 Activate/install all required dependencies
    2.3 Re-import the application from source control
    Currently listed dependencies:
-   * ITOM Discovery License
-   * ITOM Licensing
+   * 
+   * 
    * System Import Sets
-   * SGC Central
+   * 
    * Configuration Management (CMDB)
-   * Integration Commons for CMDB
+   * 

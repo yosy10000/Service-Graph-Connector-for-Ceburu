@@ -19,7 +19,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">7360d1d0cf03321070a276d42d851c13</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">099be20a183232108bb255f46a373a61</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-09 22:54:10</sys_created_on>

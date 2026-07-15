@@ -49,7 +49,7 @@
         <update_guid_history>382aaafc1694c710e4c816f1c752874c:-743847702</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Serial Number 1">078a6630cfd4c710e9f3f8224d851c0f</sys_audit_delete>
+        <sys_audit_delete display_value="">078a6630cfd4c710e9f3f8224d851c0f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-14 19:48:34</sys_created_on>

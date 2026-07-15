@@ -49,7 +49,7 @@
         <update_guid_history>1b2ccb07f3d44b50f1b3d36832664854:2064316023</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cmdb_rel_ci_1776808910373_0">f9b102c4cf28cf50e9f3f8224d851cbf</sys_audit_delete>
+        <sys_audit_delete display_value="">f9b102c4cf28cf50e9f3f8224d851cbf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-24 19:10:25</sys_created_on>

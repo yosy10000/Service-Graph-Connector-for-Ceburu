@@ -5,10 +5,8 @@
         <description/>
         <designer_state/>
         <engine_major_version/>
-        <evaluate_variant_children_after/>
         <label/>
         <name/>
-        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>
@@ -26,13 +24,13 @@
         <sys_created_by/>
         <sys_created_on/>
         <sys_id>828c6fdecf733e50e9f3f8224d851cfe</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_pd_process_definition_828c6fdecf733e50e9f3f8224d851cfe</sys_update_name>
-        <sys_updated_by/>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-03-30 20:15:33</sys_updated_on>
         <view_type>KANBAN</view_type>
     </sys_pd_process_definition>
@@ -48,10 +46,8 @@
         <description/>
         <designer_state/>
         <engine_major_version/>
-        <evaluate_variant_children_after/>
         <label/>
         <name/>
-        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>
@@ -69,13 +65,13 @@
         <sys_created_by/>
         <sys_created_on/>
         <sys_id>828c6fdecf733e50e9f3f8224d851cfe</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Service Graph Connector for Ceburu" source="x_cesy_service_gr">874c6b7ecffe7a1070a276d42d851c62</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Ceburu">874c6b7ecffe7a1070a276d42d851c62</sys_scope>
         <sys_update_name>sys_pd_process_definition_828c6fdecf733e50e9f3f8224d851cfe</sys_update_name>
-        <sys_updated_by/>
+        <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-03-30 20:15:33</sys_updated_on>
         <view_type>KANBAN</view_type>
     </sys_pd_process_definition>

@@ -16,7 +16,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 16:37:43</sys_updated_on>
         <target_name>sn_cmdb_int_util_service_graph_connection_data_source</target_name>
-        <target_scope display_value="Integration Commons for CMDB">f1a5a5b60f94001067ae409dc4767e08</target_scope>
+        <target_scope display_value="">f1a5a5b60f94001067ae409dc4767e08</target_scope>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

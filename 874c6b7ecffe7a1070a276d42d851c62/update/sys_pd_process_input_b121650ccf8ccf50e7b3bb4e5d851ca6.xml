@@ -47,7 +47,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_sgc_central_service_graph_connection_trigger">sn_sgc_central_service_graph_connection_trigger</reference>
+        <reference display_value="">sn_sgc_central_service_graph_connection_trigger</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>

@@ -46,7 +46,7 @@
         <update_guid_history>29435450c714c3106787ebce46f92af9:919799090,dbc11c9c2dd0c310618f5aeffedd94d0:1622977050</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Ceburu Provider default_profile">f53583d4cf498f50e7b3bb4e5d851c01</sys_audit_delete>
+        <sys_audit_delete display_value="">f53583d4cf498f50e7b3bb4e5d851c01</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-05-20 15:15:14</sys_created_on>

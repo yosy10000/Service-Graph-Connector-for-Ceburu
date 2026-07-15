@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6ddc9a84cf6ccf50e9f3f8224d851c66" extends="sys_import_set_row" label="Ceburu Events" max_length="40" name="x_cesy_service_gr_ceburu_events" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=threshold" label="threshold" max_length="40" name="u_threshold" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=device_id" label="device_id" max_length="40" name="u_device_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=customer_id" label="customer_id" max_length="40" name="u_customer_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=count" label="count" max_length="40" name="u_count" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=comments" label="comments" max_length="40" name="u_comments" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=acknowledged_at" label="acknowledged_at" max_length="40" name="u_acknowledged_at" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=source_type" label="source_type" max_length="40" name="u_source_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=last_event" label="last_event" max_length="40" name="u_last_event" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=netmap_id" label="netmap_id" max_length="40" name="u_netmap_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=record_type" label="record_type" max_length="40" name="u_record_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_category" label="alert_category" max_length="40" name="u_alert_category" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_name" label="alert_name" max_length="40" name="u_alert_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=severity_label" label="severity_label" max_length="40" name="u_severity_label" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="40" name="u_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_at" label="updated_at" max_length="40" name="u_updated_at" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=requires_attention" label="requires_attention" max_length="40" name="u_requires_attention" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=network_id" label="network_id" max_length="40" name="u_network_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_tag" label="alert_tag" max_length="40" name="u_alert_tag" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=previous" label="previous" max_length="40" name="u_previous" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_rule_id" label="alert_rule_id" max_length="40" name="u_alert_rule_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=entity_ip" label="entity_ip" max_length="40" name="u_entity_ip" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=next" label="next" max_length="70" name="u_next" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=results" label="results" max_length="1712" name="u_results" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=resolved_type" label="resolved_type" max_length="40" name="u_resolved_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=created_at" label="created_at" max_length="40" name="u_created_at" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=resolved_at" label="resolved_at" max_length="40" name="u_resolved_at" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=external_key" label="external_key" max_length="40" name="u_external_key" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=ispmanagement_id" label="ispmanagement_id" max_length="40" name="u_ispmanagement_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=entity_name" label="entity_name" max_length="40" name="u_entity_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=severity" label="severity" max_length="40" name="u_severity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=acknowledged_at" label="acknowledged_at" max_length="40" name="u_acknowledged_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="40" name="u_description" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=state_label" label="state_label" max_length="40" name="u_state_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=count" label="count" max_length="40" name="u_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_name" label="alert_name" max_length="40" name="u_alert_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_rule_id" label="alert_rule_id" max_length="40" name="u_alert_rule_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=entity_name" label="entity_name" max_length="40" name="u_entity_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=customer_id" label="customer_id" max_length="40" name="u_customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=record_type" label="record_type" max_length="40" name="u_record_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_tag" label="alert_tag" max_length="40" name="u_alert_tag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=resolved_type" label="resolved_type" max_length="40" name="u_resolved_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=external_key" label="external_key" max_length="40" name="u_external_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=last_event" label="last_event" max_length="40" name="u_last_event" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=requires_attention" label="requires_attention" max_length="40" name="u_requires_attention" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ispmanagement_id" label="ispmanagement_id" max_length="40" name="u_ispmanagement_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=device_id" label="device_id" max_length="40" name="u_device_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=netmap_id" label="netmap_id" max_length="40" name="u_netmap_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=network_id" label="network_id" max_length="40" name="u_network_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=results" label="results" max_length="1712" name="u_results" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=resolved_at" label="resolved_at" max_length="40" name="u_resolved_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=threshold" label="threshold" max_length="40" name="u_threshold" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source_type" label="source_type" max_length="40" name="u_source_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated_at" label="updated_at" max_length="40" name="u_updated_at" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=comments" label="comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=severity_label" label="severity_label" max_length="40" name="u_severity_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=entity_ip" label="entity_ip" max_length="40" name="u_entity_ip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=severity" label="severity" max_length="40" name="u_severity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=alert_category" label="alert_category" max_length="40" name="u_alert_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=previous" label="previous" max_length="40" name="u_previous" type="string"/>
     </element>
 </database>

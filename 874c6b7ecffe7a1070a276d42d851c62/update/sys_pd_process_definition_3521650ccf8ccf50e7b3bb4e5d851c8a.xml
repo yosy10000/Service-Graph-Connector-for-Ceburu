@@ -5,10 +5,8 @@
         <description/>
         <designer_state/>
         <engine_major_version/>
-        <evaluate_variant_children_after/>
         <label>Create Ceburu Connection</label>
         <name>create_ceburu_connection</name>
-        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>
@@ -86,7 +84,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_sgc_central_service_graph_connection_trigger">sn_sgc_central_service_graph_connection_trigger</reference>
+        <reference display_value="">sn_sgc_central_service_graph_connection_trigger</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -206,15 +204,14 @@
     <sys_pd_activity action="delete_multiple" query="process_definition=3521650ccf8ccf50e7b3bb4e5d851c8a^sys_idNOT IN4e21650ccf8ccf50e7b3bb4e5d851cde,ce21650ccf8ccf50e7b3bb4e5d851cdd,4221650ccf8ccf50e7b3bb4e5d851cdf,c221650ccf8ccf50e7b3bb4e5d851cde,ca21650ccf8ccf50e7b3bb4e5d851cdd,c621650ccf8ccf50e7b3bb4e5d851cde"/>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_definition display_value="SGC update data source access AD">3b4555e0cbc8865009e10592a2e86689</activity_definition>
+        <activity_definition display_value="">3b4555e0cbc8865009e10592a2e86689</activity_definition>
         <ai_agent_execution_mode>off</ai_agent_execution_mode>
         <ai_agent_obj_additional_detail/>
         <ai_agent_objective/>
         <ai_agent_run_as>playbook_user</ai_agent_run_as>
         <ai_agent_run_with_roles/>
         <ai_agent_user/>
-        <condition_to_run table="v_pd_activity_condition_to_run__sys_id__4e21650ccf8ccf50e7b3bb4e5d851cde">input_record.show_prerequisite=true<item endquery="false" field="input_record.show_prerequisite" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </condition_to_run>
+        <condition_to_run table="v_pd_activity_condition_to_run__sys_id__4e21650ccf8ccf50e7b3bb4e5d851cde">input_record.show_prerequisite=true</condition_to_run>
         <derivative_order/>
         <derivative_parent/>
         <description>&lt;div style="font-size: 1rem;"&gt;
@@ -248,7 +245,6 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
         <type_vals/>
-        <type_vals/>
         <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=4e21650ccf8ccf50e7b3bb4e5d851cde"/>
@@ -264,7 +260,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Experience Status Record">c4e88a65cb84021009e10592a2e8662d</variable>
+        <variable display_value="">c4e88a65cb84021009e10592a2e8662d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -278,7 +274,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>0</value>
-        <variable display_value="showDescriptionFromPlaybook">c01a3c589fe0621029d371dbfefc4a0f</variable>
+        <variable display_value="">c01a3c589fe0621029d371dbfefc4a0f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -292,7 +288,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Associated table">e2988265cb84021009e10592a2e8663b</variable>
+        <variable display_value="">e2988265cb84021009e10592a2e8663b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -306,7 +302,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Title">87a891e4cbc8865009e10592a2e866b7</variable>
+        <variable display_value="">87a891e4cbc8865009e10592a2e866b7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -320,7 +316,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Experience Status Table">5fc8c665cb84021009e10592a2e8669a</variable>
+        <variable display_value="">5fc8c665cb84021009e10592a2e8669a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -334,7 +330,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Associated record">d2b84665cb84021009e10592a2e8665f</variable>
+        <variable display_value="">d2b84665cb84021009e10592a2e8665f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -348,7 +344,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Description">8dc895e4cbc8865009e10592a2e8667d</variable>
+        <variable display_value="">8dc895e4cbc8865009e10592a2e8667d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -376,132 +372,11 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>0</value>
-        <variable display_value="UseTableFromPlaybook">c1ecc1d89f24621029d371dbfefc4a57</variable>
+        <variable display_value="">c1ecc1d89f24621029d371dbfefc4a57</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4e21650ccf8ccf50e7b3bb4e5d851cde"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8221650ccf8ccf50e7b3bb4e5d851cff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value>{{vl.SGC update data source access AD.77bc1b5f-3e51-43ee-909c-b67969728631./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4621650ccf8ccf50e7b3bb4e5d851cff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0a21650ccf8ccf50e7b3bb4e5d851cff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value>{{act.4e21650ccf8ccf50e7b3bb4e5d851cde.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ca21650ccf8ccf50e7b3bb4e5d851cff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value>{{vl.SGC update data source access AD.77bc1b5f-3e51-43ee-909c-b67969728631./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851cff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>showdescriptionfromplaybook</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221a50ccf8ccf50e7b3bb4e5d851c00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>show_configure_button</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621a50ccf8ccf50e7b3bb4e5d851c00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621a50ccf8ccf50e7b3bb4e5d851c00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21a50ccf8ccf50e7b3bb4e5d851c00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value>{{act.4e21650ccf8ccf50e7b3bb4e5d851cde.label}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>usetablefromplaybook</field>
-        <id>4e21650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4e21a50ccf8ccf50e7b3bb4e5d851c00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_83d59de0cbc8865009e10592a2e866de</table>
-        <value/>
-    </sys_element_mapping>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_definition display_value="SGC Create new connection AD ">bc3724eccb08865009e10592a2e86617</activity_definition>
+        <activity_definition display_value="">bc3724eccb08865009e10592a2e86617</activity_definition>
         <ai_agent_execution_mode>off</ai_agent_execution_mode>
         <ai_agent_obj_additional_detail/>
         <ai_agent_objective/>
@@ -513,7 +388,6 @@
         <derivative_parent/>
         <description>Enter connection details and test the connection to import data.</description>
         <enable_ai_agent>false</enable_ai_agent>
-        <inputs/>
         <inputs/>
         <label>Configure and test connection</label>
         <lane display_value="Setup">0621650ccf8ccf50e7b3bb4e5d851cdd</lane>
@@ -536,7 +410,6 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
         <type_vals/>
-        <type_vals/>
         <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=ce21650ccf8ccf50e7b3bb4e5d851cdd"/>
@@ -552,7 +425,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Trigger record">c0042731cbc4021009e10592a2e866b9</variable>
+        <variable display_value="">c0042731cbc4021009e10592a2e866b9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -566,7 +439,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="title">f2ea20e4cb48865009e10592a2e86691</variable>
+        <variable display_value="">f2ea20e4cb48865009e10592a2e86691</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -580,7 +453,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>0</value>
-        <variable display_value="Can skip">98ff6911ffa1a210d99dffffffffff5d</variable>
+        <variable display_value="">98ff6911ffa1a210d99dffffffffff5d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -594,7 +467,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Description">66ea20e4cb48865009e10592a2e86660</variable>
+        <variable display_value="">66ea20e4cb48865009e10592a2e86660</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -608,7 +481,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Parent sys Alias sysId">7eea20e4cb48865009e10592a2e86684</variable>
+        <variable display_value="">7eea20e4cb48865009e10592a2e86684</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -622,7 +495,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Connector metadata">76ea20e4cb48865009e10592a2e86678</variable>
+        <variable display_value="">76ea20e4cb48865009e10592a2e86678</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -636,7 +509,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Associated table">47ea20e4cb48865009e10592a2e866b6</variable>
+        <variable display_value="">47ea20e4cb48865009e10592a2e866b6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -650,7 +523,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Associated record">76ea20e4cb48865009e10592a2e8666c</variable>
+        <variable display_value="">76ea20e4cb48865009e10592a2e8666c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -664,7 +537,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="description">ac153d2bcb3b355009e10592a2e866c9</variable>
+        <variable display_value="">ac153d2bcb3b355009e10592a2e866c9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -678,7 +551,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>43a002accf8b721070a276d42d851cb2</value>
-        <variable display_value="parentSysAlias">3ebd45d7cbb7f15009e10592a2e8660e</variable>
+        <variable display_value="">3ebd45d7cbb7f15009e10592a2e8660e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -692,7 +565,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="title">68153d2bcb3b355009e10592a2e866c5</variable>
+        <variable display_value="">68153d2bcb3b355009e10592a2e866c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -706,7 +579,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-04-03 20:12:10</sys_updated_on>
         <value/>
-        <variable display_value="Connection index">c4f0a8e04323c210e9cc00485bb8f287</variable>
+        <variable display_value="">c4f0a8e04323c210e9cc00485bb8f287</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -720,7 +593,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Experience status table">5eea2ce0cb48865009e10592a2e86672</variable>
+        <variable display_value="">5eea2ce0cb48865009e10592a2e86672</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -734,7 +607,7 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Experience status record">aaea20e4cb48865009e10592a2e86654</variable>
+        <variable display_value="">aaea20e4cb48865009e10592a2e86654</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -748,454 +621,18 @@
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="connector scope">55ecacc7cb18c61009e10592a2e8668e</variable>
+        <variable display_value="">55ecacc7cb18c61009e10592a2e8668e</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ce21650ccf8ccf50e7b3bb4e5d851cdd"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8621650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow.5bd78ec8-5dc3-4965-802e-0c54e565d219./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4a21650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>can_skip</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0e21650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_index</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ce21650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connector_scope</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8221650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{pd.inputRecord.service_graph_connector_metadata.sys_scope}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4621650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851cf9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0a21650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow.5bd78ec8-5dc3-4965-802e-0c54e565d219./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ca21650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>integrationtype</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21650ccf8ccf50e7b3bb4e5d851cf9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value>{{pd.inputRecord.service_graph_connector_metadata}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>integration_type</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow./start.integrationtype}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>parentsysalias</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4e21650ccf8ccf50e7b3bb4e5d851cf9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>parent_sys_alias_sysid</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow./start.parentsysalias}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>related_connection_name</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0221650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.label}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>trigger_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c221650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value>{{pd.inputRecord}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>trigger_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{pd.inputRecord}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_526d81d7cbb7f15009e10592a2e8660a^id=ce21650ccf8ccf50e7b3bb4e5d851cdd"/>
-    <sys_element_mapping action="delete_multiple" query="id=ce21650ccf8ccf50e7b3bb4e5d851cdd"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8621650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow.5bd78ec8-5dc3-4965-802e-0c54e565d219./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4a21650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>can_skip</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0e21650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_index</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ce21650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connector_scope</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8221650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{pd.inputRecord.service_graph_connector_metadata.sys_scope}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4621650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851cf9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0a21650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow.5bd78ec8-5dc3-4965-802e-0c54e565d219./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ca21650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>integrationtype</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21650ccf8ccf50e7b3bb4e5d851cf9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value>{{pd.inputRecord.service_graph_connector_metadata}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>integration_type</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851cfb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow./start.integrationtype}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>parentsysalias</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4e21650ccf8ccf50e7b3bb4e5d851cf9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>parent_sys_alias_sysid</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{vl.SGC Create new connection AD subflow./start.parentsysalias}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>related_connection_name</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0221650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.label}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>trigger_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c221650ccf8ccf50e7b3bb4e5d851cfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_526d81d7cbb7f15009e10592a2e8660a</table>
-        <value>{{pd.inputRecord}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>trigger_record</field>
-        <id>ce21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21650ccf8ccf50e7b3bb4e5d851cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_96ea2ce0cb48865009e10592a2e86670</table>
-        <value>{{pd.inputRecord}}</value>
-    </sys_element_mapping>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_definition display_value="SGC clear cache AD">1dbe2e3c43700650d4a4f6aa1ab8f26e</activity_definition>
+        <activity_definition display_value="">1dbe2e3c43700650d4a4f6aa1ab8f26e</activity_definition>
         <ai_agent_execution_mode>off</ai_agent_execution_mode>
         <ai_agent_obj_additional_detail/>
         <ai_agent_objective/>
         <ai_agent_run_as>playbook_user</ai_agent_run_as>
         <ai_agent_run_with_roles/>
         <ai_agent_user/>
-        <condition_to_run table="v_pd_activity_condition_to_run__sys_id__4221650ccf8ccf50e7b3bb4e5d851cdf">input_record.show_prerequisite=true<item endquery="false" field="input_record.show_prerequisite" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </condition_to_run>
+        <condition_to_run table="v_pd_activity_condition_to_run__sys_id__4221650ccf8ccf50e7b3bb4e5d851cdf">input_record.show_prerequisite=true</condition_to_run>
         <derivative_order/>
         <derivative_parent/>
         <description>&lt;div style="font-size: 1rem;"&gt;
@@ -1236,7 +673,6 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
         <type_vals/>
-        <type_vals/>
         <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=4221650ccf8ccf50e7b3bb4e5d851cdf"/>
@@ -1252,7 +688,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Associated table">44afee7c43700650d4a4f6aa1ab8f2dd</variable>
+        <variable display_value="">44afee7c43700650d4a4f6aa1ab8f2dd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1266,7 +702,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Title">339fee7c43700650d4a4f6aa1ab8f297</variable>
+        <variable display_value="">339fee7c43700650d4a4f6aa1ab8f297</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1294,7 +730,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Description">779fee7c43700650d4a4f6aa1ab8f2a8</variable>
+        <variable display_value="">779fee7c43700650d4a4f6aa1ab8f2a8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1308,7 +744,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Experience Status Record">bf9fee7c43700650d4a4f6aa1ab8f2b9</variable>
+        <variable display_value="">bf9fee7c43700650d4a4f6aa1ab8f2b9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1322,7 +758,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>0</value>
-        <variable display_value="showDescriptionFromPlaybook">8139fd989f28621029d371dbfefc4afd</variable>
+        <variable display_value="">8139fd989f28621029d371dbfefc4afd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1336,7 +772,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Associated record">08afee7c43700650d4a4f6aa1ab8f2cb</variable>
+        <variable display_value="">08afee7c43700650d4a4f6aa1ab8f2cb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1350,96 +786,11 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Experience Status Table">2b9fee7c43700650d4a4f6aa1ab8f220</variable>
+        <variable display_value="">2b9fee7c43700650d4a4f6aa1ab8f220</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4221650ccf8ccf50e7b3bb4e5d851cdf"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0a21650ccf8ccf50e7b3bb4e5d851ced</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value>{{vl.SGC clear cache AD subflow.1806f85a-96be-42d1-b5a5-bfc0ef6f3e1d./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ca21650ccf8ccf50e7b3bb4e5d851ced</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851ced</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value>{{act.4221650ccf8ccf50e7b3bb4e5d851cdf.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221650ccf8ccf50e7b3bb4e5d851cee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value>{{vl.SGC clear cache AD subflow.1806f85a-96be-42d1-b5a5-bfc0ef6f3e1d./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621650ccf8ccf50e7b3bb4e5d851cee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>showdescriptionfromplaybook</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851cee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>4221650ccf8ccf50e7b3bb4e5d851cdf</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21650ccf8ccf50e7b3bb4e5d851cee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_679f2e7c43700650d4a4f6aa1ab8f265</table>
-        <value>{{act.4221650ccf8ccf50e7b3bb4e5d851cdf.label}}</value>
-    </sys_element_mapping>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_definition display_value="SGC Configure connection property AD">5b288d33cbcc021009e10592a2e86613</activity_definition>
+        <activity_definition display_value="">5b288d33cbcc021009e10592a2e86613</activity_definition>
         <ai_agent_execution_mode>off</ai_agent_execution_mode>
         <ai_agent_obj_additional_detail/>
         <ai_agent_objective/>
@@ -1473,7 +824,6 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <type_vals/>
-        <type_vals/>
         <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c221650ccf8ccf50e7b3bb4e5d851cde"/>
@@ -1503,7 +853,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="title">0c47b5fbcb40421009e10592a2e866ec</variable>
+        <variable display_value="">0c47b5fbcb40421009e10592a2e866ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1517,7 +867,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="connection instance Id">99773dfbcb40421009e10592a2e8662b</variable>
+        <variable display_value="">99773dfbcb40421009e10592a2e8662b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1531,7 +881,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Associated record">d02631bbcb40421009e10592a2e866bb</variable>
+        <variable display_value="">d02631bbcb40421009e10592a2e866bb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1545,7 +895,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="description">515739fbcb40421009e10592a2e866eb</variable>
+        <variable display_value="">515739fbcb40421009e10592a2e866eb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1559,7 +909,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="script include">f65799c8cb18421009e10592a2e8668b</variable>
+        <variable display_value="">f65799c8cb18421009e10592a2e8668b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1573,7 +923,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Experience status table">ac5675bbcb40421009e10592a2e86655</variable>
+        <variable display_value="">ac5675bbcb40421009e10592a2e86655</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1587,7 +937,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Experience status record">e617f1fbcb40421009e10592a2e86637</variable>
+        <variable display_value="">e617f1fbcb40421009e10592a2e86637</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1601,109 +951,11 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Associated table">ac067d7bcb40421009e10592a2e866cd</variable>
+        <variable display_value="">ac067d7bcb40421009e10592a2e866cd</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_77c7c533cbcc021009e10592a2e866a0^id=c221650ccf8ccf50e7b3bb4e5d851cde"/>
-    <sys_element_mapping action="delete_multiple" query="id=c221650ccf8ccf50e7b3bb4e5d851cde"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851cf0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value>{{vl.SGC Configure connection property AD subflow.27624219-1d96-44d4-8f84-85f07bbe3d50./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221650ccf8ccf50e7b3bb4e5d851cf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_instance_id</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621650ccf8ccf50e7b3bb4e5d851cf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.outputs.sgc_connection_record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851cf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value>{{act.c221650ccf8ccf50e7b3bb4e5d851cde.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8a21650ccf8ccf50e7b3bb4e5d851cf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value>{{vl.SGC Configure connection property AD subflow.27624219-1d96-44d4-8f84-85f07bbe3d50./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4e21650ccf8ccf50e7b3bb4e5d851cf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script_include</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0221650ccf8ccf50e7b3bb4e5d851cf2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>c221650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c221650ccf8ccf50e7b3bb4e5d851cf2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_6748c173cbcc021009e10592a2e86608</table>
-        <value>{{act.c221650ccf8ccf50e7b3bb4e5d851cde.label}}</value>
-    </sys_element_mapping>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_definition display_value="SGC Configure import schedule AD">89b22eaac3a0021011a60bd91f40ddba</activity_definition>
+        <activity_definition display_value="">89b22eaac3a0021011a60bd91f40ddba</activity_definition>
         <ai_agent_execution_mode>off</ai_agent_execution_mode>
         <ai_agent_obj_additional_detail/>
         <ai_agent_objective/>
@@ -1737,7 +989,6 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
         <type_vals/>
-        <type_vals/>
         <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=ca21650ccf8ccf50e7b3bb4e5d851cdd"/>
@@ -1753,7 +1004,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Experience status table">34f2a2eac3a0021011a60bd91f40dd46</variable>
+        <variable display_value="">34f2a2eac3a0021011a60bd91f40dd46</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1767,7 +1018,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Connector scope">fead9450c3b0021011a60bd91f40dd12</variable>
+        <variable display_value="">fead9450c3b0021011a60bd91f40dd12</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1795,7 +1046,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Experience status record">0df2a2eac3a0021011a60bd91f40dd76</variable>
+        <variable display_value="">0df2a2eac3a0021011a60bd91f40dd76</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1809,7 +1060,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>0</value>
-        <variable display_value="Is optional">ce915e79c3ae021011a60bd91f40dda3</variable>
+        <variable display_value="">ce915e79c3ae021011a60bd91f40dda3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1823,7 +1074,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="connection instance Id">38f2a2eac3a0021011a60bd91f40dd28</variable>
+        <variable display_value="">38f2a2eac3a0021011a60bd91f40dd28</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1837,7 +1088,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Associated record">89f2a2eac3a0021011a60bd91f40dd64</variable>
+        <variable display_value="">89f2a2eac3a0021011a60bd91f40dd64</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1851,7 +1102,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="description">b0f2a2eac3a0021011a60bd91f40dd17</variable>
+        <variable display_value="">b0f2a2eac3a0021011a60bd91f40dd17</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1865,108 +1116,11 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="title">fcf262eac3a0021011a60bd91f40ddf0</variable>
+        <variable display_value="">fcf262eac3a0021011a60bd91f40ddf0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ca21650ccf8ccf50e7b3bb4e5d851cdd"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ce21650ccf8ccf50e7b3bb4e5d851cf4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value>{{vl.SGC Configure import schedule AD subflow.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_instance_id</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8221650ccf8ccf50e7b3bb4e5d851cf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.outputs.sgc_connection_record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connector_scope</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4621650ccf8ccf50e7b3bb4e5d851cf5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-04-03 20:13:32</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value>{{pd.inputRecord.service_graph_connector_metadata.sys_scope}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0a21650ccf8ccf50e7b3bb4e5d851cf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value>{{act.ca21650ccf8ccf50e7b3bb4e5d851cdd.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ca21650ccf8ccf50e7b3bb4e5d851cf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value>{{vl.SGC Configure import schedule AD subflow.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851cf5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>is_optional</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221650ccf8ccf50e7b3bb4e5d851cf6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>ca21650ccf8ccf50e7b3bb4e5d851cdd</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621650ccf8ccf50e7b3bb4e5d851cf6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_3cf222eac3a0021011a60bd91f40dddc</table>
-        <value>{{act.ca21650ccf8ccf50e7b3bb4e5d851cdd.label}}</value>
-    </sys_element_mapping>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_definition display_value="SGC complete setup AD">bc51c7dd434d8610d4a4f6aa1ab8f242</activity_definition>
+        <activity_definition display_value="">bc51c7dd434d8610d4a4f6aa1ab8f242</activity_definition>
         <ai_agent_execution_mode>off</ai_agent_execution_mode>
         <ai_agent_obj_additional_detail/>
         <ai_agent_objective/>
@@ -2000,7 +1154,6 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <type_vals/>
-        <type_vals/>
         <variant/>
     </sys_pd_activity>
     <sys_variable_value action="delete_multiple" query="document_key=c621650ccf8ccf50e7b3bb4e5d851cde"/>
@@ -2016,7 +1169,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Associated Record">f3934f154301c610d4a4f6aa1ab8f2ba</variable>
+        <variable display_value="">f3934f154301c610d4a4f6aa1ab8f2ba</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -2030,7 +1183,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Title">0ca2471543cd8610d4a4f6aa1ab8f23d</variable>
+        <variable display_value="">0ca2471543cd8610d4a4f6aa1ab8f23d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -2044,7 +1197,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Description">95734f114301c610d4a4f6aa1ab8f280</variable>
+        <variable display_value="">95734f114301c610d4a4f6aa1ab8f280</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -2072,7 +1225,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Experience Status Table">0cc3cf954301c610d4a4f6aa1ab8f2e7</variable>
+        <variable display_value="">0cc3cf954301c610d4a4f6aa1ab8f2e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -2086,7 +1239,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value>sys_flow_data</value>
-        <variable display_value="Associated Table">c68347d14301c610d4a4f6aa1ab8f277</variable>
+        <variable display_value="">c68347d14301c610d4a4f6aa1ab8f277</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -2100,7 +1253,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Experience Status Record">fde34b594301c610d4a4f6aa1ab8f24d</variable>
+        <variable display_value="">fde34b594301c610d4a4f6aa1ab8f24d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -2114,93 +1267,8 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
         <value/>
-        <variable display_value="Connection Record">6929152543cd0210d4a4f6aa1ab8f2a5</variable>
+        <variable display_value="">6929152543cd0210d4a4f6aa1ab8f2a5</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=c621650ccf8ccf50e7b3bb4e5d851cde"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_record</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c221650ccf8ccf50e7b3bb4e5d851cea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value>{{vl.SGC complete setup AD subflow.2597b454-010f-4a20-aeb8-041d5e87afc9./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>associated_table</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0a21650ccf8ccf50e7b3bb4e5d851cea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_record</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>ca21650ccf8ccf50e7b3bb4e5d851cea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value>{{act.ce21650ccf8ccf50e7b3bb4e5d851cdd.outputs.sgc_connection_record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>description</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>8e21650ccf8ccf50e7b3bb4e5d851cea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value>{{act.c621650ccf8ccf50e7b3bb4e5d851cde.description}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_record</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>4221650ccf8ccf50e7b3bb4e5d851ceb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value>{{vl.SGC complete setup AD subflow.2597b454-010f-4a20-aeb8-041d5e87afc9./end.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>experience_status_table</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>0621650ccf8ccf50e7b3bb4e5d851ceb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>title</field>
-        <id>c621650ccf8ccf50e7b3bb4e5d851cde</id>
-        <sys_created_by>admin2</sys_created_by>
-        <sys_created_on>2026-03-30 20:16:46</sys_created_on>
-        <sys_id>c621650ccf8ccf50e7b3bb4e5d851ceb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2026-03-30 20:16:46</sys_updated_on>
-        <table>var__m_sys_pd_activity_type_prop_54714bd5434d8610d4a4f6aa1ab8f228</table>
-        <value>{{act.c621650ccf8ccf50e7b3bb4e5d851cde.label}}</value>
-    </sys_element_mapping>
     <sys_pd_process_variant action="delete_multiple" query="process_definition=3521650ccf8ccf50e7b3bb4e5d851c8a"/>
     <sys_pd_derivative action="delete_multiple" query="derivative_parent=4221650ccf8ccf50e7b3bb4e5d851cdf"/>
     <sys_pd_derivative action="delete_multiple" query="derivative_parent=4e21650ccf8ccf50e7b3bb4e5d851cde"/>
@@ -2322,7 +1390,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_sgc_central_service_graph_connection_trigger">sn_sgc_central_service_graph_connection_trigger</reference>
+        <reference display_value="">sn_sgc_central_service_graph_connection_trigger</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -2424,6 +1492,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <trigger_inputs/>
         <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
     </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a21650ccf8ccf50e7b3bb4e5d851cd9"/>
     <sys_variable_value action="delete_multiple" query="document_key=4a21650ccf8ccf50e7b3bb4e5d851cd9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_trigger_instance</document>
@@ -2487,8 +1556,7 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
     <sys_flow_record_trigger action="delete_multiple" query="sys_id=c1270255cf0443d0e9f3f8224d851cef^sys_idNOT INc1270255cf0443d0e9f3f8224d851cef"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="sn_sgc_central_service_graph_connection_trigger">service_graph_connector_metadata.sys_scope=874c6b7ecffe7a1070a276d42d851c62<item display_table="sys_scope" display_value="Service Graph Connector for Ceburu" endquery="false" field="service_graph_connector_metadata.sys_scope" goto="false" newquery="false" operator="=" or="false" value="874c6b7ecffe7a1070a276d42d851c62"/>
-        </condition>
+        <condition table="sn_sgc_central_service_graph_connection_trigger">service_graph_connector_metadata.sys_scope=874c6b7ecffe7a1070a276d42d851c62</condition>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
@@ -2519,10 +1587,8 @@ GlideCacheManager.flushTable('sys_db_object');&lt;/code&gt;&lt;/pre&gt;
         <description/>
         <designer_state/>
         <engine_major_version/>
-        <evaluate_variant_children_after/>
         <label>Create Ceburu Connection</label>
         <name>create_ceburu_connection</name>
-        <now_assist_kb/>
         <now_assist_prompt/>
         <permission>{}</permission>
         <process_type/>

@@ -49,7 +49,7 @@
         <update_guid_history>eee32e342894c710967247bc768de8d9:-222956706,a2b32a34a494c710155a886cdb8b0621:-1810803170</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Server 1">51b1ce84cf28cf50e9f3f8224d851ca1</sys_audit_delete>
+        <sys_audit_delete display_value="">51b1ce84cf28cf50e9f3f8224d851ca1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-24 19:10:24</sys_created_on>

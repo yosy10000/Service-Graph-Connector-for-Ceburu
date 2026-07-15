@@ -41,7 +41,7 @@
         <update_guid_history>47b2ff34e228c790c4f66917c285d936:1971217770</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".x_cesy_service_gr.user">30d4333ccf28c790e9f3f8224d851cb1</sys_audit_delete>
+        <sys_audit_delete display_value="">30d4333ccf28c790e9f3f8224d851cb1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2026-04-27 11:28:47</sys_created_on>

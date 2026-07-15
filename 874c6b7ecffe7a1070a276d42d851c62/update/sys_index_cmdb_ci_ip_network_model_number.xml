@@ -2,7 +2,7 @@
     <sys_index action="INSERT_OR_UPDATE">
         <access_method>btree</access_method>
         <col_name_string>model_number</col_name_string>
-        <index_col_name element="model_number" name="cmdb_ci_ip_network">7e131d54cf43321070a276d42d851cf7</index_col_name>
+        <index_col_name element="model_number" name="cmdb_ci_ip_network">605d2ace18b232108bb255f46a373a84</index_col_name>
         <logical_table_name>cmdb_ci_ip_network</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>system</sys_created_by>
@@ -16,7 +16,7 @@
         <sys_update_name>sys_index_cmdb_ci_ip_network_model_number</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2026-04-23 18:24:56</sys_updated_on>
-        <table display_value="IP Network" name="cmdb_ci_ip_network">32131d54cf43321070a276d42d851cc2</table>
+        <table display_value="IP Network" name="cmdb_ci_ip_network">ec5d2ace18b232108bb255f46a373a25</table>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>
